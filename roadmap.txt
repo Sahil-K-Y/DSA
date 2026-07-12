@@ -1,84 +1,11 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,35:1d4ed8,70:2563eb,100:38bdf8&height=250&section=header&text=DSA%20Master%20Curriculum&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=100-Day%20Graph-First%20Dual-Track%20Roadmap&descAlignY=58&descSize=18&descColor=e2e8f0" width="100%" />
+# 🧠 DSA MASTER ROADMAP (119-DAY DUAL-TRACK SCHEDULE)
+*(Graph-First Learning & Revision Roadmap)*
 
-  <br/><br/>
-
-  <img src="https://img.shields.io/badge/Language-C%2B%2B%20STL-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Duration-100%20Days-1d4ed8?style=for-the-badge&logo=googlecalendar&logoColor=white" />
-  <img src="https://img.shields.io/badge/Goal-Job%20Ready%20DSA-10b981?style=for-the-badge&logo=target&logoColor=white" />
-  <img src="https://img.shields.io/badge/Problems-400%2B%20LeetCode-f59e0b?style=for-the-badge&logo=leetcode&logoColor=white" />
-</div>
-
-<br/>
-
-## 🎯 The Philosophy: Why "Graph-First"?
-
-After solving 200+ problems sequentially, I realized the standard Array → String → Linked List path often builds a **hint-dependency**. To break this plateau, I designed the **Graph-First Dual-Track Framework**. 
-
-By starting with complex, interconnected structures like **Graphs and Trees**, the brain is forced to master **DFS, BFS, and Recursion** immediately—making dynamic programming, backtracking, and array patterns feel highly intuitive later on.
+## 🏆 Overview
+- **Track A:** Daily New Topic + C++ Scratch Implementation + LeetCode Problems
+- **Track B:** Daily Revision & Hint-Fix Track (Continuous Spaced Repetition)
 
 ---
-
-<div style="display: grid; grid-template-columns: repeat(2, minmax(300px, 1fr)); gap: 16px; margin-bottom: 20px;">
-  <div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #334155; border-radius: 12px; padding: 18px; color: #e2e8f0;">
-    <h3 style="color: #38bdf8; margin-top: 0;">🚀 Track A: New Learning</h3>
-    <p style="font-size: 14px; margin-bottom: 0;"><strong>60-90 Mins / Day</strong><br>Focused on learning new patterns starting with Graph Algorithms. Includes scratch implementation in C++ followed by targeted LeetCode problem solving.</p>
-  </div>
-  <div style="background: linear-gradient(135deg, #052e16, #14532d); border: 1px solid #22c55e; border-radius: 12px; padding: 18px; color: #dcfce7;">
-    <h3 style="color: #4ade80; margin-top: 0;">🔄 Track B: Active Revision</h3>
-    <p style="font-size: 14px; margin-bottom: 0;"><strong>30-45 Mins / Day</strong><br>Continuous spaced repetition of foundational topics (Arrays, Strings, LL, Stacks, Binary Search) via specific LeetCode problems.</p>
-  </div>
-</div>
-
----
-
-## 🗺️ Curriculum Blueprint
-
-<details open>
-<summary><b>📂 Phase 0: Graph Algorithms (Days 1 - 14)</b></summary>
-<blockquote>
-BFS, DFS, Cycle Detection, Topological Sort (Kahn's & DFS), Bipartite Graphs, Shortest Paths (Dijkstra, Bellman-Ford, Floyd-Warshall), MST (Prim's, Kruskal's), Tarjan's Algorithm.
-</blockquote>
-</details>
-
-<details>
-<summary><b>📂 Phase 1: Heaps & Advanced BST (Days 15 - 28)</b></summary>
-<blockquote>
-Max/Min Heaps, Heapify, Heap Sort, K-Way Merge, Median Finders, Top-K, BST Validation, LCA, Recover BST, BST Iterators.
-</blockquote>
-</details>
-
-<details>
-<summary><b>📂 Phase 2: Greedy & Backtracking (Days 29 - 49)</b></summary>
-<blockquote>
-Interval Scheduling, Jump Games, Huffman Coding, N-Queens, Sudoku, Word Search, Subset Sums, Combinations, IP Restoration.
-</blockquote>
-</details>
-
-<details>
-<summary><b>📂 Phase 3: Dynamic Programming (Days 50 - 84)</b></summary>
-<blockquote>
-1D/2D DP, Knapsack (0/1 & Unbounded), Subsequence/Substring DP, LIS, MCM, Tree DP (Diameter, Cameras), Stock DP, Digit DP, Bitmask DP (TSP).
-</blockquote>
-</details>
-
-<details>
-<summary><b>📂 Phase 4: Tries, Advanced Graph, Bit Manipulation (Days 85 - 105)</b></summary>
-<blockquote>
-Trie insertions/searches, Maximum XOR, Stream of Characters, Kosaraju's SCC, Network Flow, Advanced Bit manipulation.
-</blockquote>
-</details>
-
-<details>
-<summary><b>📂 Phase 5: Advanced Data Structures & Mocks (Days 106 - 119)</b></summary>
-<blockquote>
-Segment Trees, Fenwick Trees, KMP, Rabin-Karp, Z-Algorithm, Manacher's, LRU/LFU Caches. Daily Mock Interviews.
-</blockquote>
-</details>
-
----
-
-## 📅 Daily Execution Log
 
 ## 📂 PHASE 0: Graph Algorithms (Days 1 - 14)
 ### 📆 Day 1
