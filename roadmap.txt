@@ -3,9 +3,9 @@
 > Built by consolidating the latest uploaded roadmap with the earlier ChatGPT-designed execution system, pattern-recognition guide, revision engine, and Striver interview-validation layer.
 
 
-> **LOCK STATUS:** FINAL — Day 1 start karne ke baad roadmap structure change nahi hoga; sirf RED/YELLOW weakness repair allowed.
+> **LOCK STATUS:** FINAL — Once Day 1 begins, the roadmap structure will not change; only RED/YELLOW weakness repair is allowed.
 >
-> **Merged version:** New uploaded roadmap ka complete 180-day day-by-day structure + earlier ChatGPT roadmap ke realistic workload, revision, cold-solving, interview-gate aur duplicate-control rules.
+> **Merged version:** Complete 180-day day-by-day structure from the new roadmap + realistic workload, revision, cold-solving, interview-gate, and duplicate-control rules from the earlier system.
 
 
 ## 🎯 Your starting condition
@@ -23,16 +23,16 @@
 5. **No-hint window:** 25–30 minutes. If a hint/editorial is used, mark 🟡 and reattempt after 24–72h, then again after ~7 days.
 6. **Interview gate:** after each major phase, solve 2 blind questions, reattempt 1 hinted question cold, and explain 1 problem aloud.
 7. **Status:** ⬜ Unseen | 🟡 Learned with help | 🟢 Cold | 🔴 Repair.
-8. **Daily mandatory load:** Track A ka **first listed core problem mandatory**. Track A ka second/extra problem bonus unless the day explicitly says both are core.
-9. **Track B load:** Sirf **first due/cold revision problem mandatory**. Second problem bonus/backup.
-10. **Duplicate control:** Agar same problem Track A aur Track B mein aa jaye, duplicate solve mat karo; Track B se next due 🔴/🟡 problem uthao.
-11. **Platform fallback:** Exact LeetCode problem unavailable/Premium ho to GFG, TUF ya Coding Ninjas equivalent valid hai.
-12. **Completion evidence:** Topic tabhi complete maana jayega jab theory recall + dry run + accepted/tested C++ + time/space complexity + status update ho.
-13. **Missed-day rule:** Calendar chase mat karo. Missed day ke baad next sitting se wahi roadmap day continue karo; 2–3 days ko ek din mein compress mat karo.
-14. **Hint rule:** 25–30 min genuine attempt ke baad hint allowed. Hint/editorial ke baad problem 🟡 rahega jab tak 24–72h ke baad cold reattempt successful na ho.
-15. **Interview-readiness rule:** Phase gate pass kiye bina next major phase ko blindly rush mat karo; weak items ko 🔴/🟡 queue mein rakho.
+8. **Daily mandatory load:** Only the **first listed core problem in Track A is mandatory**. The second/extra problem is a bonus unless the day explicitly marks both as core.
+9. **Track B load:** Only the **first due/cold revision problem is mandatory**. The second problem is a bonus/backup.
+10. **Duplicate control:** If the same problem appears in both Track A and Track B, do not solve it twice; pick the next due 🔴/🟡 problem from Track B instead.
+11. **Platform fallback:** If the exact LeetCode problem is unavailable or Premium, an equivalent problem on GFG, TUF, or Coding Ninjas is valid.
+12. **Completion evidence:** A topic is only considered complete when theory recall + dry run + accepted/tested C++ solution + time/space complexity + status update are all done.
+13. **Missed-day rule:** Do not chase the calendar. After a missed day, resume from exactly the same roadmap day in the next sitting; never compress 2–3 days into one.
+14. **Hint rule:** Hints are allowed only after a genuine 25–30 min attempt. After using a hint/editorial, the problem stays 🟡 until a successful cold reattempt is done after 24–72 hours.
+15. **Interview-readiness rule:** Do not blindly rush into the next major phase without passing the phase gate; keep weak items in the 🔴/🟡 repair queue.
 
-## 🔁 Track B 15-slot rotation
+## 🔁 Track B 19-slot rotation
 1. BST Properties
 2. Linked List Reversal
 3. Arrays Sliding Window
@@ -48,8 +48,13 @@
 13. Linked List Fast-Slow Pointers
 14. Arrays Prefix Sum
 15. Binary Search 1D
+16. Hash-Table / HashMap Patterns
+17. Divide-and-Conquer (Merge Sort, Quick Sort, Binary Search variants)
+18. Doubly-Linked-List / Design (LRU Cache, LFU Cache)
+19. Simulation (Grid/Matrix traversal problems — low pressure, bonus only)
 
 > Cycle through these slots for all 180 days. Cycle 1: foundational problems; Cycle 2: harder variants; Cycle 3+: unchecked Striver or due RED/YELLOW problems.
+> Slots 16–19 are added to cover gaps identified via LeetCode-Solutions folder audit. Slot 19 (Simulation) is bonus only — never mandatory.
 
 ## ⏱️ Locked Daily Workload
 - **Normal college day:** 90–130 min total DSA.
