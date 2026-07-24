@@ -8,8 +8,71 @@
 > **Merged version:** Complete 180-day day-by-day structure from the new roadmap + realistic workload, revision, cold-solving, interview-gate, and duplicate-control rules from the earlier system.
 
 
-## 🎯 Your starting condition
-- You have already studied **Arrays → Trees** before, but recall has weakened because DSA became irregular.
+## 📌 My Personal Condition (Why This Roadmap Exists)
+
+- I studied DSA approximately **5 months ago** and covered:
+  **Arrays → Strings → Linked Lists → Stacks → Queues → Binary Search → Trees → BST**
+- I stopped just before reaching **Graphs** due to personal circumstances.
+- After a **5-month break**, I have forgotten most of what I studied.
+- Starting over from Arrays would be slow, demotivating, and inefficient.
+- So instead, I am:
+  - Starting **new learning from Graphs** (Track A)
+  - Rebuilding memory of old topics through **parallel daily revision** (Track B)
+- Language: **C++** (scratch implementations — no STL shortcuts without understanding)
+- Goal: **SDE Interview Readiness** — pattern recognition, cold problem-solving, and strong fundamentals
+- Restart Date: **July 25, 2026**
+
+---
+
+## 🧠 My Learning Ways
+
+These are the learning methods that work best for me:
+
+### 1. Theory First, Code Second
+- Before writing any code, I understand the concept visually.
+- I draw the graph, trace the BFS/DFS, or dry-run the algorithm on paper.
+- Only after understanding the logic, I write C++ code from scratch.
+
+### 2. Pattern Recognition Before Attempting
+- Before solving any LeetCode problem, I write:
+  - **Input Signal** — What type of input is this? (graph, array, string...)
+  - **Question Signal** — What is being asked? (shortest path, connected components...)
+  - **Constraint Signal** — What are the limits, edge cases, overflow risks?
+- This trains me to identify patterns independently in interviews.
+
+### 3. Struggle First, Hints Only After 25–30 Minutes
+- I attempt every problem for at least 25–30 minutes with no hints.
+- If I cannot solve it after genuine effort, I read just enough of the hint to unblock myself.
+- Any problem solved with hints is marked 🟡 and retried cold after 24–72 hours.
+
+### 4. Write Templates From Memory
+- After learning any new concept (BFS, Dijkstra, Union-Find, etc.),
+  I write the full C++ template from memory in the next session.
+- This builds recall muscle, not just reading comprehension.
+
+### 5. Spaced Repetition via Track B
+- Instead of forgetting old topics while learning new ones,
+  I revisit one old topic daily through the 19-slot Track B rotation.
+- Each slot cycles through problems of increasing difficulty across 180 days.
+
+### 6. Complexity Always, No Exceptions
+- Every problem I solve must end with me stating:
+  **Time Complexity** and **Space Complexity** — before checking any solution.
+
+### 7. Verbal Explanation (Feynman Technique)
+- At the end of each phase, I explain 1 solution aloud as if teaching someone.
+- If I cannot explain it simply, I have not truly understood it.
+
+### 8. Status Tracking (No Self-Deception)
+- ⬜ Unseen — not attempted yet
+- 🟡 Hinted — solved after reading hints/editorial (needs cold reattempt)
+- 🟢 Cold — solved independently without any hints
+- 🔴 Repair — failed cold reattempt, needs structured review
+- I never mark a problem 🟢 unless it was genuinely solved cold.
+
+---
+
+## 🎯 Original Starting Condition (Roadmap Design Reference)
 - **Do not restart from Arrays.** Start new learning from **Graphs**.
 - Revise Arrays, Strings, Binary Search, Linked List, Stack, Queue, Trees and BST continuously in parallel.
 - Language: **C++**.
