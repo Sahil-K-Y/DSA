@@ -1,0 +1,59 @@
+#include <iostream>
+#include <vector>
+#include <list>
+using namespace std;
+class Graph{
+    int V;
+    vector<vector<int>>adjunweight;
+    vector<vector<pair<int,int>>>adjweight;
+    public:
+    Graph(int V){
+        this->V=V;
+        adjunweight.resize(V);
+        adjweight.resize(V);
+    }
+    //unweighted graph
+    void unweightedAddEdge(int u,int v){
+        adjunweight[u].push_back(v);
+        adjunweight[v].push_back(u);
+    }   
+    //weighted graph
+    void weightedAddEdge(int u,int v,int wt){
+        adjweight[u].push_back({v,wt});
+        adjweight[v].push_back({u,wt});
+    }
+    
+    void printGraphunweight(){
+        for(int i=0;i<V;i++){
+            cout<<i<<" ";
+            for(int j=0;j<adjunweight[i].size();j++){
+                cout<<adjunweight[i][j]<<" ";
+            }
+            cout<<endl;
+        }
+    }
+    void printGraphweight(){
+        for(int i=0;i<V;i++){
+            cout<<i<<" ";
+            for(int j=0;j<adjweight[i].size();j++){
+                cout<<adjweight[i][j].first<<" "<<adjweight[i][j].second;
+            }
+            cout<<endl;
+        }
+    }
+};
+int main() {
+    Graph g(5);
+    g.unweightedAddEdge(0,1);
+    g.unweightedAddEdge(0,2);
+    g.unweightedAddEdge(1,2); 
+    g.unweightedAddEdge(1,3);
+    g.unweightedAddEdge(2,4);
+    g.printGraphunweight();
+    Graph g2(5);
+    g2.weightedAddEdge(1,2,5);
+    g2.weightedAddEdge(1,3,8);
+    g2.weightedAddEdge(2,3,9);
+    g2.printGraphweight();
+    return 0;
+}

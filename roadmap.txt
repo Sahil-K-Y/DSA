@@ -3,13 +3,76 @@
 > Built by consolidating the latest uploaded roadmap with the earlier ChatGPT-designed execution system, pattern-recognition guide, revision engine, and Striver interview-validation layer.
 
 
-> **LOCK STATUS:** FINAL — Day 1 start karne ke baad roadmap structure change nahi hoga; sirf RED/YELLOW weakness repair allowed.
+> **LOCK STATUS:** FINAL — Once Day 1 begins, the roadmap structure will not change; only RED/YELLOW weakness repair is allowed.
 >
-> **Merged version:** New uploaded roadmap ka complete 180-day day-by-day structure + earlier ChatGPT roadmap ke realistic workload, revision, cold-solving, interview-gate aur duplicate-control rules.
+> **Merged version:** Complete 180-day day-by-day structure from the new roadmap + realistic workload, revision, cold-solving, interview-gate, and duplicate-control rules from the earlier system.
 
 
-## 🎯 Your starting condition
-- You have already studied **Arrays → Trees** before, but recall has weakened because DSA became irregular.
+## 📌 My Personal Condition (Why This Roadmap Exists)
+
+- I studied DSA approximately **5 months ago** and covered:
+  **Arrays → Strings → Linked Lists → Stacks → Queues → Binary Search → Trees → BST**
+- I stopped just before reaching **Graphs** due to personal circumstances.
+- After a **5-month break**, I have forgotten most of what I studied.
+- Starting over from Arrays would be slow, demotivating, and inefficient.
+- So instead, I am:
+  - Starting **new learning from Graphs** (Track A)
+  - Rebuilding memory of old topics through **parallel daily revision** (Track B)
+- Language: **C++** (scratch implementations — no STL shortcuts without understanding)
+- Goal: **SDE Interview Readiness** — pattern recognition, cold problem-solving, and strong fundamentals
+- Restart Date: **July 25, 2026**
+
+---
+
+## 🧠 My Learning Ways
+
+These are the learning methods that work best for me:
+
+### 1. Theory First, Code Second
+- Before writing any code, I understand the concept visually.
+- I draw the graph, trace the BFS/DFS, or dry-run the algorithm on paper.
+- Only after understanding the logic, I write C++ code from scratch.
+
+### 2. Pattern Recognition Before Attempting
+- Before solving any LeetCode problem, I write:
+  - **Input Signal** — What type of input is this? (graph, array, string...)
+  - **Question Signal** — What is being asked? (shortest path, connected components...)
+  - **Constraint Signal** — What are the limits, edge cases, overflow risks?
+- This trains me to identify patterns independently in interviews.
+
+### 3. Struggle First, Hints Only After 25–30 Minutes
+- I attempt every problem for at least 25–30 minutes with no hints.
+- If I cannot solve it after genuine effort, I read just enough of the hint to unblock myself.
+- Any problem solved with hints is marked 🟡 and retried cold after 24–72 hours.
+
+### 4. Write Templates From Memory
+- After learning any new concept (BFS, Dijkstra, Union-Find, etc.),
+  I write the full C++ template from memory in the next session.
+- This builds recall muscle, not just reading comprehension.
+
+### 5. Spaced Repetition via Track B
+- Instead of forgetting old topics while learning new ones,
+  I revisit one old topic daily through the 19-slot Track B rotation.
+- Each slot cycles through problems of increasing difficulty across 180 days.
+
+### 6. Complexity Always, No Exceptions
+- Every problem I solve must end with me stating:
+  **Time Complexity** and **Space Complexity** — before checking any solution.
+
+### 7. Verbal Explanation (Feynman Technique)
+- At the end of each phase, I explain 1 solution aloud as if teaching someone.
+- If I cannot explain it simply, I have not truly understood it.
+
+### 8. Status Tracking (No Self-Deception)
+- ⬜ Unseen — not attempted yet
+- 🟡 Hinted — solved after reading hints/editorial (needs cold reattempt)
+- 🟢 Cold — solved independently without any hints
+- 🔴 Repair — failed cold reattempt, needs structured review
+- I never mark a problem 🟢 unless it was genuinely solved cold.
+
+---
+
+## 🎯 Original Starting Condition (Roadmap Design Reference)
 - **Do not restart from Arrays.** Start new learning from **Graphs**.
 - Revise Arrays, Strings, Binary Search, Linked List, Stack, Queue, Trees and BST continuously in parallel.
 - Language: **C++**.
@@ -23,16 +86,16 @@
 5. **No-hint window:** 25–30 minutes. If a hint/editorial is used, mark 🟡 and reattempt after 24–72h, then again after ~7 days.
 6. **Interview gate:** after each major phase, solve 2 blind questions, reattempt 1 hinted question cold, and explain 1 problem aloud.
 7. **Status:** ⬜ Unseen | 🟡 Learned with help | 🟢 Cold | 🔴 Repair.
-8. **Daily mandatory load:** Track A ka **first listed core problem mandatory**. Track A ka second/extra problem bonus unless the day explicitly says both are core.
-9. **Track B load:** Sirf **first due/cold revision problem mandatory**. Second problem bonus/backup.
-10. **Duplicate control:** Agar same problem Track A aur Track B mein aa jaye, duplicate solve mat karo; Track B se next due 🔴/🟡 problem uthao.
-11. **Platform fallback:** Exact LeetCode problem unavailable/Premium ho to GFG, TUF ya Coding Ninjas equivalent valid hai.
-12. **Completion evidence:** Topic tabhi complete maana jayega jab theory recall + dry run + accepted/tested C++ + time/space complexity + status update ho.
-13. **Missed-day rule:** Calendar chase mat karo. Missed day ke baad next sitting se wahi roadmap day continue karo; 2–3 days ko ek din mein compress mat karo.
-14. **Hint rule:** 25–30 min genuine attempt ke baad hint allowed. Hint/editorial ke baad problem 🟡 rahega jab tak 24–72h ke baad cold reattempt successful na ho.
-15. **Interview-readiness rule:** Phase gate pass kiye bina next major phase ko blindly rush mat karo; weak items ko 🔴/🟡 queue mein rakho.
+8. **Daily mandatory load:** Only the **first listed core problem in Track A is mandatory**. The second/extra problem is a bonus unless the day explicitly marks both as core.
+9. **Track B load:** Only the **first due/cold revision problem is mandatory**. The second problem is a bonus/backup.
+10. **Duplicate control:** If the same problem appears in both Track A and Track B, do not solve it twice; pick the next due 🔴/🟡 problem from Track B instead.
+11. **Platform fallback:** If the exact LeetCode problem is unavailable or Premium, an equivalent problem on GFG, TUF, or Coding Ninjas is valid.
+12. **Completion evidence:** A topic is only considered complete when theory recall + dry run + accepted/tested C++ solution + time/space complexity + status update are all done.
+13. **Missed-day rule:** Do not chase the calendar. After a missed day, resume from exactly the same roadmap day in the next sitting; never compress 2–3 days into one.
+14. **Hint rule:** Hints are allowed only after a genuine 25–30 min attempt. After using a hint/editorial, the problem stays 🟡 until a successful cold reattempt is done after 24–72 hours.
+15. **Interview-readiness rule:** Do not blindly rush into the next major phase without passing the phase gate; keep weak items in the 🔴/🟡 repair queue.
 
-## 🔁 Track B 15-slot rotation
+## 🔁 Track B 19-slot rotation
 1. BST Properties
 2. Linked List Reversal
 3. Arrays Sliding Window
@@ -48,8 +111,13 @@
 13. Linked List Fast-Slow Pointers
 14. Arrays Prefix Sum
 15. Binary Search 1D
+16. Hash-Table / HashMap Patterns
+17. Divide-and-Conquer (Merge Sort, Quick Sort, Binary Search variants)
+18. Doubly-Linked-List / Design (LRU Cache, LFU Cache)
+19. Simulation (Grid/Matrix traversal problems — low pressure, bonus only)
 
 > Cycle through these slots for all 180 days. Cycle 1: foundational problems; Cycle 2: harder variants; Cycle 3+: unchecked Striver or due RED/YELLOW problems.
+> Slots 16–19 are added to cover gaps identified via LeetCode-Solutions folder audit. Slot 19 (Simulation) is bonus only — never mandatory.
 
 ## ⏱️ Locked Daily Workload
 - **Normal college day:** 90–130 min total DSA.
