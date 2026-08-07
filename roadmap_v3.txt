@@ -1,0 +1,2726 @@
+# 🏆 SKY'S ULTIMATE 200-DAY DSA MASTER ROADMAP v3 — Complete Revision-Guided Edition
+
+> **VERSION:** v3.0 — Complete Dual-Track Edition with Quick Theory & C++ Code Reminders for Track B
+> **Daily Pacing:** ~1.5–2 hours/day (Strictly balanced for zero burnout alongside AI/ML track)
+> **Language:** C++ (Scratch implementations from core concepts)
+> **Dual Track:** Track A (New Topics) + Track B (Guided Spaced Revision with Theory & Syntax Reminders)
+> **Coverage:** 100% Guaranteed Coverage of all 45 Patterns & 248 LeetCode Problems (0 Missing)
+> **Start Date:** August 7, 2026
+
+---
+
+## 📌 My Personal Condition & Strategy
+
+- **Background:** I started DSA ~4–5 months ago and covered:
+  `Arrays → Strings → Linked Lists → Stacks → Queues → Binary Search → Trees → BST`
+- **The Gap:** Due to personal circumstances, I paused DSA right before Graphs. After a ~5-month break, I am restarting.
+- **The Core Strategy:**
+  1. I am **NOT** restarting Arrays/LL from Day 1 — that would waste precious time.
+  2. **Track A (New Learning):** Starts directly from **Graphs** and moves systematically through all advanced DSA patterns (Heaps, DP, Backtracking, Trie, Advanced DS, String Algos, D&C, Matrix, Math, etc.).
+  3. **Track B (Daily Spaced Revision):** 1 Specific Problem daily from rotating 15 revision slots with **Quick Theory & C++ Code Syntax Reminders** so old topics (like Node Deletion, Reversal, Monotonic Stack, etc.) are remembered instantly without struggle.
+- **Parallel AI/ML Track:** I am actively studying AI/ML, so daily DSA workload is strictly kept at **1.5–2 hours per day** over 200 Days.
+- **Goal:** Become a **DSA Pro** — complete pattern mastery + cold problem-solving readiness for top SDE / AI-Engineering interviews.
+
+---
+
+## 🧠 Daily Execution Workflow (~90–120 mins)
+
+1. **Step 1 — Track A Theory & C++ Implementation (35–45 min):** Read intuition, time/space complexity, and code the template/data structure from scratch in C++.
+2. **Step 2 — Track A LeetCode (35–45 min):** Solve 1–2 target problems cold without hints.
+3. **Step 3 — Track B Quick Refresh & Solve (20–25 min):** Read the 2-minute Track B Quick Theory & C++ Reminder, then solve the 1 assigned revision problem.
+
+### 🚦 Problem Status Tracking
+- ⬜ **Unseen** — Not attempted yet
+- 🟡 **Hinted** — Solved with editorial/hints (needs cold retry within 24–72 hrs)
+- 🟢 **Cold** — Solved independently without hints
+- 🔴 **Repair** — Failed cold retry, needs structured review
+
+---
+
+## 📍 Master Phase Index
+
+| Phase | Days | Focus Area |
+|---|---|---|
+| 🔵 **Phase 1** | Days 001–040 | **Graphs & State Search** (BFS, DFS, Topo, DSU, Shortest Path, MST, Coloring, Bitmask Search) |
+| 🟢 **Phase 2** | Days 041–055 | **Heaps, Priority Queue & Monotonic Deque** |
+| 🟡 **Phase 3** | Days 056–070 | **Greedy Algorithms, Intervals & Difference Array** |
+| 🔴 **Phase 4** | Days 071–085 | **Backtracking Basics & Constraint Satisfaction** |
+| 🟣 **Phase 5** | Days 086–135 | **Dynamic Programming & Sequence DP** (All 12 DP Sub-patterns) |
+| 🟠 **Phase 6** | Days 136–150 | **Recursion, Divide & Conquer, Merge Sort Apps & Bit Manipulation** |
+| 🟤 **Phase 7** | Days 151–165 | **Advanced Trees** (Construction, Serialization, LCA, Euler Tour / Flattening) |
+| ⚪ **Phase 8** | Days 166–180 | **Trie, String Matching (KMP/Z), Rolling Hash & Palindromes** |
+| 🔵 **Phase 9** | Days 181–190 | **Matrix Traversal, Simulation & Math Fundamentals** |
+| 🟢 **Phase 10** | Days 191–200 | **Advanced DS** (Segment Tree, Fenwick, Cache Design) & **Final Mock Validation** |
+
+---
+
+# ═══════════════════════════════════════════════════
+# 📅 200-DAY STEP-BY-STEP EXECUTION SCHEDULE
+# ═══════════════════════════════════════════════════
+
+
+
+# 🔵 PHASE 1: Graphs & State Search (Days 001–040)
+
+### 📆 Day 001: Graph Representation & Matrices
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Adjacency Matrix vs List vs Edge List representation
+- **C++ Focus:** `vector<vector<int>> adj, vector<pair<int,int>>`
+- **Track A (Target Problems):**
+  - [ ] LC 547 Number of Provinces
+  - [ ] LC 1971 Find if Path Exists in Graph
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Variable Length)
+  - **Quick Theory & C++ Guide:** _Maintain window bounds [left, right] with hash set / freq map. Expand right; if duplicate seen, shrink left until valid. C++: `unordered_map<char,int> count;`_
+  - **Revision Problem:**
+    - [ ] LC 3 Longest Substring Without Repeating Characters
+
+### 📆 Day 002: Graph BFS Traversal
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Queue-based level-by-level traversal, visited tracking
+- **C++ Focus:** `queue<int>, vector<bool> visited BFS template`
+- **Track A (Target Problems):**
+  - [ ] LC 733 Flood Fill
+  - [ ] LC 542 01 Matrix
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (Container With Most Water)
+  - **Quick Theory & C++ Guide:** _Pointers `left = 0, right = n - 1`. Area = `min(h[l], h[r]) * (r - l)`. Move pointer with smaller height inwards to attempt finding taller boundary._
+  - **Revision Problem:**
+    - [ ] LC 11 Container With Most Water
+
+### 📆 Day 003: Graph DFS Traversal
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Recursion stack vs explicit stack, connected components
+- **C++ Focus:** `Recursive & Iterative DFS template`
+- **Track A (Target Problems):**
+  - [ ] LC 200 Number of Islands
+  - [ ] LC 695 Max Area of Island
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Cycle Detection)
+  - **Quick Theory & C++ Guide:** _Pointers `slow = head, fast = head`. Advance `slow = slow->next`, `fast = fast->next->next`. If `slow == fast` cycle exists. C++ check `fast && fast->next`._
+  - **Revision Problem:**
+    - [ ] LC 141 Linked List Cycle
+
+### 📆 Day 004: Multi-Source BFS
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Parallel propagation from multiple source nodes simultaneously
+- **C++ Focus:** `Multi-source queue initialization pattern`
+- **Track A (Target Problems):**
+  - [ ] LC 994 Rotting Oranges
+  - [ ] LC 1162 As Far from Land as Possible
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Search in Rotated Sorted Array)
+  - **Quick Theory & C++ Guide:** _Identify sorted half: if `nums[l] <= nums[mid]`, left half is sorted. Check if target lies in `[nums[l], nums[mid]]`. Otherwise search right half._
+  - **Revision Problem:**
+    - [ ] LC 33 Search in Rotated Sorted Array
+
+### 📆 Day 005: Grid DFS Boundary Traversal
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Boundary DFS marking to isolate internal components
+- **C++ Focus:** `Boundary grid DFS template`
+- **Track A (Target Problems):**
+  - [ ] LC 1020 Number of Enclaves
+  - [ ] LC 130 Surrounded Regions
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Koko Eating Bananas)
+  - **Quick Theory & C++ Guide:** _Search range `speed` in `[1, max(piles)]`. Feasibility `check(k)`: `hours = sum(ceil(pile / k)) <= H`. If valid `high = mid`, else `low = mid + 1`._
+  - **Revision Problem:**
+    - [ ] LC 875 Koko Eating Bananas
+
+### 📆 Day 006: Grid BFS Shortest Path
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Shortest path properties in unweighted 8-directional grids
+- **C++ Focus:** `2D Grid BFS template`
+- **Track A (Target Problems):**
+  - [ ] LC 1091 Shortest Path in Binary Matrix
+  - [ ] LC 1254 Number of Closed Islands
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Two Sum)
+  - **Quick Theory & C++ Guide:** _Use `unordered_map<int, int> seen`. Loop `nums[i]`, complement = `target - nums[i]`. If seen return `{seen[comp], i}`, else `seen[nums[i]] = i`._
+  - **Revision Problem:**
+    - [ ] LC 1 Two Sum
+
+### 📆 Day 007: Cycle Detection Undirected (BFS)
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Parent node tracking in BFS queue, visited checks
+- **C++ Focus:** `BFS parent-tracked cycle check`
+- **Track A (Target Problems):**
+  - [ ] LC 684 Redundant Connection
+  - [ ] LC 261 Graph Valid Tree
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum (Immutable Range Query)
+  - **Quick Theory & C++ Guide:** _Precompute `pref[i] = pref[i-1] + nums[i-1]`. Range sum `[L, R]` = `pref[R+1] - pref[L]` in O(1)._
+  - **Revision Problem:**
+    - [ ] LC 303 Range Sum Query - Immutable
+
+### 📆 Day 008: Cycle Detection Undirected (DFS)
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Recursive DFS parent node tracking
+- **C++ Focus:** `DFS parent-tracked cycle check`
+- **Track A (Target Problems):**
+  - [ ] LC 684 Redundant Connection (DFS)
+  - [ ] Detect Cycle Undirected (GFG)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Daily Temperatures)
+  - **Quick Theory & C++ Guide:** _Decreasing stack storing indices. Loop `i`: while `!st.empty() && temp[i] > temp[st.top()]`, pop `idx = st.top()` and `ans[idx] = i - idx`. Push `i`._
+  - **Revision Problem:**
+    - [ ] LC 739 Daily Temperatures
+
+### 📆 Day 009: Cycle Detection Directed (DFS 3-Color)
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** WHITE/GRAY/BLACK node state coloring
+- **C++ Focus:** `vector<int> pathVisited DFS`
+- **Track A (Target Problems):**
+  - [ ] LC 207 Course Schedule
+  - [ ] LC 802 Find Eventual Safe States
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Merge Two Sorted Lists)
+  - **Quick Theory & C++ Guide:** _Dummy head node `dummy`. Compare `l1->val` and `l2->val`. Attach smaller to `tail->next`, advance pointer. `tail = tail->next`. Return `dummy.next`._
+  - **Revision Problem:**
+    - [ ] LC 21 Merge Two Sorted Lists
+
+### 📆 Day 010: Cycle Detection Directed (Kahn's)
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** In-degree array evaluation, visited count comparison
+- **C++ Focus:** `Kahn's BFS algorithm template`
+- **Track A (Target Problems):**
+  - [ ] LC 210 Course Schedule II
+  - [ ] LC 269 Alien Dictionary
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Max Depth of Binary Tree)
+  - **Quick Theory & C++ Guide:** _Base case `if(!root) return 0;`. Return `1 + max(maxDepth(root->left), maxDepth(root->right))`._
+  - **Revision Problem:**
+    - [ ] LC 104 Maximum Depth of Binary Tree
+
+### 📆 Day 011: Topological Sort DFS
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Post-order stack push for DAG reachability
+- **C++ Focus:** `DFS topo sort with stack<int>`
+- **Track A (Target Problems):**
+  - [ ] LC 1462 Course Schedule IV
+  - [ ] LC 2115 Find All Possible Recipes
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Level Order Traversal)
+  - **Quick Theory & C++ Guide:** _Queue `queue<TreeNode*> q`. Push `root`. Loop `while(!q.empty())`: `size = q.size()`. Process `size` nodes for current level vector, push non-null children._
+  - **Revision Problem:**
+    - [ ] LC 102 Binary Tree Level Order Traversal
+
+### 📆 Day 012: Topological Sort Advanced (Kahn's)
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Multi-level DAG dependency ordering
+- **C++ Focus:** `Dual Kahn's topo sort template`
+- **Track A (Target Problems):**
+  - [ ] LC 1203 Sort Items by Groups
+  - [ ] LC 310 Minimum Height Trees
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Validation (Validate BST)
+  - **Quick Theory & C++ Guide:** _DFS with min/max range `validate(root, minNode, maxNode)`. Condition: `minNode < root->val < maxNode`. Recursively pass bounds to left and right._
+  - **Revision Problem:**
+    - [ ] LC 98 Validate Binary Search Tree
+
+### 📆 Day 013: Union Find / DSU Naive to Optimized
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Find parent and Union operations, path compression
+- **C++ Focus:** `struct DSU { vector<int> parent; ... }`
+- **Track A (Target Problems):**
+  - [ ] LC 547 Number of Provinces (DSU)
+  - [ ] LC 684 Redundant Connection (DSU)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Valid Parentheses)
+  - **Quick Theory & C++ Guide:** _Stack `stack<char> st`. For open brackets `'(', '{', '['`, push. For closing brackets, check if `!st.empty()` and top matches complement. Pop on match._
+  - **Revision Problem:**
+    - [ ] LC 20 Valid Parentheses
+
+### 📆 Day 014: DSU Union by Rank & Size
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** O(alpha(N)) amortized operations with rank/size
+- **C++ Focus:** `Optimized DSU C++ Class template`
+- **Track A (Target Problems):**
+  - [ ] LC 1319 Operations for Network Connected
+  - [ ] LC 990 Satisfiability of Equality Equations
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Longest Palindromic Substring)
+  - **Quick Theory & C++ Guide:** _Expand around center strategy. For each index `i`, call `expand(i, i)` (odd palindrome) and `expand(i, i+1)` (even palindrome). Track max length and start index._
+  - **Revision Problem:**
+    - [ ] LC 5 Longest Palindromic Substring
+
+### 📆 Day 015: DSU Index Component Grouping
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Component-level grouping and index sorting
+- **C++ Focus:** `DSU index sorting algorithm`
+- **Track A (Target Problems):**
+  - [ ] LC 1202 Smallest String With Swaps
+  - [ ] LC 721 Accounts Merge
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion (Pow(x, n) Binary Exponentiation)
+  - **Quick Theory & C++ Guide:** _Base case `n == 0 -> 1`. Half power `half = pow(x, n/2)`. If `n` even: `half * half`. If odd: `half * half * x`. Handle negative `n = -n, x = 1/x`._
+  - **Revision Problem:**
+    - [ ] LC 50 Pow(x, n)
+
+### 📆 Day 016: DSU Multi-Graph Traversability
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Priority merging of edges across dual graphs
+- **C++ Focus:** `Dual DSU graph traversal`
+- **Track A (Target Problems):**
+  - [ ] LC 1579 Remove Max Edges for Traversability
+  - [ ] LC 839 Similar String Groups
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Hard Minimum Window)
+  - **Quick Theory & C++ Guide:** _Expand right to include all target chars (`neededCount == 0`). Once valid, shrink left to minimize window while preserving validity. C++: `vector<int> map(128,0);`_
+  - **Revision Problem:**
+    - [ ] LC 76 Minimum Window Substring
+
+### 📆 Day 017: 0-1 BFS (Deque Shortest Path)
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Front push for weight 0, back push for weight 1
+- **C++ Focus:** `deque<pair<int,int>> 0-1 BFS`
+- **Track A (Target Problems):**
+  - [ ] LC 2290 Min Obstacle Removal Corner
+  - [ ] LC 1368 Min Cost Valid Path Grid
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (3Sum)
+  - **Quick Theory & C++ Guide:** _Sort array. Loop `i` from `0` to `n-3`. Skip duplicates `nums[i] == nums[i-1]`. Use 2 pointers `l = i+1, r = n-1` to find `nums[l] + nums[r] == -nums[i]`. Skip dupes on match._
+  - **Revision Problem:**
+    - [ ] LC 15 3Sum
+
+### 📆 Day 018: Dijkstra's Algorithm Fundamentals
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Priority Queue Min-Heap greedy shortest path
+- **C++ Focus:** `priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>>`
+- **Track A (Target Problems):**
+  - [ ] LC 743 Network Delay Time
+  - [ ] LC 1514 Path with Max Probability
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Cycle Start Node)
+  - **Quick Theory & C++ Guide:** _Find meeting point using fast/slow. Reset `slow = head`. Move both `slow` and `fast` 1 step at a time. Meeting point is cycle entry node._
+  - **Revision Problem:**
+    - [ ] LC 142 Linked List Cycle II
+
+### 📆 Day 019: Dijkstra on Grids
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Min max-difference path on 2D grids
+- **C++ Focus:** `Grid Dijkstra implementation`
+- **Track A (Target Problems):**
+  - [ ] LC 1631 Path With Minimum Effort
+  - [ ] LC 778 Swim in Rising Water
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (First & Last Position)
+  - **Quick Theory & C++ Guide:** _Lower bound: find first `idx` where `nums[mid] >= target`. Upper bound: find first `idx` where `nums[mid] > target`. Range is `[first, last-1]`._
+  - **Revision Problem:**
+    - [ ] LC 34 Find First and Last Position of Element in Sorted Array
+
+### 📆 Day 020: Bellman-Ford Algorithm
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Handles negative edge weights via V-1 relaxations
+- **C++ Focus:** `Bellman-Ford relaxation loop template`
+- **Track A (Target Problems):**
+  - [ ] LC 787 Cheapest Flights Within K Stops
+  - [ ] LC 743 Network Delay (Bellman-Ford)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Capacity to Ship Packages)
+  - **Quick Theory & C++ Guide:** _Search range `capacity` in `[max(weights), sum(weights)]`. Feasibility: count days required to pack weights under capacity limit._
+  - **Revision Problem:**
+    - [ ] LC 1011 Capacity To Ship Packages Within D Days
+
+### 📆 Day 021: Floyd-Warshall Algorithm
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** All-pairs shortest path, O(V^3) matrix DP
+- **C++ Focus:** `2D matrix DP Floyd-Warshall`
+- **Track A (Target Problems):**
+  - [ ] LC 1334 City With Smallest Neighbors
+  - [ ] LC 399 Evaluate Division
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Group Anagrams)
+  - **Quick Theory & C++ Guide:** _Key = sorted string (or 26-count freq string). Map `unordered_map<string, vector<string>> groups`. Push original string into `groups[key]`._
+  - **Revision Problem:**
+    - [ ] LC 49 Group Anagrams
+
+### 📆 Day 022: Shortest Path Counting
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Dijkstra combined with path count DP
+- **C++ Focus:** `Dijkstra + path counting template`
+- **Track A (Target Problems):**
+  - [ ] LC 1976 Number of Ways to Arrive
+  - [ ] LC 1786 Restricted Paths First to Last
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum + Hash Map (Subarray Sum Equals K)
+  - **Quick Theory & C++ Guide:** _Maintain `runningSum`. `unordered_map<int, int> prefMap; prefMap[0] = 1`. Add `prefMap[runningSum - k]` to total count, then `prefMap[runningSum]++`._
+  - **Revision Problem:**
+    - [ ] LC 560 Subarray Sum Equals K
+
+### 📆 Day 023: Prim's MST Algorithm
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Greedy node inclusion via Min-Heap
+- **C++ Focus:** `Prim's MST priority queue template`
+- **Track A (Target Problems):**
+  - [ ] LC 1584 Min Cost to Connect All Points
+  - [ ] LC 1168 Optimize Water Distribution
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Next Greater Element I)
+  - **Quick Theory & C++ Guide:** _Decreasing stack + hashmap. Loop `nums2`: pop smaller stack elements and set `nextGreaterMap[popped] = curr`. Look up `nums1` in map._
+  - **Revision Problem:**
+    - [ ] LC 496 Next Greater Element I
+
+### 📆 Day 024: Kruskal's MST Algorithm
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Sort all edges + DSU cycle prevention
+- **C++ Focus:** `Kruskal's MST template`
+- **Track A (Target Problems):**
+  - [ ] LC 1135 Connecting Cities With Min Cost
+  - [ ] LC 1489 Critical & Pseudo-Critical Edges MST
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List + Min-Heap (Merge K Sorted Lists)
+  - **Quick Theory & C++ Guide:** _Min-heap storing `ListNode*` with custom `greater` comparator on `.val`. Push heads of all K lists. Extract min, attach to result, push `min->next`._
+  - **Revision Problem:**
+    - [ ] LC 23 Merge k Sorted Lists
+
+### 📆 Day 025: MST Virtual Node & Min-Max Path
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Dummy node 0 trick, sorted edge DSU path max-min
+- **C++ Focus:** `Virtual node graph transformation`
+- **Track A (Target Problems):**
+  - [ ] LC 1102 Path With Max Min Value
+  - [ ] LC 1697 Edge Length Limited Paths
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Path Sum Target Check)
+  - **Quick Theory & C++ Guide:** _Base case `if(!root) return false;`. Leaf check `if(!root->left && !root->right) return target == root->val;`. Return `hasPathSum(left, target-val) || hasPathSum(right, target-val)`._
+  - **Revision Problem:**
+    - [ ] LC 112 Path Sum
+
+### 📆 Day 026: Graph Coloring / Bipartite BFS
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** 2-coloring graph validation using BFS
+- **C++ Focus:** `BFS 2-coloring algorithm`
+- **Track A (Target Problems):**
+  - [ ] LC 785 Is Graph Bipartite?
+  - [ ] LC 886 Possible Bipartition
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Zigzag Level Order)
+  - **Quick Theory & C++ Guide:** _Level order BFS. Track `bool leftToRight = true`. Insert level values into vector using index `leftToRight ? i : size - 1 - i`. Flip flag per level._
+  - **Revision Problem:**
+    - [ ] LC 103 Binary Tree Zigzag Level Order Traversal
+
+### 📆 Day 027: Graph Coloring / Bipartite DFS
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Recursive 2-coloring validation
+- **C++ Focus:** `DFS 2-coloring algorithm`
+- **Track A (Target Problems):**
+  - [ ] LC 1042 Flower Planting With No Adjacent
+  - [ ] LC 1557 Min Vertices to Reach All Nodes
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Recovery (Recover BST 2 Swapped Nodes)
+  - **Quick Theory & C++ Guide:** _Inorder DFS tracking `prev`, `first`, `second`. If `prev->val > curr->val`: if `!first` set `first = prev`, always set `second = curr`. Swap `first->val` and `second->val`._
+  - **Revision Problem:**
+    - [ ] LC 99 Recover Binary Search Tree
+
+### 📆 Day 028: Advanced Bipartite & Connectivity
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Edge list graph properties & reachability
+- **C++ Focus:** `Graph coloring & in-degree analysis`
+- **Track A (Target Problems):**
+  - [ ] LC 1971 Find if Path Exists
+  - [ ] LC 2493 Divide Nodes Max Groups
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Simplify Path)
+  - **Quick Theory & C++ Guide:** _Split path by `/`. Use `vector<string>` stack. Ignore empty and `.`. For `..`, pop if not empty. For normal dir name, push. Join with `/`._
+  - **Revision Problem:**
+    - [ ] LC 71 Simplify Path
+
+### 📆 Day 029: Tarjan's Bridges in Graph
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Discovery time & lowest reachable time arrays
+- **C++ Focus:** `vector<int> tin, low Tarjan's template`
+- **Track A (Target Problems):**
+  - [ ] LC 1192 Critical Connections in a Network
+  - [ ] LC 1489 Critical Edges MST
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Valid Palindrome)
+  - **Quick Theory & C++ Guide:** _Two pointers `left = 0, right = n - 1`. Skip non-alphanumeric `!isalnum(c)`. Compare `tolower(s[l]) == tolower(s[r])`._
+  - **Revision Problem:**
+    - [ ] LC 125 Valid Palindrome
+
+### 📆 Day 030: Articulation Points
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Node removal component count increase check
+- **C++ Focus:** `Articulation points template`
+- **Track A (Target Problems):**
+  - [ ] Articulation Points (GFG)
+  - [ ] LC 1568 Min Days to Disconnect Island
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / Bitwise (Power of Two)
+  - **Quick Theory & C++ Guide:** _Bitwise check: `n > 0 && (n & (n - 1)) == 0`. (Or recursive division by 2)._
+  - **Revision Problem:**
+    - [ ] LC 231 Power of Two
+
+### 📆 Day 031: Kosaraju's Algorithm (SCC)
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** 2-pass DFS on original and transposed graph
+- **C++ Focus:** `Kosaraju's SCC template`
+- **Track A (Target Problems):**
+  - [ ] Strongly Connected Components (GFG)
+  - [ ] LC 1236 Web Crawler
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Min Subarray Sum)
+  - **Quick Theory & C++ Guide:** _Expand right running sum `sum += nums[right]`. While `sum >= target`, record `minLen = min(minLen, right - left + 1)` and `sum -= nums[left++]`._
+  - **Revision Problem:**
+    - [ ] LC 209 Minimum Size Subarray Sum
+
+### 📆 Day 032: State Search (BFS + Bitmask) I
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** State tuple representation (node, bitmask)
+- **C++ Focus:** `Bitmask state BFS template`
+- **Track A (Target Problems):**
+  - [ ] LC 847 Shortest Path Visiting All Nodes
+  - [ ] LC 864 Shortest Path to Get All Keys
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (3Sum Closest)
+  - **Quick Theory & C++ Guide:** _Sort array. Loop `i`, 2 pointers `l` and `r`. Track `minDiff = abs(target - sum)`. If `sum < target` `l++`, else `r--`._
+  - **Revision Problem:**
+    - [ ] LC 16 3Sum Closest
+
+### 📆 Day 033: State Search (BFS + Bitmask) II
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Grid key collection & door unlocking with bitmask
+- **C++ Focus:** `Grid key BFS solver`
+- **Track A (Target Problems):**
+  - [ ] LC 1293 Shortest Path Grid Obstacles
+  - [ ] LC 1368 Min Cost Valid Path Grid
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Remove Nth Node From End)
+  - **Quick Theory & C++ Guide:** _Dummy node trick `dummy->next = head`. Advance `fast` N+1 steps ahead. Move `fast` and `slow` together until `fast == nullptr`. `slow->next = slow->next->next`._
+  - **Revision Problem:**
+    - [ ] LC 19 Remove Nth Node From End of List
+
+### 📆 Day 034: State Search Advanced
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** 3D visited state array & cost optimization
+- **C++ Focus:** `3D state search BFS`
+- **Track A (Target Problems):**
+  - [ ] LC 1654 Minimum Jumps to Reach Home
+  - [ ] LC 1926 Nearest Exit Entrance in Maze
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Search Insert Position)
+  - **Quick Theory & C++ Guide:** _Standard binary search. Return `low` index after loop terminates (where element should be inserted)._
+  - **Revision Problem:**
+    - [ ] LC 35 Search Insert Position
+
+### 📆 Day 035: Graph Word Ladder Search
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Implicit graph construction & BFS level tracking
+- **C++ Focus:** `Word ladder BFS implementation`
+- **Track A (Target Problems):**
+  - [ ] LC 127 Word Ladder
+  - [ ] LC 126 Word Ladder II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Split Array Largest Sum)
+  - **Quick Theory & C++ Guide:** _Search range `maxSum` in `[max(nums), sum(nums)]`. Feasibility: greedy count of subarrays needed such that no subarray sum exceeds `maxSum`._
+  - **Revision Problem:**
+    - [ ] LC 410 Split Array Largest Sum
+
+### 📆 Day 036: Clone Graph & Graph Copy
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Hash map node mapping with DFS/BFS
+- **C++ Focus:** `unordered_map<Node*, Node*> DFS`
+- **Track A (Target Problems):**
+  - [ ] LC 133 Clone Graph
+  - [ ] LC 138 Copy List with Random Pointer
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Longest Consecutive Sequence)
+  - **Quick Theory & C++ Guide:** _Insert all elements into `unordered_set<int> numSet`. Loop `x` in set: if `!numSet.count(x-1)` (start of sequence), count `x+1, x+2...` to find length._
+  - **Revision Problem:**
+    - [ ] LC 128 Longest Consecutive Sequence
+
+### 📆 Day 037: Graph Cold Solving — Unlabeled I
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Identify BFS/DFS vs Shortest Path independently
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 417 Pacific Atlantic Water Flow
+  - [ ] LC 1466 Reorder Routes to Zero
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum (Find Pivot Index)
+  - **Quick Theory & C++ Guide:** _Total sum `total`. Left sum `leftSum = 0`. Loop `i`: if `leftSum == total - leftSum - nums[i]`, return `i`. `leftSum += nums[i]`._
+  - **Revision Problem:**
+    - [ ] LC 724 Find Pivot Index
+
+### 📆 Day 038: Graph Cold Solving — Unlabeled II
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Pick Dijkstra vs Kahn's Topo sort independently
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1376 Time Needed to Inform Employees
+  - [ ] LC 851 Loud and Rich
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Next Greater Element II Circular)
+  - **Quick Theory & C++ Guide:** _Loop `2 * N` times using index `i % N`. Decreasing stack storing indices `0..N-1`._
+  - **Revision Problem:**
+    - [ ] LC 503 Next Greater Element II
+
+### 📆 Day 039: Graph Practice — Template Recall
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Write BFS, DFS, Dijkstra, DSU from blank page
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] LC 934 Shortest Bridge
+  - [ ] LC 1091 Shortest Path Binary Matrix
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Swap Nodes in Pairs)
+  - **Quick Theory & C++ Guide:** _Dummy node. Loop `while(curr->next && curr->next->next)`: `first = curr->next, second = curr->next->next`. Swap links: `first->next = second->next; second->next = first; curr->next = second; curr = first`._
+  - **Revision Problem:**
+    - [ ] LC 24 Swap Nodes in Pairs
+
+### 📆 Day 040: Graph Phase Gate
+- **Phase:** Graphs & State Search (Days 001–040)
+- **Theory & Pattern:** Full blind graph solving under timer
+- **C++ Focus:** `Timer-based cold solving`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen Graph Medium Cold
+  - [ ] Solve 1 Unseen Graph Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Path Sum II - Collect Paths)
+  - **Quick Theory & C++ Guide:** _Backtracking DFS with `vector<int>& path`. Push `root->val`. At leaf if `target == val`, push `path` to results. Pop `root->val` before returning._
+  - **Revision Problem:**
+    - [ ] LC 113 Path Sum II
+
+
+
+# 🟢 PHASE 2: Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+
+### 📆 Day 041: Min-Heap & Max-Heap from Scratch
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Array-based binary tree indexing (2i, 2i+1)
+- **C++ Focus:** `class MinHeap { vector<int> heap; ... }`
+- **Track A (Target Problems):**
+  - [ ] LC 215 Kth Largest Element in an Array
+  - [ ] LC 1046 Last Stone Weight
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS/DFS (Binary Tree Right Side View)
+  - **Quick Theory & C++ Guide:** _Level order BFS: last node of each level is added to result. (Or DFS right-first with `depth == res.size()`)._
+  - **Revision Problem:**
+    - [ ] LC 199 Binary Tree Right Side View
+
+### 📆 Day 042: Heapify O(N) Build & Heap Sort
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Bottom-up heapify algorithm O(N)
+- **C++ Focus:** `In-place heap sort implementation`
+- **Track A (Target Problems):**
+  - [ ] LC 347 Top K Frequent Elements
+  - [ ] LC 692 Top K Frequent Words
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Operations (Kth Smallest Element in BST)
+  - **Quick Theory & C++ Guide:** _Inorder traversal (L-Root-R) visits BST in sorted order. Decrement `k` on visiting root. Return `root->val` when `k == 0`._
+  - **Revision Problem:**
+    - [ ] LC 230 Kth Smallest Element in a BST
+
+### 📆 Day 043: K-Closest Points & Stream Kth
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Max-heap fixed size K for top-K extraction
+- **C++ Focus:** `Max-heap distance sorting`
+- **Track A (Target Problems):**
+  - [ ] LC 973 K Closest Points to Origin
+  - [ ] LC 703 Kth Largest Element in a Stream
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Evaluate Reverse Polish Notation RPN)
+  - **Quick Theory & C++ Guide:** _Stack `stack<long long> st`. For numbers, push. For operators `+ - * /`, pop `b = st.top()`, pop `a = st.top()`, compute `a op b`, push result._
+  - **Revision Problem:**
+    - [ ] LC 150 Evaluate Reverse Polish Notation
+
+### 📆 Day 044: Two-Heap Median Pattern
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Max-heap (left half) + Min-heap (right half) balance
+- **C++ Focus:** `class MedianFinder template`
+- **Track A (Target Problems):**
+  - [ ] LC 295 Find Median from Data Stream
+  - [ ] LC 480 Sliding Window Median
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Longest Palindrome Frequency)
+  - **Quick Theory & C++ Guide:** _Count char frequencies. Sum `(count / 2) * 2` for all chars. If any odd count exists, add 1 for center char._
+  - **Revision Problem:**
+    - [ ] LC 409 Longest Palindrome
+
+### 📆 Day 045: K-Way Merge Pattern
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Min-heap of K element pointers
+- **C++ Focus:** `K-way merge algorithm`
+- **Track A (Target Problems):**
+  - [ ] LC 23 Merge k Sorted Lists
+  - [ ] LC 378 Kth Smallest in Sorted Matrix
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / Math (Power of Three)
+  - **Quick Theory & C++ Guide:** _Recursive: `n > 0 && (n == 1 || (n % 3 == 0 && isPowerOfThree(n / 3)))`. (Or max 32-bit power `1162261467 % n == 0`)._
+  - **Revision Problem:**
+    - [ ] LC 326 Power of Three
+
+### 📆 Day 046: Heap + Greedy String Building
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Max-heap frequency count for string construction
+- **C++ Focus:** `Max-heap greedy string builder`
+- **Track A (Target Problems):**
+  - [ ] LC 767 Reorganize String
+  - [ ] LC 621 Task Scheduler
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Longest Repeating Replacement)
+  - **Quick Theory & C++ Guide:** _Window size `(right - left + 1) - maxFreq <= k`. If violated, decrement `count[s[left]]` and `left++`. C++: track `maxFreq` in window._
+  - **Revision Problem:**
+    - [ ] LC 424 Longest Repeating Character Replacement
+
+### 📆 Day 047: Monotonic Deque — Sliding Window Max
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Decreasing monotonic deque for O(N) sliding window max
+- **C++ Focus:** `class MonotonicDeque template`
+- **Track A (Target Problems):**
+  - [ ] LC 239 Sliding Window Maximum
+  - [ ] LC 862 Shortest Subarray Sum at Least K
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (4Sum)
+  - **Quick Theory & C++ Guide:** _Sort array. Nested loops `i` and `j` with duplicate skipping. 2 pointers `l = j+1, r = n-1` for remaining sum `target - nums[i] - nums[j]`._
+  - **Revision Problem:**
+    - [ ] LC 18 4Sum
+
+### 📆 Day 048: Monotonic Deque — Subarray Constraints
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Dual deque for tracking min and max simultaneously
+- **C++ Focus:** `Dual deque window optimizer`
+- **Track A (Target Problems):**
+  - [ ] LC 1438 Longest Subarray Abs Diff <= Limit
+  - [ ] LC 1425 Constrained Subsequence Sum
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Middle of Linked List)
+  - **Quick Theory & C++ Guide:** _`slow = head, fast = head`. Loop `while(fast && fast->next)`: `slow = slow->next`, `fast = fast->next->next`. `slow` points to middle._
+  - **Revision Problem:**
+    - [ ] LC 876 Middle of the Linked List
+
+### 📆 Day 049: Monotonic Deque — DP Optimization
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Deque DP optimization for max value equations
+- **C++ Focus:** `Deque DP jump optimizer`
+- **Track A (Target Problems):**
+  - [ ] LC 1696 Jump Game VI
+  - [ ] LC 1499 Max Value of Equation
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Min in Rotated Sorted Array)
+  - **Quick Theory & C++ Guide:** _If `nums[mid] > nums[right]`, min lies in right half (`low = mid + 1`); else min is at `mid` or left half (`high = mid`)._
+  - **Revision Problem:**
+    - [ ] LC 153 Find Minimum in Rotated Sorted Array
+
+### 📆 Day 050: Heap + Interval Scheduling
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Min-heap for active interval end times
+- **C++ Focus:** `Heap interval scheduler`
+- **Track A (Target Problems):**
+  - [ ] LC 253 Meeting Rooms II
+  - [ ] LC 1834 Single-Threaded CPU
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Min Max Distance Gas Stations)
+  - **Quick Theory & C++ Guide:** _Floating binary search on `dist` in `[0, max_gap]`. Feasibility: `count += floor((gap) / dist) <= K`._
+  - **Revision Problem:**
+    - [ ] LC 774 Minimize Max Distance to Gas Station
+
+### 📆 Day 051: Heap + Sequence Generation
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Heap for generating sorted sequence combinations
+- **C++ Focus:** `Heap sequence generator`
+- **Track A (Target Problems):**
+  - [ ] LC 264 Ugly Number II
+  - [ ] LC 373 Find K Pairs Smallest Sums
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Contains Duplicate)
+  - **Quick Theory & C++ Guide:** _Insert elements into `unordered_set<int>`. If `set.count(x)` before inserting, return `true`._
+  - **Revision Problem:**
+    - [ ] LC 217 Contains Duplicate
+
+### 📆 Day 052: Heap Practice — Unlabeled
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Unlabeled heap problems cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 355 Design Twitter
+  - [ ] LC 1642 Furthest Building You Can Reach
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum (Binary Subarrays With Sum)
+  - **Quick Theory & C++ Guide:** _Prefix sum hashmap approach (`runningSum - goal`), or sliding window `atMost(goal) - atMost(goal - 1)`._
+  - **Revision Problem:**
+    - [ ] LC 930 Binary Subarrays With Sum
+
+### 📆 Day 053: Heap + Graph Advanced Combo
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Priority queue state search on complex graphs
+- **C++ Focus:** `Advanced heap solver`
+- **Track A (Target Problems):**
+  - [ ] LC 502 IPO
+  - [ ] LC 632 Smallest Range K Lists
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Largest Rectangle in Histogram)
+  - **Quick Theory & C++ Guide:** _Increasing stack storing indices. Add dummy height 0 at end. Pop while `h[i] < h[st.top()]`: `height = h[pop]`, `width = st.empty() ? i : i - st.top() - 1`._
+  - **Revision Problem:**
+    - [ ] LC 84 Largest Rectangle in Histogram
+
+### 📆 Day 054: Monotonic Deque Practice
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Advanced deque window problems
+- **C++ Focus:** `Cold deque solving`
+- **Track A (Target Problems):**
+  - [ ] LC 407 Trapping Rain Water II
+  - [ ] LC 1425 Constrained Subsequence Sum
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Reverse Nodes in k-Group)
+  - **Quick Theory & C++ Guide:** _Count K nodes. If >= K exist, reverse K nodes using standard 3-pointer reversal (`prev, curr, next`). Recursively call for `kGroup(nextGroupHead, k)`._
+  - **Revision Problem:**
+    - [ ] LC 25 Reverse Nodes in k-Group
+
+### 📆 Day 055: Heap & Deque Phase Gate
+- **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Theory & Pattern:** Blank-page recall of Heap & Monotonic Deque
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen Heap Hard Cold
+  - [ ] Solve 1 Unseen Deque Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Diameter of Binary Tree)
+  - **Quick Theory & C++ Guide:** _Post-order DFS returning height of subtree. Update global `maxDiameter = max(maxDiameter, leftHeight + rightHeight)`. Return `1 + max(lh, rh)`._
+  - **Revision Problem:**
+    - [ ] LC 543 Diameter of Binary Tree
+
+
+
+# 🟡 PHASE 3: Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+
+### 📆 Day 056: Activity Selection — End Time Sorting
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Greedy proof: pick earliest end time to maximize count
+- **C++ Focus:** `Sorting + greedy iteration loop`
+- **Track A (Target Problems):**
+  - [ ] LC 435 Non-overlapping Intervals
+  - [ ] LC 452 Min Arrows Burst Balloons
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Find Max Value in Each Row)
+  - **Quick Theory & C++ Guide:** _Level order BFS. Track `maxVal` for each level of size `q.size()`. Push `maxVal` to result vector._
+  - **Revision Problem:**
+    - [ ] LC 515 Find Largest Value in Each Tree Row
+
+### 📆 Day 057: Interval Merging & Insertion
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Sort by start time, merge overlapping bounds
+- **C++ Focus:** `Interval sorting & merging loop`
+- **Track A (Target Problems):**
+  - [ ] LC 56 Merge Intervals
+  - [ ] LC 57 Insert Interval
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Operations (LCA of BST)
+  - **Quick Theory & C++ Guide:** _If `p->val < root->val` and `q->val < root->val`, LCA is in left subtree. If both > root, LCA is in right subtree. Else `root` is LCA._
+  - **Revision Problem:**
+    - [ ] LC 235 Lowest Common Ancestor of a Binary Search Tree
+
+### 📆 Day 058: Sweep Line — Meeting Rooms
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Start +1, End -1 event timeline sweep
+- **C++ Focus:** `Chronological sweep line with map<int,int>`
+- **Track A (Target Problems):**
+  - [ ] LC 252 Meeting Rooms
+  - [ ] LC 253 Meeting Rooms II (Sweep Line)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Basic Calculator I)
+  - **Quick Theory & C++ Guide:** _Track `runningResult`, `sign = 1`, stack for nested `(` parens storing `(result, sign)`. Reset sign and result inside parens._
+  - **Revision Problem:**
+    - [ ] LC 224 Basic Calculator
+
+### 📆 Day 059: Jump Game Reachability & Min Jumps
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Max reachable index O(N), greedy window bounds
+- **C++ Focus:** `O(N) jump reachability loop`
+- **Track A (Target Problems):**
+  - [ ] LC 55 Jump Game
+  - [ ] LC 45 Jump Game II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Palindromic Substrings Count)
+  - **Quick Theory & C++ Guide:** _Expand around center strategy for all 2N-1 centers. Count total valid expansions for odd and even centers._
+  - **Revision Problem:**
+    - [ ] LC 647 Palindromic Substrings
+
+### 📆 Day 060: Gas Station & Circular Greedy
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Circular greedy proof: total gas >= total cost
+- **C++ Focus:** `Single-pass gas station algorithm`
+- **Track A (Target Problems):**
+  - [ ] LC 134 Gas Station
+  - [ ] LC 135 Candy
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / Bitwise (Power of Four)
+  - **Quick Theory & C++ Guide:** _Check: power of two `(n & (n - 1)) == 0` AND `(n - 1) % 3 == 0` (or `n & 0x55555555`)._
+  - **Revision Problem:**
+    - [ ] LC 342 Power of Four
+
+### 📆 Day 061: Greedy Scheduling & Height Queue
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Custom sorting + index insertion for height queue
+- **C++ Focus:** `Custom sort insert loop`
+- **Track A (Target Problems):**
+  - [ ] LC 406 Queue Reconstruction by Height
+  - [ ] LC 763 Partition Labels
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Permutation in String)
+  - **Quick Theory & C++ Guide:** _Fixed window size = `s1.length()`. Compare 26-char frequency vectors `count1` and `count2`. Slide window right by adding right char and removing left char._
+  - **Revision Problem:**
+    - [ ] LC 567 Permutation in String
+
+### 📆 Day 062: Difference Array — Range Updates
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** diff[l] += val, diff[r+1] -= val, running prefix sum
+- **C++ Focus:** `class DifferenceArray from scratch`
+- **Track A (Target Problems):**
+  - [ ] LC 370 Range Addition
+  - [ ] LC 1094 Car Pooling
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (Trapping Rain Water)
+  - **Quick Theory & C++ Guide:** _Pointers `left = 0, right = n - 1`. Maintain `maxL` and `maxR`. If `maxL < maxR`, water += `maxL - height[left]`, `left++`; else process right._
+  - **Revision Problem:**
+    - [ ] LC 42 Trapping Rain Water
+
+### 📆 Day 063: Difference Array — Flight Bookings & Painting
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Coordinate compression & 1D range update accumulation
+- **C++ Focus:** `Modular difference array`
+- **Track A (Target Problems):**
+  - [ ] LC 1109 Corporate Flight Bookings
+  - [ ] LC 1943 Describe the Painting
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Two Pointers (Intersection of Two LLs)
+  - **Quick Theory & C++ Guide:** _Pointers `pA = headA, pB = headB`. Loop `while(pA != pB)`: `pA = pA ? pA->next : headB`, `pB = pB ? pB->next : headA`. They meet at intersection._
+  - **Revision Problem:**
+    - [ ] LC 160 Intersection of Two Linked Lists
+
+### 📆 Day 064: Difference Array — Advanced Queries
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Range inclusion checks & difference updates
+- **C++ Focus:** `Difference array query solver`
+- **Track A (Target Problems):**
+  - [ ] LC 1893 Check Integers in Range Covered
+  - [ ] LC 2381 Shifting Letters II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Find Peak Element)
+  - **Quick Theory & C++ Guide:** _If `nums[mid] < nums[mid + 1]`, peak lies to the right (`low = mid + 1`); else peak is at `mid` or left (`high = mid`)._
+  - **Revision Problem:**
+    - [ ] LC 162 Find Peak Element
+
+### 📆 Day 065: Greedy Monotonic String Removal
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Monotonic stack for smallest lexicographical string
+- **C++ Focus:** `Greedy string building`
+- **Track A (Target Problems):**
+  - [ ] LC 402 Remove K Digits
+  - [ ] LC 316 Remove Duplicate Letters
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Smallest Divisor)
+  - **Quick Theory & C++ Guide:** _Search range `divisor` in `[1, max(nums)]`. Feasibility: `sum(ceil(num / divisor)) <= threshold`._
+  - **Revision Problem:**
+    - [ ] LC 1283 Find the Smallest Divisor Given a Threshold
+
+### 📆 Day 066: Greedy Stock & Subsequence
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Greedy max profit transactions, triplet subsequence
+- **C++ Focus:** `Greedy profit calculator`
+- **Track A (Target Problems):**
+  - [ ] LC 122 Best Time Buy Sell Stock II
+  - [ ] LC 334 Increasing Triplet Subsequence
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Valid Anagram)
+  - **Quick Theory & C++ Guide:** _Frequency array `vector<int> freq(26, 0)`. Increment for `s`, decrement for `t`. Return true if all counts are 0._
+  - **Revision Problem:**
+    - [ ] LC 242 Valid Anagram
+
+### 📆 Day 067: Greedy Practice — Unlabeled I
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Unlabeled greedy problems cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1029 Two City Scheduling
+  - [ ] LC 1899 Merge Triplets Target
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum + Modulo (Subarray Sums Divisible by K)
+  - **Quick Theory & C++ Guide:** _Maintain `mod = ((runningSum % k) + k) % k`. Map `modCount[mod]`. Increment result by `modCount[mod]`, then `modCount[mod]++`._
+  - **Revision Problem:**
+    - [ ] LC 974 Subarray Sums Divisible by K
+
+### 📆 Day 068: Greedy Practice — Unlabeled II
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Unlabeled interval problems cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1288 Remove Covered Intervals
+  - [ ] LC 986 Interval List Intersections
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Maximal Rectangle 2D)
+  - **Quick Theory & C++ Guide:** _Build 1D histogram height array per matrix row. Call 1D Largest Rectangle in Histogram on each row._
+  - **Revision Problem:**
+    - [ ] LC 85 Maximal Rectangle
+
+### 📆 Day 069: Greedy & Interval Template Recall
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Write Interval Merge, Sweep Line, Difference Array from memory
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] LC 678 Valid Parenthesis String
+  - [ ] LC 846 Hand of Straights
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Reverse Sublist Range [left, right])
+  - **Quick Theory & C++ Guide:** _Advance `prev` pointer to node `left-1`. Loop `right - left` times: `curr = prev->next, temp = curr->next; curr->next = temp->next; temp->next = prev->next; prev->next = temp`._
+  - **Revision Problem:**
+    - [ ] LC 92 Reverse Linked List II
+
+### 📆 Day 070: Greedy Phase Gate
+- **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Theory & Pattern:** Full blind greedy & interval solving under timer
+- **C++ Focus:** `Timer-based cold solving`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen Greedy Medium Cold
+  - [ ] Solve 1 Unseen Interval Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Binary Tree Max Path Sum)
+  - **Quick Theory & C++ Guide:** _DFS returns max single-branch sum `max(0, max(leftBranch, rightBranch)) + root->val`. Update global `maxSum = max(maxSum, leftBranch + rightBranch + root->val)`._
+  - **Revision Problem:**
+    - [ ] LC 124 Binary Tree Maximum Path Sum
+
+
+
+# 🔴 PHASE 4: Backtracking Basics & Constraint Satisfaction (Days 071–085)
+
+### 📆 Day 071: Backtracking Basics — Permutations I
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Decision tree branching, swap vs used[] array
+- **C++ Focus:** `Standard recursive permutation template`
+- **Track A (Target Problems):**
+  - [ ] LC 46 Permutations
+  - [ ] LC 784 Letter Case Permutation
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Average of Levels in Binary Tree)
+  - **Quick Theory & C++ Guide:** _Level order BFS. Accumulate `double sum` across `q.size()` nodes. Push `sum / size` to result vector._
+  - **Revision Problem:**
+    - [ ] LC 637 Average of Levels in Binary Tree
+
+### 📆 Day 072: Backtracking Basics — Permutations II
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Sort first + skip duplicates at same level
+- **C++ Focus:** `Duplicate-pruned permutation`
+- **Track A (Target Problems):**
+  - [ ] LC 47 Permutations II
+  - [ ] LC 31 Next Permutation
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Deletion (Delete Node in BST - CRITICAL REVISION)
+  - **Quick Theory & C++ Guide:** _Search node: if `key < root->val` `left = deleteNode(left)`, if `key > root->val` `right = deleteNode(right)`. If matched: Case 1 (0/1 child): return non-null child or nullptr. Case 2 (2 children): find min node in right subtree (`successor`), copy value to root, call `root->right = deleteNode(root->right, successor->val)`._
+  - **Revision Problem:**
+    - [ ] LC 450 Delete Node in a BST
+
+### 📆 Day 073: Backtracking Basics — Combinations & Subsets I
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Include/exclude decision tree, start index offset
+- **C++ Focus:** `Combination backtracking template`
+- **Track A (Target Problems):**
+  - [ ] LC 77 Combinations
+  - [ ] LC 78 Subsets
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Basic Calculator II - +, -, *, /)
+  - **Quick Theory & C++ Guide:** _Track `currentNum`, `lastOp = '+'`, `stack<int> st`. Push numbers onto stack (negate if `-`). For `*` or `/`, pop top, evaluate immediately, push back. Sum stack._
+  - **Revision Problem:**
+    - [ ] LC 227 Basic Calculator II
+
+### 📆 Day 074: Backtracking Basics — Subsets II & Target Sum
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Sort + skip duplicates for unique subsets, sum target
+- **C++ Focus:** `Unique subset backtracking`
+- **Track A (Target Problems):**
+  - [ ] LC 90 Subsets II
+  - [ ] LC 39 Combination Sum
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Valid Palindrome II - Deletion Allowed)
+  - **Quick Theory & C++ Guide:** _Two pointers `l, r`. On mismatch `s[l] != s[r]`, check if `isPal(l+1, r)` OR `isPal(l, r-1)` is true._
+  - **Revision Problem:**
+    - [ ] LC 680 Valid Palindrome II
+
+### 📆 Day 075: Backtracking Basics — Combination Sum II & III
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Target reduction without duplicate element reuse
+- **C++ Focus:** `Bounded combination sum`
+- **Track A (Target Problems):**
+  - [ ] LC 40 Combination Sum II
+  - [ ] LC 216 Combination Sum III
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion (K-th Symbol in Grammar)
+  - **Quick Theory & C++ Guide:** _Base case `n == 1 -> 0`. Midpoint = `2^(n-2)`. If `k <= mid`, symbol is `kthGrammar(n-1, k)`. Else symbol is `!kthGrammar(n-1, k - mid)`._
+  - **Revision Problem:**
+    - [ ] LC 779 K-th Symbol in Grammar
+
+### 📆 Day 076: Backtracking Basics — Combination Sum IV
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Permutation sum count backtracking
+- **C++ Focus:** `Combination sum count`
+- **Track A (Target Problems):**
+  - [ ] LC 377 Combination Sum IV
+  - [ ] LC 39 Combination Sum (re-solve)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Fruit Into Baskets - Max 2 Distinct)
+  - **Quick Theory & C++ Guide:** _Maintain window with at most 2 distinct keys in `unordered_map`. If `map.size() > 2`, shrink left until `map[s[left]] == 0` and erase._
+  - **Revision Problem:**
+    - [ ] LC 904 Fruit Into Baskets
+
+### 📆 Day 077: Backtracking Constraints — Phone Keypad & Parentheses
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** N-ary digit branching, open/close validity count
+- **C++ Focus:** `Phone keypad & parentheses generator`
+- **Track A (Target Problems):**
+  - [ ] LC 17 Letter Combinations Phone Number
+  - [ ] LC 22 Generate Parentheses
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (Two Sum II Sorted)
+  - **Quick Theory & C++ Guide:** _Sorted array. Pointers `left = 0, right = n - 1`. If `sum == target` return 1-based indices. If `sum < target` `left++`, else `right--`._
+  - **Revision Problem:**
+    - [ ] LC 167 Two Sum II - Input Array Is Sorted
+
+### 📆 Day 078: Backtracking Constraints — Word Search Grid DFS
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Grid cell marking/unmarking, 4-directional DFS
+- **C++ Focus:** `Grid word matching DFS`
+- **Track A (Target Problems):**
+  - [ ] LC 79 Word Search
+  - [ ] LC 212 Word Search II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Palindrome LL)
+  - **Quick Theory & C++ Guide:** _Find middle with fast/slow. Reverse second half of list (`prev = null, curr = mid`). Compare first half and reversed second half element by element._
+  - **Revision Problem:**
+    - [ ] LC 234 Palindrome Linked List
+
+### 📆 Day 079: Backtracking Constraints — Palindrome Partition & IP
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Substring palindrome cut check, IP segment validation
+- **C++ Focus:** `Palindrome cut backtracking`
+- **Track A (Target Problems):**
+  - [ ] LC 131 Palindrome Partitioning
+  - [ ] LC 93 Restore IP Addresses
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Standard Template)
+  - **Quick Theory & C++ Guide:** _Overflow safe `mid = low + (high - low) / 2`. Loop `while(low <= high)`. If `nums[mid] == target` return `mid`._
+  - **Revision Problem:**
+    - [ ] LC 704 Binary Search
+
+### 📆 Day 080: Backtracking Constraints — N-Queens
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Column, diagonal, anti-diagonal bitmask placement
+- **C++ Focus:** `N-Queens board placement algorithm`
+- **Track A (Target Problems):**
+  - [ ] LC 51 N-Queens
+  - [ ] LC 52 N-Queens II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Min Days to Make Bouquets)
+  - **Quick Theory & C++ Guide:** _Search range `days` in `[min(bloom), max(bloom)]`. Feasibility: count contiguous bloomed flowers of size `k`._
+  - **Revision Problem:**
+    - [ ] LC 1482 Minimum Number of Days to Make m Bouquets
+
+### 📆 Day 081: Backtracking Constraints — Sudoku Solver
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Row, column, 3x3 grid constraint validation
+- **C++ Focus:** `Sudoku solver backtracking`
+- **Track A (Target Problems):**
+  - [ ] LC 37 Sudoku Solver
+  - [ ] LC 36 Valid Sudoku
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing + Min-Heap (Top K Frequent Elements)
+  - **Quick Theory & C++ Guide:** _Count frequencies in `unordered_map`. Maintain min-heap of size K stored as `pair<freq, num>`. Extract elements from heap._
+  - **Revision Problem:**
+    - [ ] LC 347 Top K Frequent Elements
+
+### 📆 Day 082: Backtracking Constraints — K-Equal Sum Subsets
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Bucket fill sum backtracking, target = total/k
+- **C++ Focus:** `K-bucket sum backtracking`
+- **Track A (Target Problems):**
+  - [ ] LC 473 Matchsticks to Square
+  - [ ] LC 698 Partition K Equal Sum Subsets
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum + Modulo (Continuous Subarray Sum)
+  - **Quick Theory & C++ Guide:** _Store first seen index of `runningSum % k` in `unordered_map<int, int> modMap; modMap[0] = -1`. If `i - modMap[mod] >= 2`, return true._
+  - **Revision Problem:**
+    - [ ] LC 523 Continuous Subarray Sum
+
+### 📆 Day 083: Backtracking Constraints — Expression Add Operators
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Track cumulative value and prev operand for * precedence
+- **C++ Focus:** `Operand evaluation backtracking`
+- **Track A (Target Problems):**
+  - [ ] LC 282 Expression Add Operators
+  - [ ] LC 241 Different Ways Add Parentheses
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Online Stock Span)
+  - **Quick Theory & C++ Guide:** _Stack storing pairs `(price, span)`. While `!st.empty() && price >= st.top().price`, `span += st.top().span`, `st.pop()`. Push `(price, span)`._
+  - **Revision Problem:**
+    - [ ] LC 901 Online Stock Span
+
+### 📆 Day 084: Backtracking Practice — Unlabeled
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Unlabeled backtracking problems cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1239 Max Length Concatenated String
+  - [ ] LC 526 Beautiful Arrangement
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List + Map (Copy List with Random Pointer)
+  - **Quick Theory & C++ Guide:** _Pass 1: Map old nodes to new nodes `map[old] = new Node(old->val)`. Pass 2: Set `map[old]->next = map[old->next]` and `map[old]->random = map[old->random]`._
+  - **Revision Problem:**
+    - [ ] LC 138 Copy List with Random Pointer
+
+### 📆 Day 085: Backtracking Phase Gate
+- **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Theory & Pattern:** Blank-page recall of Permutation, Subset, N-Queens templates
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] Re-solve top 2 hardest Backtracking cold
+  - [ ] Solve 1 Unseen Backtracking Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Invert Binary Tree)
+  - **Quick Theory & C++ Guide:** _Base case `if(!root) return nullptr;`. Swap left and right subtrees: `swap(root->left, root->right)`. Recursively invert both subtrees._
+  - **Revision Problem:**
+    - [ ] LC 226 Invert Binary Tree
+
+
+
+# 🟣 PHASE 5: Dynamic Programming & Sequence DP (Days 086–135)
+
+### 📆 Day 086: 1D DP Fundamentals — Top-Down vs Bottom-Up
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** State definition, memoization table vs tabulation
+- **C++ Focus:** `Both approaches for Climbing Stairs`
+- **Track A (Target Problems):**
+  - [ ] LC 70 Climbing Stairs
+  - [ ] LC 746 Min Cost Climbing Stairs
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS / Pointer (Populate Next Right Pointers)
+  - **Quick Theory & C++ Guide:** _Level order BFS linking `curr->next = q.front()`. (Or constant space using parent pointers `curr->left->next = curr->right`)._
+  - **Revision Problem:**
+    - [ ] LC 116 Populating Next Right Pointers in Each Node
+
+### 📆 Day 087: 1D DP Space Optimization
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** prev2, prev1 state variables instead of 1D array
+- **C++ Focus:** `Space-optimized Fibonacci & Tribonacci`
+- **Track A (Target Problems):**
+  - [ ] LC 509 Fibonacci Number
+  - [ ] LC 1137 N-th Tribonacci Number
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Operations (Search in a BST)
+  - **Quick Theory & C++ Guide:** _If `!root || root->val == val` return root. If `val < root->val` search left; else search right._
+  - **Revision Problem:**
+    - [ ] LC 700 Search in a Binary Search Tree
+
+### 📆 Day 088: 1D DP — House Robber I & Earn
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[i] = max(dp[i-1], dp[i-2] + nums[i]) skip vs take
+- **C++ Focus:** `1D DP array + space optimized`
+- **Track A (Target Problems):**
+  - [ ] LC 198 House Robber
+  - [ ] LC 740 Delete and Earn
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Decode String)
+  - **Quick Theory & C++ Guide:** _Dual stacks: `numStack` for repeat counts, `strStack` for parent strings. On `[`, push count and current str, reset. On `]`, pop count and append current str to popped str._
+  - **Revision Problem:**
+    - [ ] LC 394 Decode String
+
+### 📆 Day 089: 1D DP — House Robber II Circular
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Dual pass 1D DP: [0..n-2] and [1..n-1]
+- **C++ Focus:** `Dual pass 1D DP`
+- **Track A (Target Problems):**
+  - [ ] LC 213 House Robber II
+  - [ ] LC 91 Decode Ways
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Break a Palindrome)
+  - **Quick Theory & C++ Guide:** _If `n == 1` return empty. Loop first half `0..n/2 - 1`: replace first non-'a' char with 'a'. If all are 'a', change last char to 'b'._
+  - **Revision Problem:**
+    - [ ] LC 1328 Break a Palindrome
+
+### 📆 Day 090: Grid DP — Unique Paths I & II
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[i][j] = dp[i-1][j] + dp[i][j-1], obstacle handling
+- **C++ Focus:** `2D grid DP table + 1D space opt`
+- **Track A (Target Problems):**
+  - [ ] LC 62 Unique Paths
+  - [ ] LC 63 Unique Paths II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / DP (Fibonacci Number)
+  - **Quick Theory & C++ Guide:** _Base case `n <= 1 -> n`. Memoization table or 2-variable iterative `prev2 = 0, prev1 = 1`._
+  - **Revision Problem:**
+    - [ ] LC 509 Fibonacci Number
+
+### 📆 Day 091: Grid DP — Minimum Path Sum & Triangle
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[i][j] = grid[i][j] + min(top, left)
+- **C++ Focus:** `Min cost grid DP`
+- **Track A (Target Problems):**
+  - [ ] LC 64 Minimum Path Sum
+  - [ ] LC 120 Triangle
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Variable Length)
+  - **Quick Theory & C++ Guide:** _Maintain window bounds [left, right] with hash set / freq map. Expand right; if duplicate seen, shrink left until valid. C++: `unordered_map<char,int> count;`_
+  - **Revision Problem:**
+    - [ ] LC 3 Longest Substring Without Repeating Characters
+
+### 📆 Day 092: Grid DP — Dungeon Game & Falling Path
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Reverse DP (bottom-right to top-left) for min health
+- **C++ Focus:** `Reverse grid DP`
+- **Track A (Target Problems):**
+  - [ ] LC 174 Dungeon Game
+  - [ ] LC 931 Minimum Falling Path Sum
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (Container With Most Water)
+  - **Quick Theory & C++ Guide:** _Pointers `left = 0, right = n - 1`. Area = `min(h[l], h[r]) * (r - l)`. Move pointer with smaller height inwards to attempt finding taller boundary._
+  - **Revision Problem:**
+    - [ ] LC 11 Container With Most Water
+
+### 📆 Day 093: 0/1 Knapsack Base & Partition Subset Sum
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[i][w] = max(exclude, include if weight fits)
+- **C++ Focus:** `2D table + 1D reverse inner loop`
+- **Track A (Target Problems):**
+  - [ ] 0/1 Knapsack (GFG)
+  - [ ] LC 416 Partition Equal Subset Sum
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Cycle Detection)
+  - **Quick Theory & C++ Guide:** _Pointers `slow = head, fast = head`. Advance `slow = slow->next`, `fast = fast->next->next`. If `slow == fast` cycle exists. C++ check `fast && fast->next`._
+  - **Revision Problem:**
+    - [ ] LC 141 Linked List Cycle
+
+### 📆 Day 094: Target Sum & Subset Sum Count
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Target sum transformation: sum = (total + target)/2
+- **C++ Focus:** `Subset sum count tabulation`
+- **Track A (Target Problems):**
+  - [ ] LC 494 Target Sum
+  - [ ] LC 1049 Last Stone Weight II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Search in Rotated Sorted Array)
+  - **Quick Theory & C++ Guide:** _Identify sorted half: if `nums[l] <= nums[mid]`, left half is sorted. Check if target lies in `[nums[l], nums[mid]]`. Otherwise search right half._
+  - **Revision Problem:**
+    - [ ] LC 33 Search in Rotated Sorted Array
+
+### 📆 Day 095: Unbounded Knapsack & Rod Cutting
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Element reuse allowed — forward inner loop
+- **C++ Focus:** `Unbounded knapsack 1D loop`
+- **Track A (Target Problems):**
+  - [ ] Unbounded Knapsack (GFG)
+  - [ ] Rod Cutting (GFG)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Koko Eating Bananas)
+  - **Quick Theory & C++ Guide:** _Search range `speed` in `[1, max(piles)]`. Feasibility `check(k)`: `hours = sum(ceil(pile / k)) <= H`. If valid `high = mid`, else `low = mid + 1`._
+  - **Revision Problem:**
+    - [ ] LC 875 Koko Eating Bananas
+
+### 📆 Day 096: Coin Change I — Min Coins
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[amount] = min(dp[amount], dp[amount - coin] + 1)
+- **C++ Focus:** `Min coin 1D DP table`
+- **Track A (Target Problems):**
+  - [ ] LC 322 Coin Change
+  - [ ] LC 983 Minimum Cost For Tickets
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Two Sum)
+  - **Quick Theory & C++ Guide:** _Use `unordered_map<int, int> seen`. Loop `nums[i]`, complement = `target - nums[i]`. If seen return `{seen[comp], i}`, else `seen[nums[i]] = i`._
+  - **Revision Problem:**
+    - [ ] LC 1 Two Sum
+
+### 📆 Day 097: Coin Change II — Number of Ways
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[amount] += dp[amount - coin] with outer coin loop
+- **C++ Focus:** `Coin combinations 1D DP`
+- **Track A (Target Problems):**
+  - [ ] LC 518 Coin Change II
+  - [ ] LC 377 Combination Sum IV (DP approach)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum (Immutable Range Query)
+  - **Quick Theory & C++ Guide:** _Precompute `pref[i] = pref[i-1] + nums[i-1]`. Range sum `[L, R]` = `pref[R+1] - pref[L]` in O(1)._
+  - **Revision Problem:**
+    - [ ] LC 303 Range Sum Query - Immutable
+
+### 📆 Day 098: Word Break I & II
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[i] = true if dp[j] and s[j..i] in dictionary
+- **C++ Focus:** `Word break DP + BFS approach`
+- **Track A (Target Problems):**
+  - [ ] LC 139 Word Break
+  - [ ] LC 140 Word Break II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Daily Temperatures)
+  - **Quick Theory & C++ Guide:** _Decreasing stack storing indices. Loop `i`: while `!st.empty() && temp[i] > temp[st.top()]`, pop `idx = st.top()` and `ans[idx] = i - idx`. Push `i`._
+  - **Revision Problem:**
+    - [ ] LC 739 Daily Temperatures
+
+### 📆 Day 099: String DP — LCS (Longest Common Subsequence)
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** If match: dp[i-1][j-1]+1, else max(top, left)
+- **C++ Focus:** `2D LCS table & 1D space opt`
+- **Track A (Target Problems):**
+  - [ ] LC 1143 Longest Common Subsequence
+  - [ ] LC 583 Delete Operation Two Strings
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Merge Two Sorted Lists)
+  - **Quick Theory & C++ Guide:** _Dummy head node `dummy`. Compare `l1->val` and `l2->val`. Attach smaller to `tail->next`, advance pointer. `tail = tail->next`. Return `dummy.next`._
+  - **Revision Problem:**
+    - [ ] LC 21 Merge Two Sorted Lists
+
+### 📆 Day 100: String DP — Shortest Common Supersequence
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** SCS construction via LCS table backtrack
+- **C++ Focus:** `Backtracking string construction`
+- **Track A (Target Problems):**
+  - [ ] LC 1092 Shortest Common Supersequence
+  - [ ] LC 72 Edit Distance
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Max Depth of Binary Tree)
+  - **Quick Theory & C++ Guide:** _Base case `if(!root) return 0;`. Return `1 + max(maxDepth(root->left), maxDepth(root->right))`._
+  - **Revision Problem:**
+    - [ ] LC 104 Maximum Depth of Binary Tree
+
+### 📆 Day 101: String DP — Edit Distance Fundamentals
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Insert, Delete, Replace DP transitions
+- **C++ Focus:** `2D Edit Distance DP table`
+- **Track A (Target Problems):**
+  - [ ] LC 72 Edit Distance (deep dive)
+  - [ ] LC 115 Distinct Subsequences
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Level Order Traversal)
+  - **Quick Theory & C++ Guide:** _Queue `queue<TreeNode*> q`. Push `root`. Loop `while(!q.empty())`: `size = q.size()`. Process `size` nodes for current level vector, push non-null children._
+  - **Revision Problem:**
+    - [ ] LC 102 Binary Tree Level Order Traversal
+
+### 📆 Day 102: String DP — Distinct Subsequences & Interleaving
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Count subsequence matches, 2D boolean interleaving
+- **C++ Focus:** `Distinct subsequence count DP`
+- **Track A (Target Problems):**
+  - [ ] LC 115 Distinct Subsequences (re-solve)
+  - [ ] LC 97 Interleaving String
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Validation (Validate BST)
+  - **Quick Theory & C++ Guide:** _DFS with min/max range `validate(root, minNode, maxNode)`. Condition: `minNode < root->val < maxNode`. Recursively pass bounds to left and right._
+  - **Revision Problem:**
+    - [ ] LC 98 Validate Binary Search Tree
+
+### 📆 Day 103: String DP — Min Insertion Steps Palindrome
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Min insertions = len - LPS
+- **C++ Focus:** `LPS-based palindrome insertion DP`
+- **Track A (Target Problems):**
+  - [ ] LC 1312 Min Insertion Steps Palindrome
+  - [ ] LC 516 Longest Palindromic Subsequence
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Valid Parentheses)
+  - **Quick Theory & C++ Guide:** _Stack `stack<char> st`. For open brackets `'(', '{', '['`, push. For closing brackets, check if `!st.empty()` and top matches complement. Pop on match._
+  - **Revision Problem:**
+    - [ ] LC 20 Valid Parentheses
+
+### 📆 Day 104: String DP — Wildcard & Regex Matching
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Wildcard ? and * handling, Regex . and a* handling
+- **C++ Focus:** `2D matching DP grid`
+- **Track A (Target Problems):**
+  - [ ] LC 44 Wildcard Matching
+  - [ ] LC 10 Regular Expression Matching
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Longest Palindromic Substring)
+  - **Quick Theory & C++ Guide:** _Expand around center strategy. For each index `i`, call `expand(i, i)` (odd palindrome) and `expand(i, i+1)` (even palindrome). Track max length and start index._
+  - **Revision Problem:**
+    - [ ] LC 5 Longest Palindromic Substring
+
+### 📆 Day 105: LIS — O(N^2) & O(N log N) Binary Search
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[i] = max(dp[j]+1); Binary search tails optimization
+- **C++ Focus:** `Both O(N^2) and O(N log N) LIS`
+- **Track A (Target Problems):**
+  - [ ] LC 300 Longest Increasing Subsequence
+  - [ ] LC 354 Russian Doll Envelopes
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion (Pow(x, n) Binary Exponentiation)
+  - **Quick Theory & C++ Guide:** _Base case `n == 0 -> 1`. Half power `half = pow(x, n/2)`. If `n` even: `half * half`. If odd: `half * half * x`. Handle negative `n = -n, x = 1/x`._
+  - **Revision Problem:**
+    - [ ] LC 50 Pow(x, n)
+
+### 📆 Day 106: LIS Variations — Count & Bitonic
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Count of LIS, Longest Bitonic Subsequence
+- **C++ Focus:** `Dual array LIS count DP`
+- **Track A (Target Problems):**
+  - [ ] LC 673 Number of Longest Increasing Subsequence
+  - [ ] Longest Bitonic Subsequence (GFG)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Hard Minimum Window)
+  - **Quick Theory & C++ Guide:** _Expand right to include all target chars (`neededCount == 0`). Once valid, shrink left to minimize window while preserving validity. C++: `vector<int> map(128,0);`_
+  - **Revision Problem:**
+    - [ ] LC 76 Minimum Window Substring
+
+### 📆 Day 107: MCM Base — Matrix Chain Multiplication
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Interval DP split k in [i, j], memoization
+- **C++ Focus:** `MCM memoization template`
+- **Track A (Target Problems):**
+  - [ ] Matrix Chain Multiplication (GFG)
+  - [ ] LC 312 Burst Balloons
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (3Sum)
+  - **Quick Theory & C++ Guide:** _Sort array. Loop `i` from `0` to `n-3`. Skip duplicates `nums[i] == nums[i-1]`. Use 2 pointers `l = i+1, r = n-1` to find `nums[l] + nums[r] == -nums[i]`. Skip dupes on match._
+  - **Revision Problem:**
+    - [ ] LC 15 3Sum
+
+### 📆 Day 108: Interval DP — Palindrome Partition II & Cut Stick
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Precompute palindrome table + 1D DP, stick cut DP
+- **C++ Focus:** `Palindrome table + 1D DP`
+- **Track A (Target Problems):**
+  - [ ] LC 132 Palindrome Partitioning II
+  - [ ] LC 1547 Minimum Cost to Cut a Stick
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Cycle Start Node)
+  - **Quick Theory & C++ Guide:** _Find meeting point using fast/slow. Reset `slow = head`. Move both `slow` and `fast` 1 step at a time. Meeting point is cycle entry node._
+  - **Revision Problem:**
+    - [ ] LC 142 Linked List Cycle II
+
+### 📆 Day 109: Interval DP — Boolean Evaluation
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Count True/False ways across operator split points
+- **C++ Focus:** `3D interval DP`
+- **Track A (Target Problems):**
+  - [ ] Boolean Evaluation (GFG)
+  - [ ] LC 241 Different Ways Add Parentheses
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (First & Last Position)
+  - **Quick Theory & C++ Guide:** _Lower bound: find first `idx` where `nums[mid] >= target`. Upper bound: find first `idx` where `nums[mid] > target`. Range is `[first, last-1]`._
+  - **Revision Problem:**
+    - [ ] LC 34 Find First and Last Position of Element in Sorted Array
+
+### 📆 Day 110: Tree DP — Max Path Sum & Diameter
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Post-order DFS: single-path return vs global max update
+- **C++ Focus:** `Post-order tree DP`
+- **Track A (Target Problems):**
+  - [ ] LC 124 Binary Tree Maximum Path Sum
+  - [ ] LC 543 Diameter of Binary Tree (DP approach)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Capacity to Ship Packages)
+  - **Quick Theory & C++ Guide:** _Search range `capacity` in `[max(weights), sum(weights)]`. Feasibility: count days required to pack weights under capacity limit._
+  - **Revision Problem:**
+    - [ ] LC 1011 Capacity To Ship Packages Within D Days
+
+### 📆 Day 111: Tree DP — House Robber III & Cameras
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Return pair<robThis, skipThis>, 3-state camera tree DP
+- **C++ Focus:** `Pair-return tree DP`
+- **Track A (Target Problems):**
+  - [ ] LC 337 House Robber III
+  - [ ] LC 968 Binary Tree Cameras
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Group Anagrams)
+  - **Quick Theory & C++ Guide:** _Key = sorted string (or 26-count freq string). Map `unordered_map<string, vector<string>> groups`. Push original string into `groups[key]`._
+  - **Revision Problem:**
+    - [ ] LC 49 Group Anagrams
+
+### 📆 Day 112: Tree DP — Distribute Coins & Distance Sum
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Excess coins propagation through tree edges
+- **C++ Focus:** `Post-order excess coin flow`
+- **Track A (Target Problems):**
+  - [ ] LC 979 Distribute Coins in Binary Tree
+  - [ ] LC 834 Sum of Distances in Tree
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum + Hash Map (Subarray Sum Equals K)
+  - **Quick Theory & C++ Guide:** _Maintain `runningSum`. `unordered_map<int, int> prefMap; prefMap[0] = 1`. Add `prefMap[runningSum - k]` to total count, then `prefMap[runningSum]++`._
+  - **Revision Problem:**
+    - [ ] LC 560 Subarray Sum Equals K
+
+### 📆 Day 113: Stock DP — Buy/Sell I & II
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Single transaction (track min), unlimited transactions
+- **C++ Focus:** `Greedy & state-machine DP`
+- **Track A (Target Problems):**
+  - [ ] LC 121 Best Time Buy Sell Stock
+  - [ ] LC 122 Best Time Buy Sell Stock II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Next Greater Element I)
+  - **Quick Theory & C++ Guide:** _Decreasing stack + hashmap. Loop `nums2`: pop smaller stack elements and set `nextGreaterMap[popped] = curr`. Look up `nums1` in map._
+  - **Revision Problem:**
+    - [ ] LC 496 Next Greater Element I
+
+### 📆 Day 114: Stock DP — Buy/Sell III & IV
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** State machine: dp[i][buy/sell][k_left]
+- **C++ Focus:** `3D state machine DP`
+- **Track A (Target Problems):**
+  - [ ] LC 123 Best Time Buy Sell Stock III
+  - [ ] LC 188 Best Time Buy Sell Stock IV
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List + Min-Heap (Merge K Sorted Lists)
+  - **Quick Theory & C++ Guide:** _Min-heap storing `ListNode*` with custom `greater` comparator on `.val`. Push heads of all K lists. Extract min, attach to result, push `min->next`._
+  - **Revision Problem:**
+    - [ ] LC 23 Merge k Sorted Lists
+
+### 📆 Day 115: Stock DP — Cooldown & Transaction Fee
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Cooldown transition (i-2), Fee subtraction on sell
+- **C++ Focus:** `Cooldown & fee state machine DP`
+- **Track A (Target Problems):**
+  - [ ] LC 309 Stock with Cooldown
+  - [ ] LC 714 Stock with Transaction Fee
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Path Sum Target Check)
+  - **Quick Theory & C++ Guide:** _Base case `if(!root) return false;`. Leaf check `if(!root->left && !root->right) return target == root->val;`. Return `hasPathSum(left, target-val) || hasPathSum(right, target-val)`._
+  - **Revision Problem:**
+    - [ ] LC 112 Path Sum
+
+### 📆 Day 116: Digit DP — Count Unique Digits & Upper Bound
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Digit-by-digit recursion, tight bound tracking
+- **C++ Focus:** `Digit DP template function`
+- **Track A (Target Problems):**
+  - [ ] LC 357 Count Numbers Unique Digits
+  - [ ] LC 902 Numbers At Most N Digit Set
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Zigzag Level Order)
+  - **Quick Theory & C++ Guide:** _Level order BFS. Track `bool leftToRight = true`. Insert level values into vector using index `leftToRight ? i : size - 1 - i`. Flip flag per level._
+  - **Revision Problem:**
+    - [ ] LC 103 Binary Tree Zigzag Level Order Traversal
+
+### 📆 Day 117: Bitmask DP — TSP & Sufficient Team
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[mask][last] min distance visiting cities in mask
+- **C++ Focus:** `Bitmask DP template`
+- **Track A (Target Problems):**
+  - [ ] LC 1125 Smallest Sufficient Team
+  - [ ] LC 691 Stickers to Spell Word
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Recovery (Recover BST 2 Swapped Nodes)
+  - **Quick Theory & C++ Guide:** _Inorder DFS tracking `prev`, `first`, `second`. If `prev->val > curr->val`: if `!first` set `first = prev`, always set `second = curr`. Swap `first->val` and `second->val`._
+  - **Revision Problem:**
+    - [ ] LC 99 Recover Binary Search Tree
+
+### 📆 Day 118: DP — Maximal Square & Rectangle
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** dp[i][j] = min(top, left, diag)+1 for square, histogram rect
+- **C++ Focus:** `2D square DP, histogram rect`
+- **Track A (Target Problems):**
+  - [ ] LC 221 Maximal Square
+  - [ ] LC 85 Maximal Rectangle
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Simplify Path)
+  - **Quick Theory & C++ Guide:** _Split path by `/`. Use `vector<string>` stack. Ignore empty and `.`. For `..`, pop if not empty. For normal dir name, push. Join with `/`._
+  - **Revision Problem:**
+    - [ ] LC 71 Simplify Path
+
+### 📆 Day 119: DP — Catalan Numbers & Perfect Squares
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unique BST count (Catalan), min perfect squares
+- **C++ Focus:** `Catalan number DP`
+- **Track A (Target Problems):**
+  - [ ] LC 96 Unique Binary Search Trees
+  - [ ] LC 279 Perfect Squares
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Valid Palindrome)
+  - **Quick Theory & C++ Guide:** _Two pointers `left = 0, right = n - 1`. Skip non-alphanumeric `!isalnum(c)`. Compare `tolower(s[l]) == tolower(s[r])`._
+  - **Revision Problem:**
+    - [ ] LC 125 Valid Palindrome
+
+### 📆 Day 120: DP Practice — Grid DP Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled grid DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1463 Cherry Pickup II
+  - [ ] LC 576 Out of Boundary Paths
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / Bitwise (Power of Two)
+  - **Quick Theory & C++ Guide:** _Bitwise check: `n > 0 && (n & (n - 1)) == 0`. (Or recursive division by 2)._
+  - **Revision Problem:**
+    - [ ] LC 231 Power of Two
+
+### 📆 Day 121: DP Practice — Knapsack Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled knapsack DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 474 Ones and Zeroes
+  - [ ] LC 1155 Number Dice Rolls Target
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Min Subarray Sum)
+  - **Quick Theory & C++ Guide:** _Expand right running sum `sum += nums[right]`. While `sum >= target`, record `minLen = min(minLen, right - left + 1)` and `sum -= nums[left++]`._
+  - **Revision Problem:**
+    - [ ] LC 209 Minimum Size Subarray Sum
+
+### 📆 Day 122: DP Practice — String DP Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled string DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1216 Valid Palindrome III
+  - [ ] LC 87 Scramble String
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (3Sum Closest)
+  - **Quick Theory & C++ Guide:** _Sort array. Loop `i`, 2 pointers `l` and `r`. Track `minDiff = abs(target - sum)`. If `sum < target` `l++`, else `r--`._
+  - **Revision Problem:**
+    - [ ] LC 16 3Sum Closest
+
+### 📆 Day 123: DP Practice — LIS Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled LIS DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1626 Best Team No Conflicts
+  - [ ] LC 368 Largest Divisible Subset
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Remove Nth Node From End)
+  - **Quick Theory & C++ Guide:** _Dummy node trick `dummy->next = head`. Advance `fast` N+1 steps ahead. Move `fast` and `slow` together until `fast == nullptr`. `slow->next = slow->next->next`._
+  - **Revision Problem:**
+    - [ ] LC 19 Remove Nth Node From End of List
+
+### 📆 Day 124: DP Practice — MCM Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled MCM DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1039 Min Score Triangulation
+  - [ ] LC 664 Strange Printer
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Search Insert Position)
+  - **Quick Theory & C++ Guide:** _Standard binary search. Return `low` index after loop terminates (where element should be inserted)._
+  - **Revision Problem:**
+    - [ ] LC 35 Search Insert Position
+
+### 📆 Day 125: DP Practice — Tree DP Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled tree DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1372 Longest ZigZag Path
+  - [ ] LC 1339 Max Product Splitted BT
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Split Array Largest Sum)
+  - **Quick Theory & C++ Guide:** _Search range `maxSum` in `[max(nums), sum(nums)]`. Feasibility: greedy count of subarrays needed such that no subarray sum exceeds `maxSum`._
+  - **Revision Problem:**
+    - [ ] LC 410 Split Array Largest Sum
+
+### 📆 Day 126: DP Practice — Stock DP Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled stock DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 123 Buy/Sell Stock III (re-solve cold)
+  - [ ] LC 309 Cooldown (re-solve cold)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Longest Consecutive Sequence)
+  - **Quick Theory & C++ Guide:** _Insert all elements into `unordered_set<int> numSet`. Loop `x` in set: if `!numSet.count(x-1)` (start of sequence), count `x+1, x+2...` to find length._
+  - **Revision Problem:**
+    - [ ] LC 128 Longest Consecutive Sequence
+
+### 📆 Day 127: DP Practice — Digit/Bitmask DP Cold
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Unlabeled digit/bitmask DP cold solving
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1986 Min Work Sessions
+  - [ ] LC 2305 Fair Distribution Cookies
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum (Find Pivot Index)
+  - **Quick Theory & C++ Guide:** _Total sum `total`. Left sum `leftSum = 0`. Loop `i`: if `leftSum == total - leftSum - nums[i]`, return `i`. `leftSum += nums[i]`._
+  - **Revision Problem:**
+    - [ ] LC 724 Find Pivot Index
+
+### 📆 Day 128: DP Practice — Mixed DP Cold I
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Blind DP type identification
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 152 Maximum Product Subarray
+  - [ ] LC 256 Paint House
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Next Greater Element II Circular)
+  - **Quick Theory & C++ Guide:** _Loop `2 * N` times using index `i % N`. Decreasing stack storing indices `0..N-1`._
+  - **Revision Problem:**
+    - [ ] LC 503 Next Greater Element II
+
+### 📆 Day 129: DP Practice — Mixed DP Cold II
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Blind DP type identification
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 1259 Handshakes Don't Cross
+  - [ ] LC 1277 Count Square Submatrices
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Swap Nodes in Pairs)
+  - **Quick Theory & C++ Guide:** _Dummy node. Loop `while(curr->next && curr->next->next)`: `first = curr->next, second = curr->next->next`. Swap links: `first->next = second->next; second->next = first; curr->next = second; curr = first`._
+  - **Revision Problem:**
+    - [ ] LC 24 Swap Nodes in Pairs
+
+### 📆 Day 130: DP Template Recall — LCS, LIS, Knapsack
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Write LCS, LIS, Knapsack, MCM templates from blank page
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] LC 718 Max Length Repeated Subarray
+  - [ ] LC 712 Min ASCII Delete Sum
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Path Sum II - Collect Paths)
+  - **Quick Theory & C++ Guide:** _Backtracking DFS with `vector<int>& path`. Push `root->val`. At leaf if `target == val`, push `path` to results. Pop `root->val` before returning._
+  - **Revision Problem:**
+    - [ ] LC 113 Path Sum II
+
+### 📆 Day 131: DP Space Optimization Masterclass
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Transform 2D tables into 1D space optimized arrays
+- **C++ Focus:** `Space optimization drill`
+- **Track A (Target Problems):**
+  - [ ] LC 1143 LCS (1D space opt)
+  - [ ] LC 72 Edit Distance (1D space opt)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS/DFS (Binary Tree Right Side View)
+  - **Quick Theory & C++ Guide:** _Level order BFS: last node of each level is added to result. (Or DFS right-first with `depth == res.size()`)._
+  - **Revision Problem:**
+    - [ ] LC 199 Binary Tree Right Side View
+
+### 📆 Day 132: DP Game Theory (Stone Game)
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Minimax DP, optimal play for both players
+- **C++ Focus:** `Interval DP game theory`
+- **Track A (Target Problems):**
+  - [ ] LC 877 Stone Game
+  - [ ] LC 486 Predict the Winner
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Operations (Kth Smallest Element in BST)
+  - **Quick Theory & C++ Guide:** _Inorder traversal (L-Root-R) visits BST in sorted order. Decrement `k` on visiting root. Return `root->val` when `k == 0`._
+  - **Revision Problem:**
+    - [ ] LC 230 Kth Smallest Element in a BST
+
+### 📆 Day 133: DP Multi-State Paint House
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Multi-state DP: cost + min(other state options)
+- **C++ Focus:** `Multi-state DP solver`
+- **Track A (Target Problems):**
+  - [ ] LC 265 Paint House II
+  - [ ] LC 1220 Count Vowels Permutation
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Evaluate Reverse Polish Notation RPN)
+  - **Quick Theory & C++ Guide:** _Stack `stack<long long> st`. For numbers, push. For operators `+ - * /`, pop `b = st.top()`, pop `a = st.top()`, compute `a op b`, push result._
+  - **Revision Problem:**
+    - [ ] LC 150 Evaluate Reverse Polish Notation
+
+### 📆 Day 134: DP Practice — Hard Sequences
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Complex sequence DP
+- **C++ Focus:** `Cold DP solving`
+- **Track A (Target Problems):**
+  - [ ] LC 446 Arithmetic Slices II - Subsequence
+  - [ ] LC 1871 Jump Game VII
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Longest Palindrome Frequency)
+  - **Quick Theory & C++ Guide:** _Count char frequencies. Sum `(count / 2) * 2` for all chars. If any odd count exists, add 1 for center char._
+  - **Revision Problem:**
+    - [ ] LC 409 Longest Palindrome
+
+### 📆 Day 135: DP Phase Gate
+- **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Theory & Pattern:** Full blind DP solving under timer
+- **C++ Focus:** `Timer-based cold solving`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen Medium DP Cold
+  - [ ] Solve 1 Unseen Hard DP Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / Math (Power of Three)
+  - **Quick Theory & C++ Guide:** _Recursive: `n > 0 && (n == 1 || (n % 3 == 0 && isPowerOfThree(n / 3)))`. (Or max 32-bit power `1162261467 % n == 0`)._
+  - **Revision Problem:**
+    - [ ] LC 326 Power of Three
+
+
+
+# 🟠 PHASE 6: Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+
+### 📆 Day 136: Recursion Fundamentals — Power & Math
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Call stack visualization, log N reduction
+- **C++ Focus:** `Recursive Pow(x, n), Power of Two/Three/Four`
+- **Track A (Target Problems):**
+  - [ ] LC 50 Pow(x, n)
+  - [ ] LC 231 Power of Two
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Longest Repeating Replacement)
+  - **Quick Theory & C++ Guide:** _Window size `(right - left + 1) - maxFreq <= k`. If violated, decrement `count[s[left]]` and `left++`. C++: track `maxFreq` in window._
+  - **Revision Problem:**
+    - [ ] LC 424 Longest Repeating Character Replacement
+
+### 📆 Day 137: Recursion Fundamentals — Grammar & Sequence
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** D&C grammar tree symmetry, recursive sequence
+- **C++ Focus:** `Grammar symbol finder`
+- **Track A (Target Problems):**
+  - [ ] LC 326 Power of Three
+  - [ ] LC 342 Power of Four
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (4Sum)
+  - **Quick Theory & C++ Guide:** _Sort array. Nested loops `i` and `j` with duplicate skipping. 2 pointers `l = j+1, r = n-1` for remaining sum `target - nums[i] - nums[j]`._
+  - **Revision Problem:**
+    - [ ] LC 18 4Sum
+
+### 📆 Day 138: Recursion Fundamentals — Symbol & Fibonacci
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Grammar K-th symbol, Fibonacci recursion
+- **C++ Focus:** `Recursive symbol generator`
+- **Track A (Target Problems):**
+  - [ ] LC 779 K-th Symbol in Grammar
+  - [ ] LC 509 Fibonacci Number
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Middle of Linked List)
+  - **Quick Theory & C++ Guide:** _`slow = head, fast = head`. Loop `while(fast && fast->next)`: `slow = slow->next`, `fast = fast->next->next`. `slow` points to middle._
+  - **Revision Problem:**
+    - [ ] LC 876 Middle of the Linked List
+
+### 📆 Day 139: Divide & Conquer — Majority Element
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** D&C split into halves, merge count, Boyer-Moore
+- **C++ Focus:** `D&C and Boyer-Moore voting`
+- **Track A (Target Problems):**
+  - [ ] LC 169 Majority Element
+  - [ ] LC 241 Different Ways Add Parentheses
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Min in Rotated Sorted Array)
+  - **Quick Theory & C++ Guide:** _If `nums[mid] > nums[right]`, min lies in right half (`low = mid + 1`); else min is at `mid` or left half (`high = mid`)._
+  - **Revision Problem:**
+    - [ ] LC 153 Find Minimum in Rotated Sorted Array
+
+### 📆 Day 140: Divide & Conquer — Substrings & Quad Tree
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** D&C substring split on invalid chars, quad tree construction
+- **C++ Focus:** `D&C substring splitter`
+- **Track A (Target Problems):**
+  - [ ] LC 395 Longest Substring At Least K Repeating
+  - [ ] LC 427 Construct Quad Tree
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Min Max Distance Gas Stations)
+  - **Quick Theory & C++ Guide:** _Floating binary search on `dist` in `[0, max_gap]`. Feasibility: `count += floor((gap) / dist) <= K`._
+  - **Revision Problem:**
+    - [ ] LC 774 Minimize Max Distance to Gas Station
+
+### 📆 Day 141: Divide & Conquer — Tree Splitting
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** D&C max element tree split
+- **C++ Focus:** `D&C tree builder`
+- **Track A (Target Problems):**
+  - [ ] LC 889 Construct BT Pre/Post
+  - [ ] LC 654 Maximum Binary Tree
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Contains Duplicate)
+  - **Quick Theory & C++ Guide:** _Insert elements into `unordered_set<int>`. If `set.count(x)` before inserting, return `true`._
+  - **Revision Problem:**
+    - [ ] LC 217 Contains Duplicate
+
+### 📆 Day 142: Merge Sort Applications — Linked List Sort
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Fast/slow pointer split + merge sort on LL
+- **C++ Focus:** `O(N log N) linked list merge sort`
+- **Track A (Target Problems):**
+  - [ ] LC 148 Sort List
+  - [ ] LC 912 Sort an Array
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum (Binary Subarrays With Sum)
+  - **Quick Theory & C++ Guide:** _Prefix sum hashmap approach (`runningSum - goal`), or sliding window `atMost(goal) - atMost(goal - 1)`._
+  - **Revision Problem:**
+    - [ ] LC 930 Binary Subarrays With Sum
+
+### 📆 Day 143: Merge Sort Applications — Count Inversions
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Count pairs arr[i] > arr[j] during merge step
+- **C++ Focus:** `Modified merge sort inversion counter`
+- **Track A (Target Problems):**
+  - [ ] LC 315 Count Smaller Numbers After Self
+  - [ ] LC 493 Reverse Pairs
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Largest Rectangle in Histogram)
+  - **Quick Theory & C++ Guide:** _Increasing stack storing indices. Add dummy height 0 at end. Pop while `h[i] < h[st.top()]`: `height = h[pop]`, `width = st.empty() ? i : i - st.top() - 1`._
+  - **Revision Problem:**
+    - [ ] LC 84 Largest Rectangle in Histogram
+
+### 📆 Day 144: Merge Sort Applications — Range Sum & Pairs
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Prefix sum array merge sort range counter
+- **C++ Focus:** `Merge sort range sum counter`
+- **Track A (Target Problems):**
+  - [ ] LC 327 Count of Range Sum
+  - [ ] LC 1649 Create Sorted Array Instructions
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Reverse Nodes in k-Group)
+  - **Quick Theory & C++ Guide:** _Count K nodes. If >= K exist, reverse K nodes using standard 3-pointer reversal (`prev, curr, next`). Recursively call for `kGroup(nextGroupHead, k)`._
+  - **Revision Problem:**
+    - [ ] LC 25 Reverse Nodes in k-Group
+
+### 📆 Day 145: Merge Sort Applications — Advanced
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Advanced merge sort counting techniques
+- **C++ Focus:** `Merge sort application solver`
+- **Track A (Target Problems):**
+  - [ ] LC 2426 Number Pairs Satisfying Inequality
+  - [ ] LC 315 Count Smaller (re-solve)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Diameter of Binary Tree)
+  - **Quick Theory & C++ Guide:** _Post-order DFS returning height of subtree. Update global `maxDiameter = max(maxDiameter, leftHeight + rightHeight)`. Return `1 + max(lh, rh)`._
+  - **Revision Problem:**
+    - [ ] LC 543 Diameter of Binary Tree
+
+### 📆 Day 146: Bit Manipulation Fundamentals
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** AND, OR, XOR, NOT, shifts, n & (n-1) LSB clear
+- **C++ Focus:** `Bit manipulation utility functions`
+- **Track A (Target Problems):**
+  - [ ] LC 136 Single Number
+  - [ ] LC 191 Number of 1 Bits
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Find Max Value in Each Row)
+  - **Quick Theory & C++ Guide:** _Level order BFS. Track `maxVal` for each level of size `q.size()`. Push `maxVal` to result vector._
+  - **Revision Problem:**
+    - [ ] LC 515 Find Largest Value in Each Tree Row
+
+### 📆 Day 147: Bit Manipulation — Single Number II & III
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Ones/twos state machine (II), partitioned XOR (III)
+- **C++ Focus:** `Bitwise state machine, partitioned XOR`
+- **Track A (Target Problems):**
+  - [ ] LC 137 Single Number II
+  - [ ] LC 260 Single Number III
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Operations (LCA of BST)
+  - **Quick Theory & C++ Guide:** _If `p->val < root->val` and `q->val < root->val`, LCA is in left subtree. If both > root, LCA is in right subtree. Else `root` is LCA._
+  - **Revision Problem:**
+    - [ ] LC 235 Lowest Common Ancestor of a Binary Search Tree
+
+### 📆 Day 148: Bit Manipulation — Counting & Missing
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** dp[i] = dp[i >> 1] + (i & 1), XOR missing number finder
+- **C++ Focus:** `O(N) DP bit counting`
+- **Track A (Target Problems):**
+  - [ ] LC 338 Counting Bits
+  - [ ] LC 268 Missing Number
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Basic Calculator I)
+  - **Quick Theory & C++ Guide:** _Track `runningResult`, `sign = 1`, stack for nested `(` parens storing `(result, sign)`. Reset sign and result inside parens._
+  - **Revision Problem:**
+    - [ ] LC 224 Basic Calculator
+
+### 📆 Day 149: Bit Manipulation — Reverse & Range AND
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Bit reversal loop, common prefix of range [m, n]
+- **C++ Focus:** `Bit reversal, range AND prefix`
+- **Track A (Target Problems):**
+  - [ ] LC 190 Reverse Bits
+  - [ ] LC 201 Bitwise AND Range
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Palindromic Substrings Count)
+  - **Quick Theory & C++ Guide:** _Expand around center strategy for all 2N-1 centers. Count total valid expansions for odd and even centers._
+  - **Revision Problem:**
+    - [ ] LC 647 Palindromic Substrings
+
+### 📆 Day 150: Recursion, D&C & Bit Phase Gate
+- **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Theory & Pattern:** Blank-page recall of Merge Sort Inversions & Bitwise tricks
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen D&C Hard Cold
+  - [ ] Solve 1 Unseen Bit Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / Bitwise (Power of Four)
+  - **Quick Theory & C++ Guide:** _Check: power of two `(n & (n - 1)) == 0` AND `(n - 1) % 3 == 0` (or `n & 0x55555555`)._
+  - **Revision Problem:**
+    - [ ] LC 342 Power of Four
+
+
+
+# 🟤 PHASE 7: Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+
+### 📆 Day 151: Construction Binary Tree — Preorder & Inorder
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Preorder root lookup + Inorder partition mapping
+- **C++ Focus:** `Recursive construction with hash map`
+- **Track A (Target Problems):**
+  - [ ] LC 105 Construct BT Preorder Inorder
+  - [ ] LC 106 Construct BT Inorder Postorder
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Permutation in String)
+  - **Quick Theory & C++ Guide:** _Fixed window size = `s1.length()`. Compare 26-char frequency vectors `count1` and `count2`. Slide window right by adding right char and removing left char._
+  - **Revision Problem:**
+    - [ ] LC 567 Permutation in String
+
+### 📆 Day 152: Construction Binary Tree — BST Array & Preorder
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Middle element root, bound-based preorder BST build
+- **C++ Focus:** `Balanced BST array build`
+- **Track A (Target Problems):**
+  - [ ] LC 108 Convert Sorted Array BST
+  - [ ] LC 1008 Construct BST Preorder
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (Trapping Rain Water)
+  - **Quick Theory & C++ Guide:** _Pointers `left = 0, right = n - 1`. Maintain `maxL` and `maxR`. If `maxL < maxR`, water += `maxL - height[left]`, `left++`; else process right._
+  - **Revision Problem:**
+    - [ ] LC 42 Trapping Rain Water
+
+### 📆 Day 153: Construction Binary Tree — Max Tree & Pre/Post
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Max element root, match next preorder element
+- **C++ Focus:** `Recursive max array split`
+- **Track A (Target Problems):**
+  - [ ] LC 654 Maximum Binary Tree
+  - [ ] LC 889 Construct BT Preorder Postorder
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Two Pointers (Intersection of Two LLs)
+  - **Quick Theory & C++ Guide:** _Pointers `pA = headA, pB = headB`. Loop `while(pA != pB)`: `pA = pA ? pA->next : headB`, `pB = pB ? pB->next : headA`. They meet at intersection._
+  - **Revision Problem:**
+    - [ ] LC 160 Intersection of Two Linked Lists
+
+### 📆 Day 154: Tree Serialization — Binary Tree & BST
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Preorder string with nulls, compact without nulls for BST
+- **C++ Focus:** `Codec class serialize/deserialize`
+- **Track A (Target Problems):**
+  - [ ] LC 297 Serialize Deserialize BT
+  - [ ] LC 449 Serialize Deserialize BST
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Find Peak Element)
+  - **Quick Theory & C++ Guide:** _If `nums[mid] < nums[mid + 1]`, peak lies to the right (`low = mid + 1`); else peak is at `mid` or left (`high = mid`)._
+  - **Revision Problem:**
+    - [ ] LC 162 Find Peak Element
+
+### 📆 Day 155: Tree Serialization — N-ary Tree & Encoding
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Preorder with child count, left-child right-sibling encoding
+- **C++ Focus:** `Multi-child tree codec`
+- **Track A (Target Problems):**
+  - [ ] LC 428 Serialize Deserialize N-ary Tree
+  - [ ] LC 431 Encode N-ary Tree BT
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Smallest Divisor)
+  - **Quick Theory & C++ Guide:** _Search range `divisor` in `[1, max(nums)]`. Feasibility: `sum(ceil(num / divisor)) <= threshold`._
+  - **Revision Problem:**
+    - [ ] LC 1283 Find the Smallest Divisor Given a Threshold
+
+### 📆 Day 156: Tree Serialization — String Tree & Depth Parsing
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Parenthesis tree string builder, dash count depth parsing
+- **C++ Focus:** `Depth-parsed string tree reconstructor`
+- **Track A (Target Problems):**
+  - [ ] LC 606 Construct String BT
+  - [ ] LC 1028 Recover Tree Preorder Traversal
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Valid Anagram)
+  - **Quick Theory & C++ Guide:** _Frequency array `vector<int> freq(26, 0)`. Increment for `s`, decrement for `t`. Return true if all counts are 0._
+  - **Revision Problem:**
+    - [ ] LC 242 Valid Anagram
+
+### 📆 Day 157: Lowest Common Ancestor — Binary Tree DFS
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Recursive DFS return when node found, merge left/right
+- **C++ Focus:** `General BT LCA template`
+- **Track A (Target Problems):**
+  - [ ] LC 236 Lowest Common Ancestor BT
+  - [ ] LC 1123 LCA Deepest Leaves
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum + Modulo (Subarray Sums Divisible by K)
+  - **Quick Theory & C++ Guide:** _Maintain `mod = ((runningSum % k) + k) % k`. Map `modCount[mod]`. Increment result by `modCount[mod]`, then `modCount[mod]++`._
+  - **Revision Problem:**
+    - [ ] LC 974 Subarray Sums Divisible by K
+
+### 📆 Day 158: Lowest Common Ancestor — Existence Check & Parent Pointers
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Verify nodes exist in tree, move to equal height via parent pointers
+- **C++ Focus:** `Search-validated LCA, parent LCA`
+- **Track A (Target Problems):**
+  - [ ] LC 1644 LCA Binary Tree II
+  - [ ] LC 1650 LCA Binary Tree III
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Maximal Rectangle 2D)
+  - **Quick Theory & C++ Guide:** _Build 1D histogram height array per matrix row. Call 1D Largest Rectangle in Histogram on each row._
+  - **Revision Problem:**
+    - [ ] LC 85 Maximal Rectangle
+
+### 📆 Day 159: Lowest Common Ancestor — Multi-Node & Deepest Subtree
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Generalize LCA to set of nodes, post-order max depth
+- **C++ Focus:** `Multi-node set LCA`
+- **Track A (Target Problems):**
+  - [ ] LC 1676 LCA Binary Tree IV
+  - [ ] LC 865 Smallest Subtree Deepest Nodes
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Reverse Sublist Range [left, right])
+  - **Quick Theory & C++ Guide:** _Advance `prev` pointer to node `left-1`. Loop `right - left` times: `curr = prev->next, temp = curr->next; curr->next = temp->next; temp->next = prev->next; prev->next = temp`._
+  - **Revision Problem:**
+    - [ ] LC 92 Reverse Linked List II
+
+### 📆 Day 160: Euler Tour & Tree Flattening — BT to LL
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** In-place right pointer linking via preorder
+- **C++ Focus:** `In-place tree flattening`
+- **Track A (Target Problems):**
+  - [ ] LC 114 Flatten Binary Tree Linked List
+  - [ ] LC 897 Increasing Order Search Tree
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Binary Tree Max Path Sum)
+  - **Quick Theory & C++ Guide:** _DFS returns max single-branch sum `max(0, max(leftBranch, rightBranch)) + root->val`. Update global `maxSum = max(maxSum, leftBranch + rightBranch + root->val)`._
+  - **Revision Problem:**
+    - [ ] LC 124 Binary Tree Maximum Path Sum
+
+### 📆 Day 161: Euler Tour & Tree Flattening — Multilevel Doubly LL
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Recursive child-list flattener for doubly linked lists
+- **C++ Focus:** `Child-list flattener`
+- **Track A (Target Problems):**
+  - [ ] LC 430 Flatten Multilevel Doubly LL
+  - [ ] LC 971 Flip BT Match Preorder
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Average of Levels in Binary Tree)
+  - **Quick Theory & C++ Guide:** _Level order BFS. Accumulate `double sum` across `q.size()` nodes. Push `sum / size` to result vector._
+  - **Revision Problem:**
+    - [ ] LC 637 Average of Levels in Binary Tree
+
+### 📆 Day 162: Euler Tour & Tree Flattening — Reorder & Depth Parsing
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Combinatorics (Pascal triangle) for BST reorder count
+- **C++ Focus:** `Combinatorial BST count`
+- **Track A (Target Problems):**
+  - [ ] LC 1028 Recover Tree Preorder (re-solve)
+  - [ ] LC 1569 Ways Reorder Array Same BST
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Deletion (Delete Node in BST - CRITICAL REVISION)
+  - **Quick Theory & C++ Guide:** _Search node: if `key < root->val` `left = deleteNode(left)`, if `key > root->val` `right = deleteNode(right)`. If matched: Case 1 (0/1 child): return non-null child or nullptr. Case 2 (2 children): find min node in right subtree (`successor`), copy value to root, call `root->right = deleteNode(root->right, successor->val)`._
+  - **Revision Problem:**
+    - [ ] LC 450 Delete Node in a BST
+
+### 📆 Day 163: Advanced Tree Practice — Unlabeled I
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Unlabeled tree construction & LCA problems
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 333 Largest BST Subtree
+  - [ ] LC 426 Convert BST Sorted DLL
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Basic Calculator II - +, -, *, /)
+  - **Quick Theory & C++ Guide:** _Track `currentNum`, `lastOp = '+'`, `stack<int> st`. Push numbers onto stack (negate if `-`). For `*` or `/`, pop top, evaluate immediately, push back. Sum stack._
+  - **Revision Problem:**
+    - [ ] LC 227 Basic Calculator II
+
+### 📆 Day 164: Advanced Tree Practice — Unlabeled II
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Unlabeled tree serialization problems
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] LC 173 BST Iterator
+  - [ ] LC 99 Recover BST
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Valid Palindrome II - Deletion Allowed)
+  - **Quick Theory & C++ Guide:** _Two pointers `l, r`. On mismatch `s[l] != s[r]`, check if `isPal(l+1, r)` OR `isPal(l, r-1)` is true._
+  - **Revision Problem:**
+    - [ ] LC 680 Valid Palindrome II
+
+### 📆 Day 165: Advanced Tree Phase Gate
+- **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Theory & Pattern:** Blank-page recall of Serialization, LCA & Flattening templates
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen Tree Hard Cold
+  - [ ] Solve 1 Unseen LCA Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion (K-th Symbol in Grammar)
+  - **Quick Theory & C++ Guide:** _Base case `n == 1 -> 0`. Midpoint = `2^(n-2)`. If `k <= mid`, symbol is `kthGrammar(n-1, k)`. Else symbol is `!kthGrammar(n-1, k - mid)`._
+  - **Revision Problem:**
+    - [ ] LC 779 K-th Symbol in Grammar
+
+
+
+# ⚪ PHASE 8: Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+
+### 📆 Day 166: Trie Fundamentals — Prefix Tree
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** TrieNode struct {children[26], isEnd}, prefix sharing
+- **C++ Focus:** `Trie class from scratch`
+- **Track A (Target Problems):**
+  - [ ] LC 208 Implement Trie (Prefix Tree)
+  - [ ] LC 211 Design Add Search Words
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Fruit Into Baskets - Max 2 Distinct)
+  - **Quick Theory & C++ Guide:** _Maintain window with at most 2 distinct keys in `unordered_map`. If `map.size() > 2`, shrink left until `map[s[left]] == 0` and erase._
+  - **Revision Problem:**
+    - [ ] LC 904 Fruit Into Baskets
+
+### 📆 Day 167: Trie + Backtracking — Grid Search & Suggestions
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Insert dict into trie, DFS grid with trie pruning
+- **C++ Focus:** `Grid DFS + Trie search`
+- **Track A (Target Problems):**
+  - [ ] LC 212 Word Search II
+  - [ ] LC 648 Replace Words
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (Two Sum II Sorted)
+  - **Quick Theory & C++ Guide:** _Sorted array. Pointers `left = 0, right = n - 1`. If `sum == target` return 1-based indices. If `sum < target` `left++`, else `right--`._
+  - **Revision Problem:**
+    - [ ] LC 167 Two Sum II - Input Array Is Sorted
+
+### 📆 Day 168: Trie Map Sum & Search Suggestions
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Trie prefix map sum accumulation, top-3 lexicographical matches
+- **C++ Focus:** `Trie prefix map sum`
+- **Track A (Target Problems):**
+  - [ ] LC 677 Map Sum Pairs
+  - [ ] LC 1268 Search Suggestions System
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Palindrome LL)
+  - **Quick Theory & C++ Guide:** _Find middle with fast/slow. Reverse second half of list (`prev = null, curr = mid`). Compare first half and reversed second half element by element._
+  - **Revision Problem:**
+    - [ ] LC 234 Palindrome Linked List
+
+### 📆 Day 169: Bitwise Trie — Maximum XOR
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** 32-bit binary trie, greedy bit selection for max XOR
+- **C++ Focus:** `Binary Trie max XOR calculator`
+- **Track A (Target Problems):**
+  - [ ] LC 421 Max XOR Two Numbers Array
+  - [ ] LC 1707 Max XOR Element From Array
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Standard Template)
+  - **Quick Theory & C++ Guide:** _Overflow safe `mid = low + (high - low) / 2`. Loop `while(low <= high)`. If `nums[mid] == target` return `mid`._
+  - **Revision Problem:**
+    - [ ] LC 704 Binary Search
+
+### 📆 Day 170: String Matching — KMP Algorithm
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** LPS (Longest Proper Prefix Suffix) array construction O(N+M)
+- **C++ Focus:** `KMP LPS array builder & search template`
+- **Track A (Target Problems):**
+  - [ ] LC 28 Find First Occurrence String
+  - [ ] LC 459 Repeated Substring Pattern
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Min Days to Make Bouquets)
+  - **Quick Theory & C++ Guide:** _Search range `days` in `[min(bloom), max(bloom)]`. Feasibility: count contiguous bloomed flowers of size `k`._
+  - **Revision Problem:**
+    - [ ] LC 1482 Minimum Number of Days to Make m Bouquets
+
+### 📆 Day 171: String Matching — Z-Algorithm & Substring Repeat
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Z-array prefix matching O(N) linear search
+- **C++ Focus:** `Z-algorithm implementation`
+- **Track A (Target Problems):**
+  - [ ] LC 686 Repeated String Match
+  - [ ] LC 796 Rotate String
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing + Min-Heap (Top K Frequent Elements)
+  - **Quick Theory & C++ Guide:** _Count frequencies in `unordered_map`. Maintain min-heap of size K stored as `pair<freq, num>`. Extract elements from heap._
+  - **Revision Problem:**
+    - [ ] LC 347 Top K Frequent Elements
+
+### 📆 Day 172: String Matching — Substring Search Applications
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Pattern matching applications
+- **C++ Focus:** `String matching solver`
+- **Track A (Target Problems):**
+  - [ ] LC 1408 String Matching Array
+  - [ ] LC 1668 Max Repeating Substring
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum + Modulo (Continuous Subarray Sum)
+  - **Quick Theory & C++ Guide:** _Store first seen index of `runningSum % k` in `unordered_map<int, int> modMap; modMap[0] = -1`. If `i - modMap[mod] >= 2`, return true._
+  - **Revision Problem:**
+    - [ ] LC 523 Continuous Subarray Sum
+
+### 📆 Day 173: Rolling Hash — Rabin-Karp Algorithm
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Polynomial rolling hash, modular arithmetic collision handling
+- **C++ Focus:** `Rabin-Karp rolling hash template`
+- **Track A (Target Problems):**
+  - [ ] LC 187 Repeated DNA Sequences
+  - [ ] LC 1044 Longest Duplicate Substring
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Online Stock Span)
+  - **Quick Theory & C++ Guide:** _Stack storing pairs `(price, span)`. While `!st.empty() && price >= st.top().price`, `span += st.top().span`, `st.pop()`. Push `(price, span)`._
+  - **Revision Problem:**
+    - [ ] LC 901 Online Stock Span
+
+### 📆 Day 174: Rolling Hash — Double Hashing & Substring Search
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Double hashing to eliminate hash collisions
+- **C++ Focus:** `Double rolling hash binary search`
+- **Track A (Target Problems):**
+  - [ ] LC 1062 Longest Repeating Substring
+  - [ ] LC 1554 Strings Differ by One Character
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List + Map (Copy List with Random Pointer)
+  - **Quick Theory & C++ Guide:** _Pass 1: Map old nodes to new nodes `map[old] = new Node(old->val)`. Pass 2: Set `map[old]->next = map[old->next]` and `map[old]->random = map[old->random]`._
+  - **Revision Problem:**
+    - [ ] LC 138 Copy List with Random Pointer
+
+### 📆 Day 175: Rolling Hash — Palindrome Prefix & Advanced Hash
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Shortest palindrome prefix via rolling hash
+- **C++ Focus:** `Rolling hash palindrome prefix finder`
+- **Track A (Target Problems):**
+  - [ ] LC 214 Shortest Palindrome
+  - [ ] LC 2156 Find Substring Given Hash Value
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Invert Binary Tree)
+  - **Quick Theory & C++ Guide:** _Base case `if(!root) return nullptr;`. Swap left and right subtrees: `swap(root->left, root->right)`. Recursively invert both subtrees._
+  - **Revision Problem:**
+    - [ ] LC 226 Invert Binary Tree
+
+### 📆 Day 176: Palindrome Techniques — Two Pointers & Center Expansion
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Valid palindrome checks, expand around center O(N^2)
+- **C++ Focus:** `Two-pointer & center expansion validators`
+- **Track A (Target Problems):**
+  - [ ] LC 5 Longest Palindromic Substring
+  - [ ] LC 125 Valid Palindrome
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS / Pointer (Populate Next Right Pointers)
+  - **Quick Theory & C++ Guide:** _Level order BFS linking `curr->next = q.front()`. (Or constant space using parent pointers `curr->left->next = curr->right`)._
+  - **Revision Problem:**
+    - [ ] LC 116 Populating Next Right Pointers in Each Node
+
+### 📆 Day 177: Palindrome Techniques — Frequency & Substring Count
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Frequency map palindrome construction, count palindromic cuts
+- **C++ Focus:** `Palindrome frequency builder`
+- **Track A (Target Problems):**
+  - [ ] LC 409 Longest Palindrome
+  - [ ] LC 647 Palindromic Substrings
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Operations (Search in a BST)
+  - **Quick Theory & C++ Guide:** _If `!root || root->val == val` return root. If `val < root->val` search left; else search right._
+  - **Revision Problem:**
+    - [ ] LC 700 Search in a Binary Search Tree
+
+### 📆 Day 178: Palindrome Techniques — Valid Palindrome II & Deletion
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Single character deletion palindrome validation
+- **C++ Focus:** `Valid palindrome II validator`
+- **Track A (Target Problems):**
+  - [ ] LC 680 Valid Palindrome II
+  - [ ] LC 1328 Break Palindrome
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Decode String)
+  - **Quick Theory & C++ Guide:** _Dual stacks: `numStack` for repeat counts, `strStack` for parent strings. On `[`, push count and current str, reset. On `]`, pop count and append current str to popped str._
+  - **Revision Problem:**
+    - [ ] LC 394 Decode String
+
+### 📆 Day 179: Manacher's Algorithm — O(N) Palindromes
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Palindrome radius array with center expansion O(N)
+- **C++ Focus:** `Manacher's linear palindrome template`
+- **Track A (Target Problems):**
+  - [ ] LC 5 Longest Palindromic Substring (Manacher)
+  - [ ] LC 647 Palindromic Substrings (Manacher)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Break a Palindrome)
+  - **Quick Theory & C++ Guide:** _If `n == 1` return empty. Loop first half `0..n/2 - 1`: replace first non-'a' char with 'a'. If all are 'a', change last char to 'b'._
+  - **Revision Problem:**
+    - [ ] LC 1328 Break a Palindrome
+
+### 📆 Day 180: Trie, String & Palindrome Phase Gate
+- **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Theory & Pattern:** Blank-page recall of Trie, KMP LPS & Rolling Hash templates
+- **C++ Focus:** `Template recall drill`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen Trie Hard Cold
+  - [ ] Solve 1 Unseen String Matching Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion / DP (Fibonacci Number)
+  - **Quick Theory & C++ Guide:** _Base case `n <= 1 -> n`. Memoization table or 2-variable iterative `prev2 = 0, prev1 = 1`._
+  - **Revision Problem:**
+    - [ ] LC 509 Fibonacci Number
+
+
+
+# 🔵 PHASE 9: Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+
+### 📆 Day 181: Matrix Traversal — In-Place Rotate Image
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** In-place transpose + reverse rows = 90 degree rotation
+- **C++ Focus:** `Matrix rotation algorithm`
+- **Track A (Target Problems):**
+  - [ ] LC 48 Rotate Image
+  - [ ] LC 59 Spiral Matrix II
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Variable Length)
+  - **Quick Theory & C++ Guide:** _Maintain window bounds [left, right] with hash set / freq map. Expand right; if duplicate seen, shrink left until valid. C++: `unordered_map<char,int> count;`_
+  - **Revision Problem:**
+    - [ ] LC 3 Longest Substring Without Repeating Characters
+
+### 📆 Day 182: Matrix Traversal — Zero Matrix & Game of Life
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Row/Col zero marking, bitmask state encoding in-place
+- **C++ Focus:** `In-place matrix state updates`
+- **Track A (Target Problems):**
+  - [ ] LC 73 Set Matrix Zeroes
+  - [ ] LC 289 Game of Life
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (Container With Most Water)
+  - **Quick Theory & C++ Guide:** _Pointers `left = 0, right = n - 1`. Area = `min(h[l], h[r]) * (r - l)`. Move pointer with smaller height inwards to attempt finding taller boundary._
+  - **Revision Problem:**
+    - [ ] LC 11 Container With Most Water
+
+### 📆 Day 183: Matrix Traversal — Diagonal & Spiral Traversal
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Diagonal direction flipping, spiral layer boundaries
+- **C++ Focus:** `Diagonal & spiral traversal loops`
+- **Track A (Target Problems):**
+  - [ ] LC 498 Diagonal Traverse
+  - [ ] LC 885 Spiral Matrix III
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Cycle Detection)
+  - **Quick Theory & C++ Guide:** _Pointers `slow = head, fast = head`. Advance `slow = slow->next`, `fast = fast->next->next`. If `slow == fast` cycle exists. C++ check `fast && fast->next`._
+  - **Revision Problem:**
+    - [ ] LC 141 Linked List Cycle
+
+### 📆 Day 184: Simulation Basics — Direction Vectors & Robot
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Direction vectors dx[], dy[], turn right/left logic
+- **C++ Focus:** `Directional simulation logic`
+- **Track A (Target Problems):**
+  - [ ] LC 6 Zigzag Conversion
+  - [ ] LC 657 Robot Return to Origin
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (Search in Rotated Sorted Array)
+  - **Quick Theory & C++ Guide:** _Identify sorted half: if `nums[l] <= nums[mid]`, left half is sorted. Check if target lies in `[nums[l], nums[mid]]`. Otherwise search right half._
+  - **Revision Problem:**
+    - [ ] LC 33 Search in Rotated Sorted Array
+
+### 📆 Day 185: Simulation Advanced — Walking Robot & Grid Bounce
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Obstacle set lookup during robot movement, ball bounce simulation
+- **C++ Focus:** `Complex state simulation loops`
+- **Track A (Target Problems):**
+  - [ ] LC 874 Walking Robot Simulation
+  - [ ] LC 1706 Where Will Ball Fall
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Koko Eating Bananas)
+  - **Quick Theory & C++ Guide:** _Search range `speed` in `[1, max(piles)]`. Feasibility `check(k)`: `hours = sum(ceil(pile / k)) <= H`. If valid `high = mid`, else `low = mid + 1`._
+  - **Revision Problem:**
+    - [ ] LC 875 Koko Eating Bananas
+
+### 📆 Day 186: Simulation Advanced — Circular Simulation & Matrix Convert
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Josephus problem circular simulation, 1D to 2D matrix conversion
+- **C++ Focus:** `Circular queue simulation`
+- **Track A (Target Problems):**
+  - [ ] LC 1823 Find Winner Circular Game
+  - [ ] LC 2022 Convert 1D Array 2D Array
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 06 — Hashing & Frequency Maps — Hashing (Two Sum)
+  - **Quick Theory & C++ Guide:** _Use `unordered_map<int, int> seen`. Loop `nums[i]`, complement = `target - nums[i]`. If seen return `{seen[comp], i}`, else `seen[nums[i]] = i`._
+  - **Revision Problem:**
+    - [ ] LC 1 Two Sum
+
+### 📆 Day 187: Math Fundamentals — GCD, Sqrt & Power
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Euclidean GCD, binary search integer sqrt, fast exponentiation
+- **C++ Focus:** `GCD, modular exponentiation`
+- **Track A (Target Problems):**
+  - [ ] LC 50 Pow(x, n)
+  - [ ] LC 231 Power of Two
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 07 — Prefix Sum & Running Sum — Prefix Sum (Immutable Range Query)
+  - **Quick Theory & C++ Guide:** _Precompute `pref[i] = pref[i-1] + nums[i-1]`. Range sum `[L, R]` = `pref[R+1] - pref[L]` in O(1)._
+  - **Revision Problem:**
+    - [ ] LC 303 Range Sum Query - Immutable
+
+### 📆 Day 188: Math Fundamentals — Sieve & Happy Number
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Sieve of Eratosthenes prime count, Fast/slow cycle detection
+- **C++ Focus:** `Sieve of Eratosthenes`
+- **Track A (Target Problems):**
+  - [ ] LC 326 Power of Three
+  - [ ] LC 342 Power of Four
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 08 — Monotonic Stack — Monotonic Stack (Daily Temperatures)
+  - **Quick Theory & C++ Guide:** _Decreasing stack storing indices. Loop `i`: while `!st.empty() && temp[i] > temp[st.top()]`, pop `idx = st.top()` and `ans[idx] = i - idx`. Push `i`._
+  - **Revision Problem:**
+    - [ ] LC 739 Daily Temperatures
+
+### 📆 Day 189: Math Fundamentals — Grammar & Sequence
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** D&C grammar tree symbol evaluation
+- **C++ Focus:** `Grammar sequence generator`
+- **Track A (Target Problems):**
+  - [ ] LC 779 K-th Symbol in Grammar
+  - [ ] LC 509 Fibonacci Number
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 09 — Linked List Manipulation — Linked List (Merge Two Sorted Lists)
+  - **Quick Theory & C++ Guide:** _Dummy head node `dummy`. Compare `l1->val` and `l2->val`. Attach smaller to `tail->next`, advance pointer. `tail = tail->next`. Return `dummy.next`._
+  - **Revision Problem:**
+    - [ ] LC 21 Merge Two Sorted Lists
+
+### 📆 Day 190: Matrix & Simulation Phase Gate
+- **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Theory & Pattern:** Solve matrix & simulation problems under timer
+- **C++ Focus:** `Timer-based cold solving`
+- **Track A (Target Problems):**
+  - [ ] Solve 1 Unseen Matrix Hard Cold
+  - [ ] Solve 1 Unseen Simulation Hard Cold
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 10 — Tree DFS Traversals — Tree DFS (Max Depth of Binary Tree)
+  - **Quick Theory & C++ Guide:** _Base case `if(!root) return 0;`. Return `1 + max(maxDepth(root->left), maxDepth(root->right))`._
+  - **Revision Problem:**
+    - [ ] LC 104 Maximum Depth of Binary Tree
+
+
+
+# 🟢 PHASE 10: Advanced DS & Mock Interview Validation (Days 191–200)
+
+### 📆 Day 191: Segment Tree — Build, Point Update & Range Query
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** Complete binary tree array, query O(log N), update O(log N)
+- **C++ Focus:** `class SegmentTree from scratch`
+- **Track A (Target Problems):**
+  - [ ] LC 307 Range Sum Query - Mutable
+  - [ ] LC 303 Range Sum Query - Immutable
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 11 — Tree BFS & Level Order — Tree BFS (Level Order Traversal)
+  - **Quick Theory & C++ Guide:** _Queue `queue<TreeNode*> q`. Push `root`. Loop `while(!q.empty())`: `size = q.size()`. Process `size` nodes for current level vector, push non-null children._
+  - **Revision Problem:**
+    - [ ] LC 102 Binary Tree Level Order Traversal
+
+### 📆 Day 192: Segment Tree — Lazy Propagation
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** Deferred range updates pushed down on demand
+- **C++ Focus:** `class LazySegmentTree`
+- **Track A (Target Problems):**
+  - [ ] LC 732 My Calendar III
+  - [ ] LC 218 The Skyline Problem
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 12 — BST Operations & Delete Node — BST Validation (Validate BST)
+  - **Quick Theory & C++ Guide:** _DFS with min/max range `validate(root, minNode, maxNode)`. Condition: `minNode < root->val < maxNode`. Recursively pass bounds to left and right._
+  - **Revision Problem:**
+    - [ ] LC 98 Validate Binary Search Tree
+
+### 📆 Day 193: Fenwick Tree (BIT) & Sparse Table
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** Lowbit x & (-x) prefix sums, O(1) static RMQ sparse table
+- **C++ Focus:** `Fenwick Tree & Sparse Table classes`
+- **Track A (Target Problems):**
+  - [ ] LC 308 Range Sum Query 2D Mutable
+  - [ ] Range Minimum Query (GFG)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 13 — Expression Parsing & Stack — Stack (Valid Parentheses)
+  - **Quick Theory & C++ Guide:** _Stack `stack<char> st`. For open brackets `'(', '{', '['`, push. For closing brackets, check if `!st.empty()` and top matches complement. Pop on match._
+  - **Revision Problem:**
+    - [ ] LC 20 Valid Parentheses
+
+### 📆 Day 194: Morris Traversal & Cache Design (LRU/LFU)
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** O(1) space tree traversal, Hash Map + Doubly Linked List
+- **C++ Focus:** `Morris traversal, LRUCache & LFUCache classes`
+- **Track A (Target Problems):**
+  - [ ] LC 94 Binary Tree Inorder Traversal (Morris)
+  - [ ] LC 146 LRU Cache
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 14 — Palindrome Techniques — Palindrome (Longest Palindromic Substring)
+  - **Quick Theory & C++ Guide:** _Expand around center strategy. For each index `i`, call `expand(i, i)` (odd palindrome) and `expand(i, i+1)` (even palindrome). Track max length and start index._
+  - **Revision Problem:**
+    - [ ] LC 5 Longest Palindromic Substring
+
+### 📆 Day 195: Pattern Repair — Arrays, Strings, Window & Two Pointers
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** Unlabeled problem solving across linear patterns
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] Solve 2 Blind Array / Window Problems Cold (30 min each)
+  - [ ] LC 460 LFU Cache
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 15 — Recursion Fundamentals — Recursion (Pow(x, n) Binary Exponentiation)
+  - **Quick Theory & C++ Guide:** _Base case `n == 0 -> 1`. Half power `half = pow(x, n/2)`. If `n` even: `half * half`. If odd: `half * half * x`. Handle negative `n = -n, x = 1/x`._
+  - **Revision Problem:**
+    - [ ] LC 50 Pow(x, n)
+
+### 📆 Day 196: Pattern Repair — Graphs, Trees & BST
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** Unlabeled problem solving across tree & graph patterns
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] Solve 2 Blind Graph / Tree Problems Cold (30 min each)
+  - [ ] LC 380 Insert Delete GetRandom O(1)
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 01 — Sliding Window — Sliding Window (Hard Minimum Window)
+  - **Quick Theory & C++ Guide:** _Expand right to include all target chars (`neededCount == 0`). Once valid, shrink left to minimize window while preserving validity. C++: `vector<int> map(128,0);`_
+  - **Revision Problem:**
+    - [ ] LC 76 Minimum Window Substring
+
+### 📆 Day 197: Pattern Repair — DP, Greedy & Backtracking
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** Unlabeled problem solving across decision & state patterns
+- **C++ Focus:** `Cold problem solving`
+- **Track A (Target Problems):**
+  - [ ] Solve 2 Blind DP / Greedy Problems Cold (30 min each)
+  - [ ] LC 315 Count Smaller Numbers After Self
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 02 — Two Pointers — Two Pointers (3Sum)
+  - **Quick Theory & C++ Guide:** _Sort array. Loop `i` from `0` to `n-3`. Skip duplicates `nums[i] == nums[i-1]`. Use 2 pointers `l = i+1, r = n-1` to find `nums[l] + nums[r] == -nums[i]`. Skip dupes on match._
+  - **Revision Problem:**
+    - [ ] LC 15 3Sum
+
+### 📆 Day 198: Full Mock Simulation 1 — Graph + DP Focus
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** 60-min timer, 2 unlabeled problems, explain approach aloud
+- **C++ Focus:** `Mock interview simulation`
+- **Track A (Target Problems):**
+  - [ ] 1 Unlabeled Graph + 1 Unlabeled DP Problem (60 min total)
+  - [ ] LC 493 Reverse Pairs
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 03 — Fast/Slow Pointers (LL) — Fast/Slow Pointers (Cycle Start Node)
+  - **Quick Theory & C++ Guide:** _Find meeting point using fast/slow. Reset `slow = head`. Move both `slow` and `fast` 1 step at a time. Meeting point is cycle entry node._
+  - **Revision Problem:**
+    - [ ] LC 142 Linked List Cycle II
+
+### 📆 Day 199: Full Mock Simulation 2 — Tree + Advanced DS Focus
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** 60-min timer, 2 unlabeled problems, state time/space complexity
+- **C++ Focus:** `Mock interview simulation`
+- **Track A (Target Problems):**
+  - [ ] 1 Unlabeled Tree + 1 Unlabeled Advanced DS Problem (60 min total)
+  - [ ] LC 327 Count of Range Sum
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 04 — Binary Search (Sorted Data) — Binary Search (First & Last Position)
+  - **Quick Theory & C++ Guide:** _Lower bound: find first `idx` where `nums[mid] >= target`. Upper bound: find first `idx` where `nums[mid] > target`. Range is `[first, last-1]`._
+  - **Revision Problem:**
+    - [ ] LC 34 Find First and Last Position of Element in Sorted Array
+
+### 📆 Day 200: 🎓 FINAL READINESS AUDIT & GRADUATION
+- **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Theory & Pattern:** Review all past 🔴/🟡 queue, blank-page template recall of top 5 templates
+- **C++ Focus:** `Blank-page recall: Dijkstra, DSU, Lazy SegTree, KMP, LRUCache`
+- **Track A (Target Problems):**
+  - [ ] Re-solve top 3 absolute hardest past problems cold
+  - [ ] Graduate as SDE / AI-Eng DSA Pro!
+- **Track B (Daily Guided Spaced Revision):**
+  - **Pattern & Slot:** Slot 05 — Binary Search on Answer — Binary Search on Answer (Capacity to Ship Packages)
+  - **Quick Theory & C++ Guide:** _Search range `capacity` in `[max(weights), sum(weights)]`. Feasibility: count days required to pack weights under capacity limit._
+  - **Revision Problem:**
+    - [ ] LC 1011 Capacity To Ship Packages Within D Days
+
+
+---
+
+## 🔒 Completion Standard & Graduation Checklist
+
+You are **SDE / AI-Eng Interview Ready** when:
+1. ✅ Every single day (Day 001 through Day 200) has been executed at ~1.5–2 hours/day.
+2. ✅ All 45 unique patterns and 248 LeetCode problems are marked 🟢 (Cold Solved).
+3. ✅ You can write all core C++ templates from scratch without referencing any notes:
+   - Graph BFS, DFS, Multi-source BFS, 0-1 BFS
+   - Dijkstra, Bellman-Ford, Floyd-Warshall
+   - DSU (Path Compression + Union by Rank/Size)
+   - Kahn's Topological Sort, Tarjan's Bridges, Kosaraju's SCC
+   - Prim's & Kruskal's MST
+   - Min-Heap, Max-Heap, Two-Heap Median, Monotonic Deque
+   - Difference Array & Sweep Line
+   - Backtracking (Permutations, Combinations, Subsets, N-Queens, Sudoku)
+   - Dynamic Programming (LCS, LIS, Knapsack, MCM, Stock State Machine, Tree DP)
+   - Trie, Bitwise Trie (XOR)
+   - Merge Sort with Inversion Counting
+   - Segment Tree (with Lazy Propagation), Fenwick Tree (BIT), Sparse Table
+   - KMP (LPS Array), Z-Algorithm, Rabin-Karp Rolling Hash, Manacher's
+   - LRU Cache & LFU Cache
+4. ✅ You can state Time & Space Complexity confidently before submitting code.
+
+> 🏆 **Designed by Antigravity AI specifically for Sahil Kumar (Sky).** Prominent Day Headers, clear card blocks, interactive checkboxes, Track B Quick Theory & C++ Syntax Reminders, 100% problem coverage. Day 200 = SDE Ready! 💪
