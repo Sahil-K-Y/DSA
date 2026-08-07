@@ -1,9 +1,9 @@
-# 🏆 SKY'S ULTIMATE 200-DAY DSA MASTER ROADMAP v3 — Complete Revision-Guided Edition
+# 🏆 SKY'S ULTIMATE 200-DAY DSA MASTER ROADMAP v3 — Final Polished Edition
 
-> **VERSION:** v3.0 — Complete Dual-Track Edition with Quick Theory & C++ Code Reminders for Track B
+> **VERSION:** v3.0 — The Definitive Master Roadmap (Weekly Review Gates + Track B Syntax Reminders)
 > **Daily Pacing:** ~1.5–2 hours/day (Strictly balanced for zero burnout alongside AI/ML track)
 > **Language:** C++ (Scratch implementations from core concepts)
-> **Dual Track:** Track A (New Topics) + Track B (Guided Spaced Revision with Theory & Syntax Reminders)
+> **Dual Track:** Track A (New Learning) + Track B (Guided Spaced Revision with Theory & Syntax Reminders)
 > **Coverage:** 100% Guaranteed Coverage of all 45 Patterns & 248 LeetCode Problems (0 Missing)
 > **Start Date:** August 7, 2026
 
@@ -18,6 +18,7 @@
   1. I am **NOT** restarting Arrays/LL from Day 1 — that would waste precious time.
   2. **Track A (New Learning):** Starts directly from **Graphs** and moves systematically through all advanced DSA patterns (Heaps, DP, Backtracking, Trie, Advanced DS, String Algos, D&C, Matrix, Math, etc.).
   3. **Track B (Daily Spaced Revision):** 1 Specific Problem daily from rotating 15 revision slots with **Quick Theory & C++ Code Syntax Reminders** so old topics (like Node Deletion, Reversal, Monotonic Stack, etc.) are remembered instantly without struggle.
+  4. **Weekly Review Gates (Every Sunday / 7 Days):** A 15-minute review block to clear any pending 🔴 (Repair) problems and consolidate learnings.
 - **Parallel AI/ML Track:** I am actively studying AI/ML, so daily DSA workload is strictly kept at **1.5–2 hours per day** over 200 Days.
 - **Goal:** Become a **DSA Pro** — complete pattern mastery + cold problem-solving readiness for top SDE / AI-Engineering interviews.
 
@@ -25,9 +26,17 @@
 
 ## 🧠 Daily Execution Workflow (~90–120 mins)
 
-1. **Step 1 — Track A Theory & C++ Implementation (35–45 min):** Read intuition, time/space complexity, and code the template/data structure from scratch in C++.
-2. **Step 2 — Track A LeetCode (35–45 min):** Solve 1–2 target problems cold without hints.
-3. **Step 3 — Track B Quick Refresh & Solve (20–25 min):** Read the 2-minute Track B Quick Theory & C++ Reminder, then solve the 1 assigned revision problem.
+```
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                           DAILY TIME BUDGET                            │
+  ├────────────────────────────────────────┬───────────────────────────────┤
+  │ 🚀 TRACK A: NEW LEARNING (~65 MINS)    │ 🔄 TRACK B: REVISION (~25 MINS)│
+  │ • Step 1: Read Theory & Pattern (15m)  │ • Step 1: Read Quick Syntax   │
+  │ • Step 2: Scratch C++ Implementation(20m)│   & Theory Guide (2m)         │
+  │ • Step 3: Solve Target LeetCode (30m)  │ • Step 2: Solve Target        │
+  │                                        │   Revision Problem (23m)      │
+  └────────────────────────────────────────┴───────────────────────────────┘
+```
 
 ### 🚦 Problem Status Tracking
 - ⬜ **Unseen** — Not attempted yet
@@ -64,6 +73,7 @@
 
 ### 📆 Day 001: Graph Representation & Matrices
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Adjacency Matrix vs List vs Edge List representation
 - **C++ Focus:** `vector<vector<int>> adj, vector<pair<int,int>>`
 - **Track A (Target Problems):**
@@ -77,6 +87,7 @@
 
 ### 📆 Day 002: Graph BFS Traversal
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Queue-based level-by-level traversal, visited tracking
 - **C++ Focus:** `queue<int>, vector<bool> visited BFS template`
 - **Track A (Target Problems):**
@@ -90,6 +101,7 @@
 
 ### 📆 Day 003: Graph DFS Traversal
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Recursion stack vs explicit stack, connected components
 - **C++ Focus:** `Recursive & Iterative DFS template`
 - **Track A (Target Problems):**
@@ -103,6 +115,7 @@
 
 ### 📆 Day 004: Multi-Source BFS
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Parallel propagation from multiple source nodes simultaneously
 - **C++ Focus:** `Multi-source queue initialization pattern`
 - **Track A (Target Problems):**
@@ -116,6 +129,7 @@
 
 ### 📆 Day 005: Grid DFS Boundary Traversal
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Boundary DFS marking to isolate internal components
 - **C++ Focus:** `Boundary grid DFS template`
 - **Track A (Target Problems):**
@@ -129,6 +143,7 @@
 
 ### 📆 Day 006: Grid BFS Shortest Path
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Shortest path properties in unweighted 8-directional grids
 - **C++ Focus:** `2D Grid BFS template`
 - **Track A (Target Problems):**
@@ -142,6 +157,7 @@
 
 ### 📆 Day 007: Cycle Detection Undirected (BFS)
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Parent node tracking in BFS queue, visited checks
 - **C++ Focus:** `BFS parent-tracked cycle check`
 - **Track A (Target Problems):**
@@ -152,9 +168,13 @@
   - **Quick Theory & C++ Guide:** _Precompute `pref[i] = pref[i-1] + nums[i-1]`. Range sum `[L, R]` = `pref[R+1] - pref[L]` in O(1)._
   - **Revision Problem:**
     - [ ] LC 303 Range Sum Query - Immutable
+- **🛡️ WEEKLY REVIEW GATE (End of Week 1):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 001–007.
+  - [ ] Confirm all Track A templates for Week 1 are stored in C++.
 
 ### 📆 Day 008: Cycle Detection Undirected (DFS)
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Recursive DFS parent node tracking
 - **C++ Focus:** `DFS parent-tracked cycle check`
 - **Track A (Target Problems):**
@@ -168,6 +188,7 @@
 
 ### 📆 Day 009: Cycle Detection Directed (DFS 3-Color)
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** WHITE/GRAY/BLACK node state coloring
 - **C++ Focus:** `vector<int> pathVisited DFS`
 - **Track A (Target Problems):**
@@ -181,6 +202,7 @@
 
 ### 📆 Day 010: Cycle Detection Directed (Kahn's)
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** In-degree array evaluation, visited count comparison
 - **C++ Focus:** `Kahn's BFS algorithm template`
 - **Track A (Target Problems):**
@@ -194,6 +216,7 @@
 
 ### 📆 Day 011: Topological Sort DFS
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Post-order stack push for DAG reachability
 - **C++ Focus:** `DFS topo sort with stack<int>`
 - **Track A (Target Problems):**
@@ -207,6 +230,7 @@
 
 ### 📆 Day 012: Topological Sort Advanced (Kahn's)
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Multi-level DAG dependency ordering
 - **C++ Focus:** `Dual Kahn's topo sort template`
 - **Track A (Target Problems):**
@@ -220,6 +244,7 @@
 
 ### 📆 Day 013: Union Find / DSU Naive to Optimized
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Find parent and Union operations, path compression
 - **C++ Focus:** `struct DSU { vector<int> parent; ... }`
 - **Track A (Target Problems):**
@@ -233,6 +258,7 @@
 
 ### 📆 Day 014: DSU Union by Rank & Size
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** O(alpha(N)) amortized operations with rank/size
 - **C++ Focus:** `Optimized DSU C++ Class template`
 - **Track A (Target Problems):**
@@ -243,9 +269,13 @@
   - **Quick Theory & C++ Guide:** _Expand around center strategy. For each index `i`, call `expand(i, i)` (odd palindrome) and `expand(i, i+1)` (even palindrome). Track max length and start index._
   - **Revision Problem:**
     - [ ] LC 5 Longest Palindromic Substring
+- **🛡️ WEEKLY REVIEW GATE (End of Week 2):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 008–014.
+  - [ ] Confirm all Track A templates for Week 2 are stored in C++.
 
 ### 📆 Day 015: DSU Index Component Grouping
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Component-level grouping and index sorting
 - **C++ Focus:** `DSU index sorting algorithm`
 - **Track A (Target Problems):**
@@ -259,6 +289,7 @@
 
 ### 📆 Day 016: DSU Multi-Graph Traversability
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Priority merging of edges across dual graphs
 - **C++ Focus:** `Dual DSU graph traversal`
 - **Track A (Target Problems):**
@@ -272,6 +303,7 @@
 
 ### 📆 Day 017: 0-1 BFS (Deque Shortest Path)
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Front push for weight 0, back push for weight 1
 - **C++ Focus:** `deque<pair<int,int>> 0-1 BFS`
 - **Track A (Target Problems):**
@@ -285,6 +317,7 @@
 
 ### 📆 Day 018: Dijkstra's Algorithm Fundamentals
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Priority Queue Min-Heap greedy shortest path
 - **C++ Focus:** `priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>>`
 - **Track A (Target Problems):**
@@ -298,6 +331,7 @@
 
 ### 📆 Day 019: Dijkstra on Grids
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Min max-difference path on 2D grids
 - **C++ Focus:** `Grid Dijkstra implementation`
 - **Track A (Target Problems):**
@@ -311,6 +345,7 @@
 
 ### 📆 Day 020: Bellman-Ford Algorithm
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Handles negative edge weights via V-1 relaxations
 - **C++ Focus:** `Bellman-Ford relaxation loop template`
 - **Track A (Target Problems):**
@@ -324,6 +359,7 @@
 
 ### 📆 Day 021: Floyd-Warshall Algorithm
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** All-pairs shortest path, O(V^3) matrix DP
 - **C++ Focus:** `2D matrix DP Floyd-Warshall`
 - **Track A (Target Problems):**
@@ -334,9 +370,13 @@
   - **Quick Theory & C++ Guide:** _Key = sorted string (or 26-count freq string). Map `unordered_map<string, vector<string>> groups`. Push original string into `groups[key]`._
   - **Revision Problem:**
     - [ ] LC 49 Group Anagrams
+- **🛡️ WEEKLY REVIEW GATE (End of Week 3):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 015–021.
+  - [ ] Confirm all Track A templates for Week 3 are stored in C++.
 
 ### 📆 Day 022: Shortest Path Counting
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Dijkstra combined with path count DP
 - **C++ Focus:** `Dijkstra + path counting template`
 - **Track A (Target Problems):**
@@ -350,6 +390,7 @@
 
 ### 📆 Day 023: Prim's MST Algorithm
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Greedy node inclusion via Min-Heap
 - **C++ Focus:** `Prim's MST priority queue template`
 - **Track A (Target Problems):**
@@ -363,6 +404,7 @@
 
 ### 📆 Day 024: Kruskal's MST Algorithm
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Sort all edges + DSU cycle prevention
 - **C++ Focus:** `Kruskal's MST template`
 - **Track A (Target Problems):**
@@ -376,6 +418,7 @@
 
 ### 📆 Day 025: MST Virtual Node & Min-Max Path
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Dummy node 0 trick, sorted edge DSU path max-min
 - **C++ Focus:** `Virtual node graph transformation`
 - **Track A (Target Problems):**
@@ -389,6 +432,7 @@
 
 ### 📆 Day 026: Graph Coloring / Bipartite BFS
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** 2-coloring graph validation using BFS
 - **C++ Focus:** `BFS 2-coloring algorithm`
 - **Track A (Target Problems):**
@@ -402,6 +446,7 @@
 
 ### 📆 Day 027: Graph Coloring / Bipartite DFS
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Recursive 2-coloring validation
 - **C++ Focus:** `DFS 2-coloring algorithm`
 - **Track A (Target Problems):**
@@ -415,6 +460,7 @@
 
 ### 📆 Day 028: Advanced Bipartite & Connectivity
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Edge list graph properties & reachability
 - **C++ Focus:** `Graph coloring & in-degree analysis`
 - **Track A (Target Problems):**
@@ -425,9 +471,13 @@
   - **Quick Theory & C++ Guide:** _Split path by `/`. Use `vector<string>` stack. Ignore empty and `.`. For `..`, pop if not empty. For normal dir name, push. Join with `/`._
   - **Revision Problem:**
     - [ ] LC 71 Simplify Path
+- **🛡️ WEEKLY REVIEW GATE (End of Week 4):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 022–028.
+  - [ ] Confirm all Track A templates for Week 4 are stored in C++.
 
 ### 📆 Day 029: Tarjan's Bridges in Graph
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Discovery time & lowest reachable time arrays
 - **C++ Focus:** `vector<int> tin, low Tarjan's template`
 - **Track A (Target Problems):**
@@ -441,6 +491,7 @@
 
 ### 📆 Day 030: Articulation Points
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Node removal component count increase check
 - **C++ Focus:** `Articulation points template`
 - **Track A (Target Problems):**
@@ -454,6 +505,7 @@
 
 ### 📆 Day 031: Kosaraju's Algorithm (SCC)
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** 2-pass DFS on original and transposed graph
 - **C++ Focus:** `Kosaraju's SCC template`
 - **Track A (Target Problems):**
@@ -467,6 +519,7 @@
 
 ### 📆 Day 032: State Search (BFS + Bitmask) I
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** State tuple representation (node, bitmask)
 - **C++ Focus:** `Bitmask state BFS template`
 - **Track A (Target Problems):**
@@ -480,6 +533,7 @@
 
 ### 📆 Day 033: State Search (BFS + Bitmask) II
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Grid key collection & door unlocking with bitmask
 - **C++ Focus:** `Grid key BFS solver`
 - **Track A (Target Problems):**
@@ -493,6 +547,7 @@
 
 ### 📆 Day 034: State Search Advanced
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** 3D visited state array & cost optimization
 - **C++ Focus:** `3D state search BFS`
 - **Track A (Target Problems):**
@@ -506,6 +561,7 @@
 
 ### 📆 Day 035: Graph Word Ladder Search
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Implicit graph construction & BFS level tracking
 - **C++ Focus:** `Word ladder BFS implementation`
 - **Track A (Target Problems):**
@@ -516,9 +572,13 @@
   - **Quick Theory & C++ Guide:** _Search range `maxSum` in `[max(nums), sum(nums)]`. Feasibility: greedy count of subarrays needed such that no subarray sum exceeds `maxSum`._
   - **Revision Problem:**
     - [ ] LC 410 Split Array Largest Sum
+- **🛡️ WEEKLY REVIEW GATE (End of Week 5):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 029–035.
+  - [ ] Confirm all Track A templates for Week 5 are stored in C++.
 
 ### 📆 Day 036: Clone Graph & Graph Copy
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Hash map node mapping with DFS/BFS
 - **C++ Focus:** `unordered_map<Node*, Node*> DFS`
 - **Track A (Target Problems):**
@@ -532,6 +592,7 @@
 
 ### 📆 Day 037: Graph Cold Solving — Unlabeled I
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Identify BFS/DFS vs Shortest Path independently
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -545,6 +606,7 @@
 
 ### 📆 Day 038: Graph Cold Solving — Unlabeled II
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Pick Dijkstra vs Kahn's Topo sort independently
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -558,6 +620,7 @@
 
 ### 📆 Day 039: Graph Practice — Template Recall
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Write BFS, DFS, Dijkstra, DSU from blank page
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -571,6 +634,7 @@
 
 ### 📆 Day 040: Graph Phase Gate
 - **Phase:** Graphs & State Search (Days 001–040)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Full blind graph solving under timer
 - **C++ Focus:** `Timer-based cold solving`
 - **Track A (Target Problems):**
@@ -588,6 +652,7 @@
 
 ### 📆 Day 041: Min-Heap & Max-Heap from Scratch
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Array-based binary tree indexing (2i, 2i+1)
 - **C++ Focus:** `class MinHeap { vector<int> heap; ... }`
 - **Track A (Target Problems):**
@@ -601,6 +666,7 @@
 
 ### 📆 Day 042: Heapify O(N) Build & Heap Sort
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Bottom-up heapify algorithm O(N)
 - **C++ Focus:** `In-place heap sort implementation`
 - **Track A (Target Problems):**
@@ -611,9 +677,13 @@
   - **Quick Theory & C++ Guide:** _Inorder traversal (L-Root-R) visits BST in sorted order. Decrement `k` on visiting root. Return `root->val` when `k == 0`._
   - **Revision Problem:**
     - [ ] LC 230 Kth Smallest Element in a BST
+- **🛡️ WEEKLY REVIEW GATE (End of Week 6):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 036–042.
+  - [ ] Confirm all Track A templates for Week 6 are stored in C++.
 
 ### 📆 Day 043: K-Closest Points & Stream Kth
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Max-heap fixed size K for top-K extraction
 - **C++ Focus:** `Max-heap distance sorting`
 - **Track A (Target Problems):**
@@ -627,6 +697,7 @@
 
 ### 📆 Day 044: Two-Heap Median Pattern
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Max-heap (left half) + Min-heap (right half) balance
 - **C++ Focus:** `class MedianFinder template`
 - **Track A (Target Problems):**
@@ -640,6 +711,7 @@
 
 ### 📆 Day 045: K-Way Merge Pattern
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Min-heap of K element pointers
 - **C++ Focus:** `K-way merge algorithm`
 - **Track A (Target Problems):**
@@ -653,6 +725,7 @@
 
 ### 📆 Day 046: Heap + Greedy String Building
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Max-heap frequency count for string construction
 - **C++ Focus:** `Max-heap greedy string builder`
 - **Track A (Target Problems):**
@@ -666,6 +739,7 @@
 
 ### 📆 Day 047: Monotonic Deque — Sliding Window Max
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Decreasing monotonic deque for O(N) sliding window max
 - **C++ Focus:** `class MonotonicDeque template`
 - **Track A (Target Problems):**
@@ -679,6 +753,7 @@
 
 ### 📆 Day 048: Monotonic Deque — Subarray Constraints
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Dual deque for tracking min and max simultaneously
 - **C++ Focus:** `Dual deque window optimizer`
 - **Track A (Target Problems):**
@@ -692,6 +767,7 @@
 
 ### 📆 Day 049: Monotonic Deque — DP Optimization
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Deque DP optimization for max value equations
 - **C++ Focus:** `Deque DP jump optimizer`
 - **Track A (Target Problems):**
@@ -702,9 +778,13 @@
   - **Quick Theory & C++ Guide:** _If `nums[mid] > nums[right]`, min lies in right half (`low = mid + 1`); else min is at `mid` or left half (`high = mid`)._
   - **Revision Problem:**
     - [ ] LC 153 Find Minimum in Rotated Sorted Array
+- **🛡️ WEEKLY REVIEW GATE (End of Week 7):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 043–049.
+  - [ ] Confirm all Track A templates for Week 7 are stored in C++.
 
 ### 📆 Day 050: Heap + Interval Scheduling
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Min-heap for active interval end times
 - **C++ Focus:** `Heap interval scheduler`
 - **Track A (Target Problems):**
@@ -718,6 +798,7 @@
 
 ### 📆 Day 051: Heap + Sequence Generation
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Heap for generating sorted sequence combinations
 - **C++ Focus:** `Heap sequence generator`
 - **Track A (Target Problems):**
@@ -731,6 +812,7 @@
 
 ### 📆 Day 052: Heap Practice — Unlabeled
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled heap problems cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -744,6 +826,7 @@
 
 ### 📆 Day 053: Heap + Graph Advanced Combo
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Priority queue state search on complex graphs
 - **C++ Focus:** `Advanced heap solver`
 - **Track A (Target Problems):**
@@ -757,6 +840,7 @@
 
 ### 📆 Day 054: Monotonic Deque Practice
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Advanced deque window problems
 - **C++ Focus:** `Cold deque solving`
 - **Track A (Target Problems):**
@@ -770,6 +854,7 @@
 
 ### 📆 Day 055: Heap & Deque Phase Gate
 - **Phase:** Heaps, Priority Queue & Monotonic Deque (Days 041–055)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Blank-page recall of Heap & Monotonic Deque
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -787,6 +872,7 @@
 
 ### 📆 Day 056: Activity Selection — End Time Sorting
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Greedy proof: pick earliest end time to maximize count
 - **C++ Focus:** `Sorting + greedy iteration loop`
 - **Track A (Target Problems):**
@@ -797,9 +883,13 @@
   - **Quick Theory & C++ Guide:** _Level order BFS. Track `maxVal` for each level of size `q.size()`. Push `maxVal` to result vector._
   - **Revision Problem:**
     - [ ] LC 515 Find Largest Value in Each Tree Row
+- **🛡️ WEEKLY REVIEW GATE (End of Week 8):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 050–056.
+  - [ ] Confirm all Track A templates for Week 8 are stored in C++.
 
 ### 📆 Day 057: Interval Merging & Insertion
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Sort by start time, merge overlapping bounds
 - **C++ Focus:** `Interval sorting & merging loop`
 - **Track A (Target Problems):**
@@ -813,6 +903,7 @@
 
 ### 📆 Day 058: Sweep Line — Meeting Rooms
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Start +1, End -1 event timeline sweep
 - **C++ Focus:** `Chronological sweep line with map<int,int>`
 - **Track A (Target Problems):**
@@ -826,6 +917,7 @@
 
 ### 📆 Day 059: Jump Game Reachability & Min Jumps
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Max reachable index O(N), greedy window bounds
 - **C++ Focus:** `O(N) jump reachability loop`
 - **Track A (Target Problems):**
@@ -839,6 +931,7 @@
 
 ### 📆 Day 060: Gas Station & Circular Greedy
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Circular greedy proof: total gas >= total cost
 - **C++ Focus:** `Single-pass gas station algorithm`
 - **Track A (Target Problems):**
@@ -852,6 +945,7 @@
 
 ### 📆 Day 061: Greedy Scheduling & Height Queue
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Custom sorting + index insertion for height queue
 - **C++ Focus:** `Custom sort insert loop`
 - **Track A (Target Problems):**
@@ -865,6 +959,7 @@
 
 ### 📆 Day 062: Difference Array — Range Updates
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** diff[l] += val, diff[r+1] -= val, running prefix sum
 - **C++ Focus:** `class DifferenceArray from scratch`
 - **Track A (Target Problems):**
@@ -878,6 +973,7 @@
 
 ### 📆 Day 063: Difference Array — Flight Bookings & Painting
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Coordinate compression & 1D range update accumulation
 - **C++ Focus:** `Modular difference array`
 - **Track A (Target Problems):**
@@ -888,9 +984,13 @@
   - **Quick Theory & C++ Guide:** _Pointers `pA = headA, pB = headB`. Loop `while(pA != pB)`: `pA = pA ? pA->next : headB`, `pB = pB ? pB->next : headA`. They meet at intersection._
   - **Revision Problem:**
     - [ ] LC 160 Intersection of Two Linked Lists
+- **🛡️ WEEKLY REVIEW GATE (End of Week 9):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 057–063.
+  - [ ] Confirm all Track A templates for Week 9 are stored in C++.
 
 ### 📆 Day 064: Difference Array — Advanced Queries
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Range inclusion checks & difference updates
 - **C++ Focus:** `Difference array query solver`
 - **Track A (Target Problems):**
@@ -904,6 +1004,7 @@
 
 ### 📆 Day 065: Greedy Monotonic String Removal
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Monotonic stack for smallest lexicographical string
 - **C++ Focus:** `Greedy string building`
 - **Track A (Target Problems):**
@@ -917,6 +1018,7 @@
 
 ### 📆 Day 066: Greedy Stock & Subsequence
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Greedy max profit transactions, triplet subsequence
 - **C++ Focus:** `Greedy profit calculator`
 - **Track A (Target Problems):**
@@ -930,6 +1032,7 @@
 
 ### 📆 Day 067: Greedy Practice — Unlabeled I
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled greedy problems cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -943,6 +1046,7 @@
 
 ### 📆 Day 068: Greedy Practice — Unlabeled II
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled interval problems cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -956,6 +1060,7 @@
 
 ### 📆 Day 069: Greedy & Interval Template Recall
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Write Interval Merge, Sweep Line, Difference Array from memory
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -969,6 +1074,7 @@
 
 ### 📆 Day 070: Greedy Phase Gate
 - **Phase:** Greedy Algorithms, Intervals & Difference Array (Days 056–070)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Full blind greedy & interval solving under timer
 - **C++ Focus:** `Timer-based cold solving`
 - **Track A (Target Problems):**
@@ -979,6 +1085,9 @@
   - **Quick Theory & C++ Guide:** _DFS returns max single-branch sum `max(0, max(leftBranch, rightBranch)) + root->val`. Update global `maxSum = max(maxSum, leftBranch + rightBranch + root->val)`._
   - **Revision Problem:**
     - [ ] LC 124 Binary Tree Maximum Path Sum
+- **🛡️ WEEKLY REVIEW GATE (End of Week 10):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 064–070.
+  - [ ] Confirm all Track A templates for Week 10 are stored in C++.
 
 
 
@@ -986,6 +1095,7 @@
 
 ### 📆 Day 071: Backtracking Basics — Permutations I
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Decision tree branching, swap vs used[] array
 - **C++ Focus:** `Standard recursive permutation template`
 - **Track A (Target Problems):**
@@ -999,6 +1109,7 @@
 
 ### 📆 Day 072: Backtracking Basics — Permutations II
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Sort first + skip duplicates at same level
 - **C++ Focus:** `Duplicate-pruned permutation`
 - **Track A (Target Problems):**
@@ -1012,6 +1123,7 @@
 
 ### 📆 Day 073: Backtracking Basics — Combinations & Subsets I
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Include/exclude decision tree, start index offset
 - **C++ Focus:** `Combination backtracking template`
 - **Track A (Target Problems):**
@@ -1025,6 +1137,7 @@
 
 ### 📆 Day 074: Backtracking Basics — Subsets II & Target Sum
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Sort + skip duplicates for unique subsets, sum target
 - **C++ Focus:** `Unique subset backtracking`
 - **Track A (Target Problems):**
@@ -1038,6 +1151,7 @@
 
 ### 📆 Day 075: Backtracking Basics — Combination Sum II & III
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Target reduction without duplicate element reuse
 - **C++ Focus:** `Bounded combination sum`
 - **Track A (Target Problems):**
@@ -1051,6 +1165,7 @@
 
 ### 📆 Day 076: Backtracking Basics — Combination Sum IV
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Permutation sum count backtracking
 - **C++ Focus:** `Combination sum count`
 - **Track A (Target Problems):**
@@ -1064,6 +1179,7 @@
 
 ### 📆 Day 077: Backtracking Constraints — Phone Keypad & Parentheses
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** N-ary digit branching, open/close validity count
 - **C++ Focus:** `Phone keypad & parentheses generator`
 - **Track A (Target Problems):**
@@ -1074,9 +1190,13 @@
   - **Quick Theory & C++ Guide:** _Sorted array. Pointers `left = 0, right = n - 1`. If `sum == target` return 1-based indices. If `sum < target` `left++`, else `right--`._
   - **Revision Problem:**
     - [ ] LC 167 Two Sum II - Input Array Is Sorted
+- **🛡️ WEEKLY REVIEW GATE (End of Week 11):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 071–077.
+  - [ ] Confirm all Track A templates for Week 11 are stored in C++.
 
 ### 📆 Day 078: Backtracking Constraints — Word Search Grid DFS
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Grid cell marking/unmarking, 4-directional DFS
 - **C++ Focus:** `Grid word matching DFS`
 - **Track A (Target Problems):**
@@ -1090,6 +1210,7 @@
 
 ### 📆 Day 079: Backtracking Constraints — Palindrome Partition & IP
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Substring palindrome cut check, IP segment validation
 - **C++ Focus:** `Palindrome cut backtracking`
 - **Track A (Target Problems):**
@@ -1103,6 +1224,7 @@
 
 ### 📆 Day 080: Backtracking Constraints — N-Queens
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Column, diagonal, anti-diagonal bitmask placement
 - **C++ Focus:** `N-Queens board placement algorithm`
 - **Track A (Target Problems):**
@@ -1116,6 +1238,7 @@
 
 ### 📆 Day 081: Backtracking Constraints — Sudoku Solver
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Row, column, 3x3 grid constraint validation
 - **C++ Focus:** `Sudoku solver backtracking`
 - **Track A (Target Problems):**
@@ -1129,6 +1252,7 @@
 
 ### 📆 Day 082: Backtracking Constraints — K-Equal Sum Subsets
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Bucket fill sum backtracking, target = total/k
 - **C++ Focus:** `K-bucket sum backtracking`
 - **Track A (Target Problems):**
@@ -1142,6 +1266,7 @@
 
 ### 📆 Day 083: Backtracking Constraints — Expression Add Operators
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Track cumulative value and prev operand for * precedence
 - **C++ Focus:** `Operand evaluation backtracking`
 - **Track A (Target Problems):**
@@ -1155,6 +1280,7 @@
 
 ### 📆 Day 084: Backtracking Practice — Unlabeled
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled backtracking problems cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1165,9 +1291,13 @@
   - **Quick Theory & C++ Guide:** _Pass 1: Map old nodes to new nodes `map[old] = new Node(old->val)`. Pass 2: Set `map[old]->next = map[old->next]` and `map[old]->random = map[old->random]`._
   - **Revision Problem:**
     - [ ] LC 138 Copy List with Random Pointer
+- **🛡️ WEEKLY REVIEW GATE (End of Week 12):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 078–084.
+  - [ ] Confirm all Track A templates for Week 12 are stored in C++.
 
 ### 📆 Day 085: Backtracking Phase Gate
 - **Phase:** Backtracking Basics & Constraint Satisfaction (Days 071–085)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Blank-page recall of Permutation, Subset, N-Queens templates
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -1185,6 +1315,7 @@
 
 ### 📆 Day 086: 1D DP Fundamentals — Top-Down vs Bottom-Up
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** State definition, memoization table vs tabulation
 - **C++ Focus:** `Both approaches for Climbing Stairs`
 - **Track A (Target Problems):**
@@ -1198,6 +1329,7 @@
 
 ### 📆 Day 087: 1D DP Space Optimization
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** prev2, prev1 state variables instead of 1D array
 - **C++ Focus:** `Space-optimized Fibonacci & Tribonacci`
 - **Track A (Target Problems):**
@@ -1211,6 +1343,7 @@
 
 ### 📆 Day 088: 1D DP — House Robber I & Earn
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i] = max(dp[i-1], dp[i-2] + nums[i]) skip vs take
 - **C++ Focus:** `1D DP array + space optimized`
 - **Track A (Target Problems):**
@@ -1224,6 +1357,7 @@
 
 ### 📆 Day 089: 1D DP — House Robber II Circular
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Dual pass 1D DP: [0..n-2] and [1..n-1]
 - **C++ Focus:** `Dual pass 1D DP`
 - **Track A (Target Problems):**
@@ -1237,6 +1371,7 @@
 
 ### 📆 Day 090: Grid DP — Unique Paths I & II
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i][j] = dp[i-1][j] + dp[i][j-1], obstacle handling
 - **C++ Focus:** `2D grid DP table + 1D space opt`
 - **Track A (Target Problems):**
@@ -1250,6 +1385,7 @@
 
 ### 📆 Day 091: Grid DP — Minimum Path Sum & Triangle
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i][j] = grid[i][j] + min(top, left)
 - **C++ Focus:** `Min cost grid DP`
 - **Track A (Target Problems):**
@@ -1260,9 +1396,13 @@
   - **Quick Theory & C++ Guide:** _Maintain window bounds [left, right] with hash set / freq map. Expand right; if duplicate seen, shrink left until valid. C++: `unordered_map<char,int> count;`_
   - **Revision Problem:**
     - [ ] LC 3 Longest Substring Without Repeating Characters
+- **🛡️ WEEKLY REVIEW GATE (End of Week 13):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 085–091.
+  - [ ] Confirm all Track A templates for Week 13 are stored in C++.
 
 ### 📆 Day 092: Grid DP — Dungeon Game & Falling Path
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Reverse DP (bottom-right to top-left) for min health
 - **C++ Focus:** `Reverse grid DP`
 - **Track A (Target Problems):**
@@ -1276,6 +1416,7 @@
 
 ### 📆 Day 093: 0/1 Knapsack Base & Partition Subset Sum
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i][w] = max(exclude, include if weight fits)
 - **C++ Focus:** `2D table + 1D reverse inner loop`
 - **Track A (Target Problems):**
@@ -1289,6 +1430,7 @@
 
 ### 📆 Day 094: Target Sum & Subset Sum Count
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Target sum transformation: sum = (total + target)/2
 - **C++ Focus:** `Subset sum count tabulation`
 - **Track A (Target Problems):**
@@ -1302,6 +1444,7 @@
 
 ### 📆 Day 095: Unbounded Knapsack & Rod Cutting
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Element reuse allowed — forward inner loop
 - **C++ Focus:** `Unbounded knapsack 1D loop`
 - **Track A (Target Problems):**
@@ -1315,6 +1458,7 @@
 
 ### 📆 Day 096: Coin Change I — Min Coins
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[amount] = min(dp[amount], dp[amount - coin] + 1)
 - **C++ Focus:** `Min coin 1D DP table`
 - **Track A (Target Problems):**
@@ -1328,6 +1472,7 @@
 
 ### 📆 Day 097: Coin Change II — Number of Ways
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[amount] += dp[amount - coin] with outer coin loop
 - **C++ Focus:** `Coin combinations 1D DP`
 - **Track A (Target Problems):**
@@ -1341,6 +1486,7 @@
 
 ### 📆 Day 098: Word Break I & II
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i] = true if dp[j] and s[j..i] in dictionary
 - **C++ Focus:** `Word break DP + BFS approach`
 - **Track A (Target Problems):**
@@ -1351,9 +1497,13 @@
   - **Quick Theory & C++ Guide:** _Decreasing stack storing indices. Loop `i`: while `!st.empty() && temp[i] > temp[st.top()]`, pop `idx = st.top()` and `ans[idx] = i - idx`. Push `i`._
   - **Revision Problem:**
     - [ ] LC 739 Daily Temperatures
+- **🛡️ WEEKLY REVIEW GATE (End of Week 14):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 092–098.
+  - [ ] Confirm all Track A templates for Week 14 are stored in C++.
 
 ### 📆 Day 099: String DP — LCS (Longest Common Subsequence)
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** If match: dp[i-1][j-1]+1, else max(top, left)
 - **C++ Focus:** `2D LCS table & 1D space opt`
 - **Track A (Target Problems):**
@@ -1367,6 +1517,7 @@
 
 ### 📆 Day 100: String DP — Shortest Common Supersequence
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** SCS construction via LCS table backtrack
 - **C++ Focus:** `Backtracking string construction`
 - **Track A (Target Problems):**
@@ -1380,6 +1531,7 @@
 
 ### 📆 Day 101: String DP — Edit Distance Fundamentals
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Insert, Delete, Replace DP transitions
 - **C++ Focus:** `2D Edit Distance DP table`
 - **Track A (Target Problems):**
@@ -1393,6 +1545,7 @@
 
 ### 📆 Day 102: String DP — Distinct Subsequences & Interleaving
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Count subsequence matches, 2D boolean interleaving
 - **C++ Focus:** `Distinct subsequence count DP`
 - **Track A (Target Problems):**
@@ -1406,6 +1559,7 @@
 
 ### 📆 Day 103: String DP — Min Insertion Steps Palindrome
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Min insertions = len - LPS
 - **C++ Focus:** `LPS-based palindrome insertion DP`
 - **Track A (Target Problems):**
@@ -1419,6 +1573,7 @@
 
 ### 📆 Day 104: String DP — Wildcard & Regex Matching
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Wildcard ? and * handling, Regex . and a* handling
 - **C++ Focus:** `2D matching DP grid`
 - **Track A (Target Problems):**
@@ -1432,6 +1587,7 @@
 
 ### 📆 Day 105: LIS — O(N^2) & O(N log N) Binary Search
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i] = max(dp[j]+1); Binary search tails optimization
 - **C++ Focus:** `Both O(N^2) and O(N log N) LIS`
 - **Track A (Target Problems):**
@@ -1442,9 +1598,13 @@
   - **Quick Theory & C++ Guide:** _Base case `n == 0 -> 1`. Half power `half = pow(x, n/2)`. If `n` even: `half * half`. If odd: `half * half * x`. Handle negative `n = -n, x = 1/x`._
   - **Revision Problem:**
     - [ ] LC 50 Pow(x, n)
+- **🛡️ WEEKLY REVIEW GATE (End of Week 15):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 099–105.
+  - [ ] Confirm all Track A templates for Week 15 are stored in C++.
 
 ### 📆 Day 106: LIS Variations — Count & Bitonic
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Count of LIS, Longest Bitonic Subsequence
 - **C++ Focus:** `Dual array LIS count DP`
 - **Track A (Target Problems):**
@@ -1458,6 +1618,7 @@
 
 ### 📆 Day 107: MCM Base — Matrix Chain Multiplication
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Interval DP split k in [i, j], memoization
 - **C++ Focus:** `MCM memoization template`
 - **Track A (Target Problems):**
@@ -1471,6 +1632,7 @@
 
 ### 📆 Day 108: Interval DP — Palindrome Partition II & Cut Stick
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Precompute palindrome table + 1D DP, stick cut DP
 - **C++ Focus:** `Palindrome table + 1D DP`
 - **Track A (Target Problems):**
@@ -1484,6 +1646,7 @@
 
 ### 📆 Day 109: Interval DP — Boolean Evaluation
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Count True/False ways across operator split points
 - **C++ Focus:** `3D interval DP`
 - **Track A (Target Problems):**
@@ -1497,6 +1660,7 @@
 
 ### 📆 Day 110: Tree DP — Max Path Sum & Diameter
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Post-order DFS: single-path return vs global max update
 - **C++ Focus:** `Post-order tree DP`
 - **Track A (Target Problems):**
@@ -1510,6 +1674,7 @@
 
 ### 📆 Day 111: Tree DP — House Robber III & Cameras
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Return pair<robThis, skipThis>, 3-state camera tree DP
 - **C++ Focus:** `Pair-return tree DP`
 - **Track A (Target Problems):**
@@ -1523,6 +1688,7 @@
 
 ### 📆 Day 112: Tree DP — Distribute Coins & Distance Sum
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Excess coins propagation through tree edges
 - **C++ Focus:** `Post-order excess coin flow`
 - **Track A (Target Problems):**
@@ -1533,9 +1699,13 @@
   - **Quick Theory & C++ Guide:** _Maintain `runningSum`. `unordered_map<int, int> prefMap; prefMap[0] = 1`. Add `prefMap[runningSum - k]` to total count, then `prefMap[runningSum]++`._
   - **Revision Problem:**
     - [ ] LC 560 Subarray Sum Equals K
+- **🛡️ WEEKLY REVIEW GATE (End of Week 16):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 106–112.
+  - [ ] Confirm all Track A templates for Week 16 are stored in C++.
 
 ### 📆 Day 113: Stock DP — Buy/Sell I & II
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Single transaction (track min), unlimited transactions
 - **C++ Focus:** `Greedy & state-machine DP`
 - **Track A (Target Problems):**
@@ -1549,6 +1719,7 @@
 
 ### 📆 Day 114: Stock DP — Buy/Sell III & IV
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** State machine: dp[i][buy/sell][k_left]
 - **C++ Focus:** `3D state machine DP`
 - **Track A (Target Problems):**
@@ -1562,6 +1733,7 @@
 
 ### 📆 Day 115: Stock DP — Cooldown & Transaction Fee
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Cooldown transition (i-2), Fee subtraction on sell
 - **C++ Focus:** `Cooldown & fee state machine DP`
 - **Track A (Target Problems):**
@@ -1575,6 +1747,7 @@
 
 ### 📆 Day 116: Digit DP — Count Unique Digits & Upper Bound
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Digit-by-digit recursion, tight bound tracking
 - **C++ Focus:** `Digit DP template function`
 - **Track A (Target Problems):**
@@ -1588,6 +1761,7 @@
 
 ### 📆 Day 117: Bitmask DP — TSP & Sufficient Team
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[mask][last] min distance visiting cities in mask
 - **C++ Focus:** `Bitmask DP template`
 - **Track A (Target Problems):**
@@ -1601,6 +1775,7 @@
 
 ### 📆 Day 118: DP — Maximal Square & Rectangle
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i][j] = min(top, left, diag)+1 for square, histogram rect
 - **C++ Focus:** `2D square DP, histogram rect`
 - **Track A (Target Problems):**
@@ -1614,6 +1789,7 @@
 
 ### 📆 Day 119: DP — Catalan Numbers & Perfect Squares
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unique BST count (Catalan), min perfect squares
 - **C++ Focus:** `Catalan number DP`
 - **Track A (Target Problems):**
@@ -1624,9 +1800,13 @@
   - **Quick Theory & C++ Guide:** _Two pointers `left = 0, right = n - 1`. Skip non-alphanumeric `!isalnum(c)`. Compare `tolower(s[l]) == tolower(s[r])`._
   - **Revision Problem:**
     - [ ] LC 125 Valid Palindrome
+- **🛡️ WEEKLY REVIEW GATE (End of Week 17):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 113–119.
+  - [ ] Confirm all Track A templates for Week 17 are stored in C++.
 
 ### 📆 Day 120: DP Practice — Grid DP Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled grid DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1640,6 +1820,7 @@
 
 ### 📆 Day 121: DP Practice — Knapsack Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled knapsack DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1653,6 +1834,7 @@
 
 ### 📆 Day 122: DP Practice — String DP Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled string DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1666,6 +1848,7 @@
 
 ### 📆 Day 123: DP Practice — LIS Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled LIS DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1679,6 +1862,7 @@
 
 ### 📆 Day 124: DP Practice — MCM Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled MCM DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1692,6 +1876,7 @@
 
 ### 📆 Day 125: DP Practice — Tree DP Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled tree DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1705,6 +1890,7 @@
 
 ### 📆 Day 126: DP Practice — Stock DP Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled stock DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1715,9 +1901,13 @@
   - **Quick Theory & C++ Guide:** _Insert all elements into `unordered_set<int> numSet`. Loop `x` in set: if `!numSet.count(x-1)` (start of sequence), count `x+1, x+2...` to find length._
   - **Revision Problem:**
     - [ ] LC 128 Longest Consecutive Sequence
+- **🛡️ WEEKLY REVIEW GATE (End of Week 18):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 120–126.
+  - [ ] Confirm all Track A templates for Week 18 are stored in C++.
 
 ### 📆 Day 127: DP Practice — Digit/Bitmask DP Cold
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled digit/bitmask DP cold solving
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1731,6 +1921,7 @@
 
 ### 📆 Day 128: DP Practice — Mixed DP Cold I
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Blind DP type identification
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1744,6 +1935,7 @@
 
 ### 📆 Day 129: DP Practice — Mixed DP Cold II
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Blind DP type identification
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -1757,6 +1949,7 @@
 
 ### 📆 Day 130: DP Template Recall — LCS, LIS, Knapsack
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Write LCS, LIS, Knapsack, MCM templates from blank page
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -1770,6 +1963,7 @@
 
 ### 📆 Day 131: DP Space Optimization Masterclass
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Transform 2D tables into 1D space optimized arrays
 - **C++ Focus:** `Space optimization drill`
 - **Track A (Target Problems):**
@@ -1783,6 +1977,7 @@
 
 ### 📆 Day 132: DP Game Theory (Stone Game)
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Minimax DP, optimal play for both players
 - **C++ Focus:** `Interval DP game theory`
 - **Track A (Target Problems):**
@@ -1796,6 +1991,7 @@
 
 ### 📆 Day 133: DP Multi-State Paint House
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Multi-state DP: cost + min(other state options)
 - **C++ Focus:** `Multi-state DP solver`
 - **Track A (Target Problems):**
@@ -1806,9 +2002,13 @@
   - **Quick Theory & C++ Guide:** _Stack `stack<long long> st`. For numbers, push. For operators `+ - * /`, pop `b = st.top()`, pop `a = st.top()`, compute `a op b`, push result._
   - **Revision Problem:**
     - [ ] LC 150 Evaluate Reverse Polish Notation
+- **🛡️ WEEKLY REVIEW GATE (End of Week 19):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 127–133.
+  - [ ] Confirm all Track A templates for Week 19 are stored in C++.
 
 ### 📆 Day 134: DP Practice — Hard Sequences
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Complex sequence DP
 - **C++ Focus:** `Cold DP solving`
 - **Track A (Target Problems):**
@@ -1822,6 +2022,7 @@
 
 ### 📆 Day 135: DP Phase Gate
 - **Phase:** Dynamic Programming & Sequence DP (Days 086–135)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Full blind DP solving under timer
 - **C++ Focus:** `Timer-based cold solving`
 - **Track A (Target Problems):**
@@ -1839,6 +2040,7 @@
 
 ### 📆 Day 136: Recursion Fundamentals — Power & Math
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Call stack visualization, log N reduction
 - **C++ Focus:** `Recursive Pow(x, n), Power of Two/Three/Four`
 - **Track A (Target Problems):**
@@ -1852,6 +2054,7 @@
 
 ### 📆 Day 137: Recursion Fundamentals — Grammar & Sequence
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** D&C grammar tree symmetry, recursive sequence
 - **C++ Focus:** `Grammar symbol finder`
 - **Track A (Target Problems):**
@@ -1865,6 +2068,7 @@
 
 ### 📆 Day 138: Recursion Fundamentals — Symbol & Fibonacci
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Grammar K-th symbol, Fibonacci recursion
 - **C++ Focus:** `Recursive symbol generator`
 - **Track A (Target Problems):**
@@ -1878,6 +2082,7 @@
 
 ### 📆 Day 139: Divide & Conquer — Majority Element
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** D&C split into halves, merge count, Boyer-Moore
 - **C++ Focus:** `D&C and Boyer-Moore voting`
 - **Track A (Target Problems):**
@@ -1891,6 +2096,7 @@
 
 ### 📆 Day 140: Divide & Conquer — Substrings & Quad Tree
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** D&C substring split on invalid chars, quad tree construction
 - **C++ Focus:** `D&C substring splitter`
 - **Track A (Target Problems):**
@@ -1901,9 +2107,13 @@
   - **Quick Theory & C++ Guide:** _Floating binary search on `dist` in `[0, max_gap]`. Feasibility: `count += floor((gap) / dist) <= K`._
   - **Revision Problem:**
     - [ ] LC 774 Minimize Max Distance to Gas Station
+- **🛡️ WEEKLY REVIEW GATE (End of Week 20):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 134–140.
+  - [ ] Confirm all Track A templates for Week 20 are stored in C++.
 
 ### 📆 Day 141: Divide & Conquer — Tree Splitting
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** D&C max element tree split
 - **C++ Focus:** `D&C tree builder`
 - **Track A (Target Problems):**
@@ -1917,6 +2127,7 @@
 
 ### 📆 Day 142: Merge Sort Applications — Linked List Sort
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Fast/slow pointer split + merge sort on LL
 - **C++ Focus:** `O(N log N) linked list merge sort`
 - **Track A (Target Problems):**
@@ -1930,6 +2141,7 @@
 
 ### 📆 Day 143: Merge Sort Applications — Count Inversions
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Count pairs arr[i] > arr[j] during merge step
 - **C++ Focus:** `Modified merge sort inversion counter`
 - **Track A (Target Problems):**
@@ -1943,6 +2155,7 @@
 
 ### 📆 Day 144: Merge Sort Applications — Range Sum & Pairs
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Prefix sum array merge sort range counter
 - **C++ Focus:** `Merge sort range sum counter`
 - **Track A (Target Problems):**
@@ -1956,6 +2169,7 @@
 
 ### 📆 Day 145: Merge Sort Applications — Advanced
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Advanced merge sort counting techniques
 - **C++ Focus:** `Merge sort application solver`
 - **Track A (Target Problems):**
@@ -1969,6 +2183,7 @@
 
 ### 📆 Day 146: Bit Manipulation Fundamentals
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** AND, OR, XOR, NOT, shifts, n & (n-1) LSB clear
 - **C++ Focus:** `Bit manipulation utility functions`
 - **Track A (Target Problems):**
@@ -1982,6 +2197,7 @@
 
 ### 📆 Day 147: Bit Manipulation — Single Number II & III
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Ones/twos state machine (II), partitioned XOR (III)
 - **C++ Focus:** `Bitwise state machine, partitioned XOR`
 - **Track A (Target Problems):**
@@ -1992,9 +2208,13 @@
   - **Quick Theory & C++ Guide:** _If `p->val < root->val` and `q->val < root->val`, LCA is in left subtree. If both > root, LCA is in right subtree. Else `root` is LCA._
   - **Revision Problem:**
     - [ ] LC 235 Lowest Common Ancestor of a Binary Search Tree
+- **🛡️ WEEKLY REVIEW GATE (End of Week 21):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 141–147.
+  - [ ] Confirm all Track A templates for Week 21 are stored in C++.
 
 ### 📆 Day 148: Bit Manipulation — Counting & Missing
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** dp[i] = dp[i >> 1] + (i & 1), XOR missing number finder
 - **C++ Focus:** `O(N) DP bit counting`
 - **Track A (Target Problems):**
@@ -2008,6 +2228,7 @@
 
 ### 📆 Day 149: Bit Manipulation — Reverse & Range AND
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Bit reversal loop, common prefix of range [m, n]
 - **C++ Focus:** `Bit reversal, range AND prefix`
 - **Track A (Target Problems):**
@@ -2021,6 +2242,7 @@
 
 ### 📆 Day 150: Recursion, D&C & Bit Phase Gate
 - **Phase:** Recursion, Divide & Conquer, Merge Sort & Bit Manipulation (Days 136–150)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Blank-page recall of Merge Sort Inversions & Bitwise tricks
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -2038,6 +2260,7 @@
 
 ### 📆 Day 151: Construction Binary Tree — Preorder & Inorder
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Preorder root lookup + Inorder partition mapping
 - **C++ Focus:** `Recursive construction with hash map`
 - **Track A (Target Problems):**
@@ -2051,6 +2274,7 @@
 
 ### 📆 Day 152: Construction Binary Tree — BST Array & Preorder
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Middle element root, bound-based preorder BST build
 - **C++ Focus:** `Balanced BST array build`
 - **Track A (Target Problems):**
@@ -2064,6 +2288,7 @@
 
 ### 📆 Day 153: Construction Binary Tree — Max Tree & Pre/Post
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Max element root, match next preorder element
 - **C++ Focus:** `Recursive max array split`
 - **Track A (Target Problems):**
@@ -2077,6 +2302,7 @@
 
 ### 📆 Day 154: Tree Serialization — Binary Tree & BST
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Preorder string with nulls, compact without nulls for BST
 - **C++ Focus:** `Codec class serialize/deserialize`
 - **Track A (Target Problems):**
@@ -2087,9 +2313,13 @@
   - **Quick Theory & C++ Guide:** _If `nums[mid] < nums[mid + 1]`, peak lies to the right (`low = mid + 1`); else peak is at `mid` or left (`high = mid`)._
   - **Revision Problem:**
     - [ ] LC 162 Find Peak Element
+- **🛡️ WEEKLY REVIEW GATE (End of Week 22):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 148–154.
+  - [ ] Confirm all Track A templates for Week 22 are stored in C++.
 
 ### 📆 Day 155: Tree Serialization — N-ary Tree & Encoding
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Preorder with child count, left-child right-sibling encoding
 - **C++ Focus:** `Multi-child tree codec`
 - **Track A (Target Problems):**
@@ -2103,6 +2333,7 @@
 
 ### 📆 Day 156: Tree Serialization — String Tree & Depth Parsing
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Parenthesis tree string builder, dash count depth parsing
 - **C++ Focus:** `Depth-parsed string tree reconstructor`
 - **Track A (Target Problems):**
@@ -2116,6 +2347,7 @@
 
 ### 📆 Day 157: Lowest Common Ancestor — Binary Tree DFS
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Recursive DFS return when node found, merge left/right
 - **C++ Focus:** `General BT LCA template`
 - **Track A (Target Problems):**
@@ -2129,6 +2361,7 @@
 
 ### 📆 Day 158: Lowest Common Ancestor — Existence Check & Parent Pointers
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Verify nodes exist in tree, move to equal height via parent pointers
 - **C++ Focus:** `Search-validated LCA, parent LCA`
 - **Track A (Target Problems):**
@@ -2142,6 +2375,7 @@
 
 ### 📆 Day 159: Lowest Common Ancestor — Multi-Node & Deepest Subtree
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Generalize LCA to set of nodes, post-order max depth
 - **C++ Focus:** `Multi-node set LCA`
 - **Track A (Target Problems):**
@@ -2155,6 +2389,7 @@
 
 ### 📆 Day 160: Euler Tour & Tree Flattening — BT to LL
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** In-place right pointer linking via preorder
 - **C++ Focus:** `In-place tree flattening`
 - **Track A (Target Problems):**
@@ -2168,6 +2403,7 @@
 
 ### 📆 Day 161: Euler Tour & Tree Flattening — Multilevel Doubly LL
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Recursive child-list flattener for doubly linked lists
 - **C++ Focus:** `Child-list flattener`
 - **Track A (Target Problems):**
@@ -2178,9 +2414,13 @@
   - **Quick Theory & C++ Guide:** _Level order BFS. Accumulate `double sum` across `q.size()` nodes. Push `sum / size` to result vector._
   - **Revision Problem:**
     - [ ] LC 637 Average of Levels in Binary Tree
+- **🛡️ WEEKLY REVIEW GATE (End of Week 23):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 155–161.
+  - [ ] Confirm all Track A templates for Week 23 are stored in C++.
 
 ### 📆 Day 162: Euler Tour & Tree Flattening — Reorder & Depth Parsing
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Combinatorics (Pascal triangle) for BST reorder count
 - **C++ Focus:** `Combinatorial BST count`
 - **Track A (Target Problems):**
@@ -2194,6 +2434,7 @@
 
 ### 📆 Day 163: Advanced Tree Practice — Unlabeled I
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled tree construction & LCA problems
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -2207,6 +2448,7 @@
 
 ### 📆 Day 164: Advanced Tree Practice — Unlabeled II
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled tree serialization problems
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -2220,6 +2462,7 @@
 
 ### 📆 Day 165: Advanced Tree Phase Gate
 - **Phase:** Advanced Trees, Construction, Serialization & LCA (Days 151–165)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Blank-page recall of Serialization, LCA & Flattening templates
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -2237,6 +2480,7 @@
 
 ### 📆 Day 166: Trie Fundamentals — Prefix Tree
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** TrieNode struct {children[26], isEnd}, prefix sharing
 - **C++ Focus:** `Trie class from scratch`
 - **Track A (Target Problems):**
@@ -2250,6 +2494,7 @@
 
 ### 📆 Day 167: Trie + Backtracking — Grid Search & Suggestions
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Insert dict into trie, DFS grid with trie pruning
 - **C++ Focus:** `Grid DFS + Trie search`
 - **Track A (Target Problems):**
@@ -2263,6 +2508,7 @@
 
 ### 📆 Day 168: Trie Map Sum & Search Suggestions
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Trie prefix map sum accumulation, top-3 lexicographical matches
 - **C++ Focus:** `Trie prefix map sum`
 - **Track A (Target Problems):**
@@ -2273,9 +2519,13 @@
   - **Quick Theory & C++ Guide:** _Find middle with fast/slow. Reverse second half of list (`prev = null, curr = mid`). Compare first half and reversed second half element by element._
   - **Revision Problem:**
     - [ ] LC 234 Palindrome Linked List
+- **🛡️ WEEKLY REVIEW GATE (End of Week 24):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 162–168.
+  - [ ] Confirm all Track A templates for Week 24 are stored in C++.
 
 ### 📆 Day 169: Bitwise Trie — Maximum XOR
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** 32-bit binary trie, greedy bit selection for max XOR
 - **C++ Focus:** `Binary Trie max XOR calculator`
 - **Track A (Target Problems):**
@@ -2289,6 +2539,7 @@
 
 ### 📆 Day 170: String Matching — KMP Algorithm
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** LPS (Longest Proper Prefix Suffix) array construction O(N+M)
 - **C++ Focus:** `KMP LPS array builder & search template`
 - **Track A (Target Problems):**
@@ -2302,6 +2553,7 @@
 
 ### 📆 Day 171: String Matching — Z-Algorithm & Substring Repeat
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Z-array prefix matching O(N) linear search
 - **C++ Focus:** `Z-algorithm implementation`
 - **Track A (Target Problems):**
@@ -2315,6 +2567,7 @@
 
 ### 📆 Day 172: String Matching — Substring Search Applications
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Pattern matching applications
 - **C++ Focus:** `String matching solver`
 - **Track A (Target Problems):**
@@ -2328,6 +2581,7 @@
 
 ### 📆 Day 173: Rolling Hash — Rabin-Karp Algorithm
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Polynomial rolling hash, modular arithmetic collision handling
 - **C++ Focus:** `Rabin-Karp rolling hash template`
 - **Track A (Target Problems):**
@@ -2341,6 +2595,7 @@
 
 ### 📆 Day 174: Rolling Hash — Double Hashing & Substring Search
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Double hashing to eliminate hash collisions
 - **C++ Focus:** `Double rolling hash binary search`
 - **Track A (Target Problems):**
@@ -2354,6 +2609,7 @@
 
 ### 📆 Day 175: Rolling Hash — Palindrome Prefix & Advanced Hash
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Shortest palindrome prefix via rolling hash
 - **C++ Focus:** `Rolling hash palindrome prefix finder`
 - **Track A (Target Problems):**
@@ -2364,9 +2620,13 @@
   - **Quick Theory & C++ Guide:** _Base case `if(!root) return nullptr;`. Swap left and right subtrees: `swap(root->left, root->right)`. Recursively invert both subtrees._
   - **Revision Problem:**
     - [ ] LC 226 Invert Binary Tree
+- **🛡️ WEEKLY REVIEW GATE (End of Week 25):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 169–175.
+  - [ ] Confirm all Track A templates for Week 25 are stored in C++.
 
 ### 📆 Day 176: Palindrome Techniques — Two Pointers & Center Expansion
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Valid palindrome checks, expand around center O(N^2)
 - **C++ Focus:** `Two-pointer & center expansion validators`
 - **Track A (Target Problems):**
@@ -2380,6 +2640,7 @@
 
 ### 📆 Day 177: Palindrome Techniques — Frequency & Substring Count
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Frequency map palindrome construction, count palindromic cuts
 - **C++ Focus:** `Palindrome frequency builder`
 - **Track A (Target Problems):**
@@ -2393,6 +2654,7 @@
 
 ### 📆 Day 178: Palindrome Techniques — Valid Palindrome II & Deletion
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Single character deletion palindrome validation
 - **C++ Focus:** `Valid palindrome II validator`
 - **Track A (Target Problems):**
@@ -2406,6 +2668,7 @@
 
 ### 📆 Day 179: Manacher's Algorithm — O(N) Palindromes
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Palindrome radius array with center expansion O(N)
 - **C++ Focus:** `Manacher's linear palindrome template`
 - **Track A (Target Problems):**
@@ -2419,6 +2682,7 @@
 
 ### 📆 Day 180: Trie, String & Palindrome Phase Gate
 - **Phase:** Trie, String Matching (KMP/Z), Rolling Hash & Palindromes (Days 166–180)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Blank-page recall of Trie, KMP LPS & Rolling Hash templates
 - **C++ Focus:** `Template recall drill`
 - **Track A (Target Problems):**
@@ -2436,6 +2700,7 @@
 
 ### 📆 Day 181: Matrix Traversal — In-Place Rotate Image
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** In-place transpose + reverse rows = 90 degree rotation
 - **C++ Focus:** `Matrix rotation algorithm`
 - **Track A (Target Problems):**
@@ -2449,6 +2714,7 @@
 
 ### 📆 Day 182: Matrix Traversal — Zero Matrix & Game of Life
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Row/Col zero marking, bitmask state encoding in-place
 - **C++ Focus:** `In-place matrix state updates`
 - **Track A (Target Problems):**
@@ -2459,9 +2725,13 @@
   - **Quick Theory & C++ Guide:** _Pointers `left = 0, right = n - 1`. Area = `min(h[l], h[r]) * (r - l)`. Move pointer with smaller height inwards to attempt finding taller boundary._
   - **Revision Problem:**
     - [ ] LC 11 Container With Most Water
+- **🛡️ WEEKLY REVIEW GATE (End of Week 26):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 176–182.
+  - [ ] Confirm all Track A templates for Week 26 are stored in C++.
 
 ### 📆 Day 183: Matrix Traversal — Diagonal & Spiral Traversal
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Diagonal direction flipping, spiral layer boundaries
 - **C++ Focus:** `Diagonal & spiral traversal loops`
 - **Track A (Target Problems):**
@@ -2475,6 +2745,7 @@
 
 ### 📆 Day 184: Simulation Basics — Direction Vectors & Robot
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Direction vectors dx[], dy[], turn right/left logic
 - **C++ Focus:** `Directional simulation logic`
 - **Track A (Target Problems):**
@@ -2488,6 +2759,7 @@
 
 ### 📆 Day 185: Simulation Advanced — Walking Robot & Grid Bounce
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Obstacle set lookup during robot movement, ball bounce simulation
 - **C++ Focus:** `Complex state simulation loops`
 - **Track A (Target Problems):**
@@ -2501,6 +2773,7 @@
 
 ### 📆 Day 186: Simulation Advanced — Circular Simulation & Matrix Convert
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Josephus problem circular simulation, 1D to 2D matrix conversion
 - **C++ Focus:** `Circular queue simulation`
 - **Track A (Target Problems):**
@@ -2514,6 +2787,7 @@
 
 ### 📆 Day 187: Math Fundamentals — GCD, Sqrt & Power
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Euclidean GCD, binary search integer sqrt, fast exponentiation
 - **C++ Focus:** `GCD, modular exponentiation`
 - **Track A (Target Problems):**
@@ -2527,6 +2801,7 @@
 
 ### 📆 Day 188: Math Fundamentals — Sieve & Happy Number
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Sieve of Eratosthenes prime count, Fast/slow cycle detection
 - **C++ Focus:** `Sieve of Eratosthenes`
 - **Track A (Target Problems):**
@@ -2540,6 +2815,7 @@
 
 ### 📆 Day 189: Math Fundamentals — Grammar & Sequence
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** D&C grammar tree symbol evaluation
 - **C++ Focus:** `Grammar sequence generator`
 - **Track A (Target Problems):**
@@ -2550,9 +2826,13 @@
   - **Quick Theory & C++ Guide:** _Dummy head node `dummy`. Compare `l1->val` and `l2->val`. Attach smaller to `tail->next`, advance pointer. `tail = tail->next`. Return `dummy.next`._
   - **Revision Problem:**
     - [ ] LC 21 Merge Two Sorted Lists
+- **🛡️ WEEKLY REVIEW GATE (End of Week 27):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 183–189.
+  - [ ] Confirm all Track A templates for Week 27 are stored in C++.
 
 ### 📆 Day 190: Matrix & Simulation Phase Gate
 - **Phase:** Matrix Traversal, Simulation & Math Fundamentals (Days 181–190)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Solve matrix & simulation problems under timer
 - **C++ Focus:** `Timer-based cold solving`
 - **Track A (Target Problems):**
@@ -2570,6 +2850,7 @@
 
 ### 📆 Day 191: Segment Tree — Build, Point Update & Range Query
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Complete binary tree array, query O(log N), update O(log N)
 - **C++ Focus:** `class SegmentTree from scratch`
 - **Track A (Target Problems):**
@@ -2583,6 +2864,7 @@
 
 ### 📆 Day 192: Segment Tree — Lazy Propagation
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Deferred range updates pushed down on demand
 - **C++ Focus:** `class LazySegmentTree`
 - **Track A (Target Problems):**
@@ -2596,6 +2878,7 @@
 
 ### 📆 Day 193: Fenwick Tree (BIT) & Sparse Table
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Lowbit x & (-x) prefix sums, O(1) static RMQ sparse table
 - **C++ Focus:** `Fenwick Tree & Sparse Table classes`
 - **Track A (Target Problems):**
@@ -2609,6 +2892,7 @@
 
 ### 📆 Day 194: Morris Traversal & Cache Design (LRU/LFU)
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** O(1) space tree traversal, Hash Map + Doubly Linked List
 - **C++ Focus:** `Morris traversal, LRUCache & LFUCache classes`
 - **Track A (Target Problems):**
@@ -2622,6 +2906,7 @@
 
 ### 📆 Day 195: Pattern Repair — Arrays, Strings, Window & Two Pointers
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled problem solving across linear patterns
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -2635,6 +2920,7 @@
 
 ### 📆 Day 196: Pattern Repair — Graphs, Trees & BST
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled problem solving across tree & graph patterns
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -2645,9 +2931,13 @@
   - **Quick Theory & C++ Guide:** _Expand right to include all target chars (`neededCount == 0`). Once valid, shrink left to minimize window while preserving validity. C++: `vector<int> map(128,0);`_
   - **Revision Problem:**
     - [ ] LC 76 Minimum Window Substring
+- **🛡️ WEEKLY REVIEW GATE (End of Week 28):**
+  - [ ] Spend 15 mins reviewing any 🔴 (Repair) problems from Days 190–196.
+  - [ ] Confirm all Track A templates for Week 28 are stored in C++.
 
 ### 📆 Day 197: Pattern Repair — DP, Greedy & Backtracking
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Unlabeled problem solving across decision & state patterns
 - **C++ Focus:** `Cold problem solving`
 - **Track A (Target Problems):**
@@ -2661,6 +2951,7 @@
 
 ### 📆 Day 198: Full Mock Simulation 1 — Graph + DP Focus
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** 60-min timer, 2 unlabeled problems, explain approach aloud
 - **C++ Focus:** `Mock interview simulation`
 - **Track A (Target Problems):**
@@ -2674,6 +2965,7 @@
 
 ### 📆 Day 199: Full Mock Simulation 2 — Tree + Advanced DS Focus
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** 60-min timer, 2 unlabeled problems, state time/space complexity
 - **C++ Focus:** `Mock interview simulation`
 - **Track A (Target Problems):**
@@ -2687,6 +2979,7 @@
 
 ### 📆 Day 200: 🎓 FINAL READINESS AUDIT & GRADUATION
 - **Phase:** Advanced DS & Mock Interview Validation (Days 191–200)
+- **Time Budget:** ~90–120 mins (`Track A`: ~65m | `Track B`: ~25m)
 - **Theory & Pattern:** Review all past 🔴/🟡 queue, blank-page template recall of top 5 templates
 - **C++ Focus:** `Blank-page recall: Dijkstra, DSU, Lazy SegTree, KMP, LRUCache`
 - **Track A (Target Problems):**
@@ -2723,4 +3016,4 @@ You are **SDE / AI-Eng Interview Ready** when:
    - LRU Cache & LFU Cache
 4. ✅ You can state Time & Space Complexity confidently before submitting code.
 
-> 🏆 **Designed by Antigravity AI specifically for Sahil Kumar (Sky).** Prominent Day Headers, clear card blocks, interactive checkboxes, Track B Quick Theory & C++ Syntax Reminders, 100% problem coverage. Day 200 = SDE Ready! 💪
+> 🏆 **Designed by Antigravity AI specifically for Sahil Kumar (Sky).** Prominent Day Headers, clear card blocks, interactive checkboxes, Track B Quick Theory & C++ Syntax Reminders, Weekly Review Gates, 100% problem coverage. Day 200 = SDE Ready! 💪

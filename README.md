@@ -132,37 +132,6 @@ To eliminate time wastage and avoid restarting from scratch, this repository enf
 
 ---
 
-## 💻 Standard C++ Development Environment
-
-Recommended header template for competitive C++ solutions in this repository:
-
-```cpp
-#include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <queue>
-#include <deque>
-#include <stack>
-#include <unordered_map>
-#include <unordered_set>
-#include <map>
-#include <set>
-#include <cmath>
-#include <climits>
-
-using namespace std;
-
-// Fast I/O Optimization
-auto init = []() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-    return 0;
-}();
-```
-
----
 
 ## 📂 Repository File Guide
 
