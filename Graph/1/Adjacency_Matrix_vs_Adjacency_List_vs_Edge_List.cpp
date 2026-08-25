@@ -1,15 +1,16 @@
 #include <iostream>
 #include <vector>
+#include<list>
 using namespace std;
 
 class Graph{
-    vector<vector<int>>adj;
-    int V;
     
+    int V;
+    list<int>*adj;
     public:
         Graph(int vertices){
             V=vertices;
-            adj.resize(V);
+            adj=new list<int>[V];
         }
         void addEdge(int u,int v){
             adj[u].push_back(v);
@@ -17,10 +18,15 @@ class Graph{
         }
         void printGraph(){
             for(int i=0;i<V;i++){
+                cout<<i<<"->";
                 for(int neighbor:adj[i]){
                     cout<<neighbor<<" ";
                 }
+                cout<<endl;
             }
+        }
+        ~Graph(){
+            delete[] adj;
         }
 };
 int main(){
