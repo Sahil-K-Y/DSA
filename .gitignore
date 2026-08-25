@@ -1,0 +1,13 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Objects
+*.o
+*.obj
+
+# OS / IDE
+.vscode/
+.vs/
+*.DS_Store
