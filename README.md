@@ -133,10 +133,34 @@ To eliminate time wastage and avoid restarting from scratch, this repository enf
 ---
 
 
-## 📂 Repository File Guide
+## 📂 Repository Structure & File Guide
 
-- **`README.md`** — Official Master Overview, System Rules, Phase Blueprint & Pattern Catalog
-- **`roadmap_v3.txt`** — Primary 200-Day Step-by-Step Daily Execution Checklist (with interactive `- [ ]` checkboxes)
+```
+DSA/
+├── README.md        → Master Overview, System Rules, Phase Blueprint & Pattern Catalog
+├── roadmap_v3.txt   → 200-Day Step-by-Step Daily Execution Checklist (interactive - [ ] checkboxes)
+├── .gitignore       → Ignores compiled artifacts (*.exe, *.out, *.o) and IDE folders
+└── Graph/           → 🔵 Phase 1: Graphs & State Search (Days 001–040)
+    └── 1/           → Day 001: Graph Representation & Matrices
+        └── Adjacency_Matrix_vs_Adjacency_List_vs_Edge_List.cpp
+```
+
+### 🗂️ Solution Organization Convention
+
+Every C++ solution lives under: **`<Topic>/<DayNumber>/<Descriptive_Name>.cpp`**
+
+- **`<Topic>/`** — Top-level folder named after the phase's core topic (e.g. `Graph/`; future phases add `Heap/`, `Greedy/`, `Backtracking/`, `DP/`, etc.)
+- **`<DayNumber>/`** — Sub-folder matching the day number in [`roadmap_v3.txt`](roadmap_v3.txt) (e.g. `1/` ↔ *Day 001*)
+- **`<Descriptive_Name>.cpp`** — Snake_Case filename describing the concept or problem solved that day
+
+### ⚙️ Compiling & Running a Solution
+
+```bash
+g++ -std=c++17 Graph/1/Adjacency_Matrix_vs_Adjacency_List_vs_Edge_List.cpp -o sol
+./sol
+```
+
+> Compiled binaries (`*.exe`, `*.out`, `*.o`) are git-ignored — only source `.cpp` files are committed.
 
 ---
 
