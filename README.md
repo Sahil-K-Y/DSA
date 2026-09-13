@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
 | [0349-intersection-of-two-arrays](https://github.com/Sahil-K-Y/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [1046-last-stone-weight](https://github.com/Sahil-K-Y/DSA/tree/master/1046-last-stone-weight) |
 ## Hash Table
@@ -45,8 +46,29 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Sahil-K-Y/DSA/tree/master/0050-powx-n) |
+| [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Sahil-K-Y/DSA/tree/master/0050-powx-n) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
