@@ -41,4 +41,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1046-last-stone-weight](https://github.com/Sahil-K-Y/DSA/tree/master/1046-last-stone-weight) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Sahil-K-Y/DSA/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Sahil-K-Y/DSA/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
