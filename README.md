@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Sahil-K-Y/DSA/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Sahil-K-Y/DSA/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
+| [0238-product-of-array-except-self](https://github.com/Sahil-K-Y/DSA/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Sahil-K-Y/DSA/tree/master/0268-missing-number) |
 | [0303-range-sum-query-immutable](https://github.com/Sahil-K-Y/DSA/tree/master/0303-range-sum-query-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/Sahil-K-Y/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -146,5 +147,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Sahil-K-Y/DSA/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Sahil-K-Y/DSA/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
