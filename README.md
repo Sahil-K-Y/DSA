@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sahil-K-Y/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Sahil-K-Y/DSA/tree/master/0027-remove-element) |
+| [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Sahil-K-Y/DSA/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/Sahil-K-Y/DSA/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Sahil-K-Y/DSA/tree/master/0189-rotate-array) |
@@ -111,11 +112,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
 | [0191-number-of-1-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0191-number-of-1-bits) |
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
 | [0338-counting-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0338-counting-bits) |
 ## Merge Sort
 |  |
