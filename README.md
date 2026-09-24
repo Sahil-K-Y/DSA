@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Sahil-K-Y/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Sahil-K-Y/DSA/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/Sahil-K-Y/DSA/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/Sahil-K-Y/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Sahil-K-Y/DSA/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
 | [0238-product-of-array-except-self](https://github.com/Sahil-K-Y/DSA/tree/master/0238-product-of-array-except-self) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Sahil-K-Y/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0169-majority-element](https://github.com/Sahil-K-Y/DSA/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Sahil-K-Y/DSA/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Sahil-K-Y/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Sahil-K-Y/DSA/tree/master/0380-insert-delete-getrandom-o1) |
@@ -56,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/Sahil-K-Y/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Sahil-K-Y/DSA/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/Sahil-K-Y/DSA/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Sahil-K-Y/DSA/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Sahil-K-Y/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
@@ -128,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/Sahil-K-Y/DSA/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0191-number-of-1-bits) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
@@ -153,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Sahil-K-Y/DSA/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
 ## Quicksort
 |  |
@@ -191,4 +196,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Sahil-K-Y/DSA/tree/master/0054-spiral-matrix) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sahil-K-Y/DSA/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
