@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Sahil-K-Y/DSA/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Sahil-K-Y/DSA/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/Sahil-K-Y/DSA/tree/master/0349-intersection-of-two-arrays) |
+| [0443-string-compression](https://github.com/Sahil-K-Y/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
 ## Binary Search
 |  |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Sahil-K-Y/DSA/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0443-string-compression](https://github.com/Sahil-K-Y/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
 ## Sliding Window
 |  |
