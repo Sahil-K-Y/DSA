@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Sahil-K-Y/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/Sahil-K-Y/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/Sahil-K-Y/DSA/tree/master/0647-palindromic-substrings) |
 ## Binary Search
 |  |
 | ------- |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sahil-K-Y/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
 | [0338-counting-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0338-counting-bits) |
+| [0647-palindromic-substrings](https://github.com/Sahil-K-Y/DSA/tree/master/0647-palindromic-substrings) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 ## Merge Sort
 |  |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Sahil-K-Y/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/Sahil-K-Y/DSA/tree/master/0647-palindromic-substrings) |
 ## Sliding Window
 |  |
 | ------- |
