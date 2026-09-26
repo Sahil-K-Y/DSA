@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sahil-K-Y/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/Sahil-K-Y/DSA/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Sahil-K-Y/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Sahil-K-Y/DSA/tree/master/0027-remove-element) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sahil-K-Y/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/Sahil-K-Y/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
 | [0338-counting-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0338-counting-bits) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sahil-K-Y/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/Sahil-K-Y/DSA/tree/master/0006-zigzag-conversion) |
 | [0038-count-and-say](https://github.com/Sahil-K-Y/DSA/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Sahil-K-Y/DSA/tree/master/0049-group-anagrams) |
@@ -254,4 +257,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sahil-K-Y/DSA/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
