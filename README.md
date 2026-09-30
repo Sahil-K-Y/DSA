@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [1046-last-stone-weight](https://github.com/Sahil-K-Y/DSA/tree/master/1046-last-stone-weight) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sahil-K-Y/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Hash Table
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sahil-K-Y/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Sahil-K-Y/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sahil-K-Y/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sahil-K-Y/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Manacher
 |  |
 | ------- |
