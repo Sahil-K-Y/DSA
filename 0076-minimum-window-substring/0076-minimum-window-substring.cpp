@@ -1,36 +1,31 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        map<char, int> freq;
-        int left = 0;
-        int right = 0;
-        int minlength = INT_MAX;
-        int count = 0;
-        int sIndex = -1;
-        for (int i = 0; i < t.size(); i++) {
-            freq[t[i]]++;
+        // int ans=0;
+        // int l=0;
+        vector<int>need(128,0);
+        for(char c:t){
+            need[c]++;
+
         }
-        while (right < s.size()) {
-            if (freq[s[right]] > 0) {
-                count++;
-            }
-            freq[s[right]]--;
-            right++;
-            while (count == t.size()) {
-                if (right - left < minlength) {
-                    minlength = right - left;
-                    sIndex = left;
+        int missing=t.size();
+
+        int st=0;
+        int ans=INT_MAX;
+        int l=0;
+        for(int r=0;r<s.size();r++){
+            if(need[s[r]]>0)missing--;
+            need[s[r]]--;
+            while(missing==0){
+                if(r-l+1<ans){
+                    ans=r-l+1;
+                    st=l;
                 }
-                freq[s[left]]++;
-                if (freq[s[left]] > 0) {
-                    count--;
-                }
-                left++;
+                need[s[l]]++;
+                if(need[s[l]]>0)missing++;
+                l++;
             }
         }
-        if (sIndex == -1) {
-            return "";
-        }
-        return s.substr(sIndex, minlength);
+        return ans==INT_MAX?"":s.substr(st,ans);
     }
 };
