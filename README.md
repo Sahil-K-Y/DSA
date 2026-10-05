@@ -168,10 +168,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Sahil-K-Y/DSA/tree/master/0268-missing-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Sahil-K-Y/DSA/tree/master/0380-insert-delete-getrandom-o1) |
+| [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Sahil-K-Y/DSA/tree/master/0050-powx-n) |
+| [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
 ## Enumeration
 |  |
 | ------- |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sahil-K-Y/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
 | [0338-counting-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0338-counting-bits) |
+| [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/Sahil-K-Y/DSA/tree/master/0647-palindromic-substrings) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 ## Merge Sort
@@ -348,4 +351,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Sahil-K-Y/DSA/tree/master/0239-sliding-window-maximum) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
