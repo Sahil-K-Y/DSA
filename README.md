@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Sahil-K-Y/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-K-Y/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Sahil-K-Y/DSA/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/Sahil-K-Y/DSA/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-K-Y/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/Sahil-K-Y/DSA/tree/master/0135-candy) |
@@ -199,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Sahil-K-Y/DSA/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Sahil-K-Y/DSA/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/Sahil-K-Y/DSA/tree/master/0268-missing-number) |
@@ -360,4 +362,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Sahil-K-Y/DSA/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Sahil-K-Y/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
