@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sahil-K-Y/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Sahil-K-Y/DSA/tree/master/0070-climbing-stairs) |
+| [0131-palindrome-partitioning](https://github.com/Sahil-K-Y/DSA/tree/master/0131-palindrome-partitioning) |
 | [0338-counting-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0338-counting-bits) |
 | [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/Sahil-K-Y/DSA/tree/master/0647-palindromic-substrings) |
@@ -335,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Sahil-K-Y/DSA/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Sahil-K-Y/DSA/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Sahil-K-Y/DSA/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Sahil-K-Y/DSA/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Sahil-K-Y/DSA/tree/master/0205-isomorphic-strings) |
 | [0344-reverse-string](https://github.com/Sahil-K-Y/DSA/tree/master/0344-reverse-string) |
@@ -399,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Sahil-K-Y/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Sahil-K-Y/DSA/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Sahil-K-Y/DSA/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Sahil-K-Y/DSA/tree/master/0216-combination-sum-iii) |
 | [0491-non-decreasing-subsequences](https://github.com/Sahil-K-Y/DSA/tree/master/0491-non-decreasing-subsequences) |
 | [0980-unique-paths-iii](https://github.com/Sahil-K-Y/DSA/tree/master/0980-unique-paths-iii) |
