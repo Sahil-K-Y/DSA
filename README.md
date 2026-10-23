@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Sahil-K-Y/DSA/tree/master/0202-happy-number) |
 | [0204-count-primes](https://github.com/Sahil-K-Y/DSA/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/Sahil-K-Y/DSA/tree/master/0268-missing-number) |
+| [0282-expression-add-operators](https://github.com/Sahil-K-Y/DSA/tree/master/0282-expression-add-operators) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Sahil-K-Y/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
 ## Recursion
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Sahil-K-Y/DSA/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Sahil-K-Y/DSA/tree/master/0205-isomorphic-strings) |
+| [0282-expression-add-operators](https://github.com/Sahil-K-Y/DSA/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/Sahil-K-Y/DSA/tree/master/0344-reverse-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-K-Y/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -405,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0093-restore-ip-addresses](https://github.com/Sahil-K-Y/DSA/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/Sahil-K-Y/DSA/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Sahil-K-Y/DSA/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/Sahil-K-Y/DSA/tree/master/0282-expression-add-operators) |
 | [0491-non-decreasing-subsequences](https://github.com/Sahil-K-Y/DSA/tree/master/0491-non-decreasing-subsequences) |
 | [0980-unique-paths-iii](https://github.com/Sahil-K-Y/DSA/tree/master/0980-unique-paths-iii) |
 | [1219-path-with-maximum-gold](https://github.com/Sahil-K-Y/DSA/tree/master/1219-path-with-maximum-gold) |
