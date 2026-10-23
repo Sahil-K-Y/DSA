@@ -8,15 +8,33 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// class Solution {
+// public:
+//     ListNode* reverseList(ListNode* head) {
+//         if(head==nullptr || head->next ==nullptr){
+//             return head;
+//         }
+//         ListNode*newnode=reverseList(head->next);
+//         head->next->next = head;
+//         head->next = nullptr;
+//         return newnode;
+//     }
+// };
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        if(head==nullptr || head->next ==nullptr){
-            return head;
+        ListNode* prev = nullptr;
+        ListNode* curr = head;
+
+        while (curr != nullptr) {
+            ListNode* nextNode = curr->next;
+
+            curr->next = prev;
+
+            prev = curr;
+            curr = nextNode;
         }
-        ListNode*newnode=reverseList(head->next);
-        head->next->next = head;
-        head->next = nullptr;
-        return newnode;
+
+        return prev;
     }
 };
