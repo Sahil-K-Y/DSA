@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sahil-K-Y/DSA/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/Sahil-K-Y/DSA/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Sahil-K-Y/DSA/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/Sahil-K-Y/DSA/tree/master/0070-climbing-stairs) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sahil-K-Y/DSA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-K-Y/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Sahil-K-Y/DSA/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Sahil-K-Y/DSA/tree/master/0025-reverse-nodes-in-k-group) |
@@ -391,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sahil-K-Y/DSA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-K-Y/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Sahil-K-Y/DSA/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Sahil-K-Y/DSA/tree/master/0025-reverse-nodes-in-k-group) |
