@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Sahil-K-Y/DSA/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Sahil-K-Y/DSA/tree/master/0042-trapping-rain-water) |
 | [0225-implement-stack-using-queues](https://github.com/Sahil-K-Y/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Sahil-K-Y/DSA/tree/master/0232-implement-queue-using-stacks) |
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Sahil-K-Y/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/Sahil-K-Y/DSA/tree/master/0006-zigzag-conversion) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Sahil-K-Y/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Sahil-K-Y/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Sahil-K-Y/DSA/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Sahil-K-Y/DSA/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Sahil-K-Y/DSA/tree/master/0049-group-anagrams) |
@@ -476,5 +478,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Sahil-K-Y/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Sahil-K-Y/DSA/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
