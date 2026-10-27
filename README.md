@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Sahil-K-Y/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/Sahil-K-Y/DSA/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Sahil-K-Y/DSA/tree/master/0724-find-pivot-index) |
+| [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 | [0904-fruit-into-baskets](https://github.com/Sahil-K-Y/DSA/tree/master/0904-fruit-into-baskets) |
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0918-maximum-sum-circular-subarray) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0445-add-two-numbers-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
@@ -358,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sahil-K-Y/DSA/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 ## String
 |  |
 | ------- |
