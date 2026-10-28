@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 ## Design
 |  |
 | ------- |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Sahil-K-Y/DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Sahil-K-Y/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0707-design-linked-list](https://github.com/Sahil-K-Y/DSA/tree/master/0707-design-linked-list) |
+| [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 ## Queue
 |  |
 | ------- |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 ## String
 |  |
 | ------- |
@@ -492,4 +495,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Sahil-K-Y/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Sahil-K-Y/DSA/tree/master/0022-generate-parentheses) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
