@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Sahil-K-Y/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/Sahil-K-Y/DSA/tree/master/1046-last-stone-weight) |
 | [1219-path-with-maximum-gold](https://github.com/Sahil-K-Y/DSA/tree/master/1219-path-with-maximum-gold) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sahil-K-Y/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Hash Table
 |  |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Sahil-K-Y/DSA/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/Sahil-K-Y/DSA/tree/master/0876-middle-of-the-linked-list) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 ## Binary Search
 |  |
 | ------- |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Sahil-K-Y/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0704-binary-search](https://github.com/Sahil-K-Y/DSA/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/Sahil-K-Y/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 ## Sorting
 |  |
 | ------- |
@@ -179,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sahil-K-Y/DSA/tree/master/0907-sum-of-subarray-minimums) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 ## Design
 |  |
 | ------- |
@@ -376,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sahil-K-Y/DSA/tree/master/0907-sum-of-subarray-minimums) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 ## String
 |  |
 | ------- |
@@ -512,4 +517,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
+## Cartesian Tree
+|  |
+| ------- |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 <!---LeetCode Topics End-->
