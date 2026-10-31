@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/Sahil-K-Y/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/Sahil-K-Y/DSA/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Sahil-K-Y/DSA/tree/master/0402-remove-k-digits) |
 | [0445-add-two-numbers-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0503-next-greater-element-ii) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sahil-K-Y/DSA/tree/master/0011-container-with-most-water) |
 | [0135-candy](https://github.com/Sahil-K-Y/DSA/tree/master/0135-candy) |
+| [0402-remove-k-digits](https://github.com/Sahil-K-Y/DSA/tree/master/0402-remove-k-digits) |
 | [0680-valid-palindrome-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0680-valid-palindrome-ii) |
 ## Monotonic Stack
 |  |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sahil-K-Y/DSA/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sahil-K-Y/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Sahil-K-Y/DSA/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/Sahil-K-Y/DSA/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
@@ -424,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/Sahil-K-Y/DSA/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/Sahil-K-Y/DSA/tree/master/0344-reverse-string) |
 | [0394-decode-string](https://github.com/Sahil-K-Y/DSA/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Sahil-K-Y/DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-K-Y/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Sahil-K-Y/DSA/tree/master/0443-string-compression) |
