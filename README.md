@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Sahil-K-Y/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0227-basic-calculator-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/Sahil-K-Y/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0394-decode-string](https://github.com/Sahil-K-Y/DSA/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0503-next-greater-element-ii) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/Sahil-K-Y/DSA/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Sahil-K-Y/DSA/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/Sahil-K-Y/DSA/tree/master/0224-basic-calculator) |
+| [0394-decode-string](https://github.com/Sahil-K-Y/DSA/tree/master/0394-decode-string) |
 | [0509-fibonacci-number](https://github.com/Sahil-K-Y/DSA/tree/master/0509-fibonacci-number) |
 ## Enumeration
 |  |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0227-basic-calculator-ii) |
 | [0282-expression-add-operators](https://github.com/Sahil-K-Y/DSA/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/Sahil-K-Y/DSA/tree/master/0344-reverse-string) |
+| [0394-decode-string](https://github.com/Sahil-K-Y/DSA/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-K-Y/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sahil-K-Y/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Sahil-K-Y/DSA/tree/master/0443-string-compression) |
