@@ -554,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Sahil-K-Y/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 ## Hamiltonian Path
 |  |
 | ------- |
@@ -593,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Sahil-K-Y/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -612,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Sahil-K-Y/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
