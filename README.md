@@ -432,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Sahil-K-Y/DSA/tree/master/0205-isomorphic-strings) |
 | [0224-basic-calculator](https://github.com/Sahil-K-Y/DSA/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0227-basic-calculator-ii) |
+| [0257-binary-tree-paths](https://github.com/Sahil-K-Y/DSA/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/Sahil-K-Y/DSA/tree/master/0282-expression-add-operators) |
 | [0316-remove-duplicate-letters](https://github.com/Sahil-K-Y/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/Sahil-K-Y/DSA/tree/master/0344-reverse-string) |
@@ -525,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Sahil-K-Y/DSA/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Sahil-K-Y/DSA/tree/master/0216-combination-sum-iii) |
+| [0257-binary-tree-paths](https://github.com/Sahil-K-Y/DSA/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/Sahil-K-Y/DSA/tree/master/0282-expression-add-operators) |
 | [0491-non-decreasing-subsequences](https://github.com/Sahil-K-Y/DSA/tree/master/0491-non-decreasing-subsequences) |
 | [0980-unique-paths-iii](https://github.com/Sahil-K-Y/DSA/tree/master/0980-unique-paths-iii) |
@@ -554,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-K-Y/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Sahil-K-Y/DSA/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/0404-sum-of-left-leaves) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Sahil-K-Y/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -598,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-K-Y/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Sahil-K-Y/DSA/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/0404-sum-of-left-leaves) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Sahil-K-Y/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -622,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-K-Y/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0226-invert-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Sahil-K-Y/DSA/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/0404-sum-of-left-leaves) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Sahil-K-Y/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
