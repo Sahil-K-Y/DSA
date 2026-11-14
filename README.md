@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Sahil-K-Y/DSA/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sahil-K-Y/DSA/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0904-fruit-into-baskets](https://github.com/Sahil-K-Y/DSA/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sahil-K-Y/DSA/tree/master/0907-sum-of-subarray-minimums) |
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Sahil-K-Y/DSA/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Sahil-K-Y/DSA/tree/master/0567-permutation-in-string) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0904-fruit-into-baskets](https://github.com/Sahil-K-Y/DSA/tree/master/0904-fruit-into-baskets) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sahil-K-Y/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Sahil-K-Y/DSA/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/Sahil-K-Y/DSA/tree/master/0191-number-of-1-bits) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sahil-K-Y/DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0912-sort-an-array](https://github.com/Sahil-K-Y/DSA/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 ## Dynamic Programming
@@ -633,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0617-merge-two-binary-trees) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -668,6 +672,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0617-merge-two-binary-trees) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
