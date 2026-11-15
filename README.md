@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0918-maximum-sum-circular-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [0980-unique-paths-iii](https://github.com/Sahil-K-Y/DSA/tree/master/0980-unique-paths-iii) |
 | [1004-max-consecutive-ones-iii](https://github.com/Sahil-K-Y/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1046-last-stone-weight](https://github.com/Sahil-K-Y/DSA/tree/master/1046-last-stone-weight) |
 | [1219-path-with-maximum-gold](https://github.com/Sahil-K-Y/DSA/tree/master/1219-path-with-maximum-gold) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Sahil-K-Y/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sahil-K-Y/DSA/tree/master/0907-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 ## Design
 |  |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/Sahil-K-Y/DSA/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/Sahil-K-Y/DSA/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sahil-K-Y/DSA/tree/master/0907-sum-of-subarray-minimums) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/1793-maximum-score-of-a-good-subarray) |
 ## String
 |  |
@@ -639,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Sahil-K-Y/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
@@ -675,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Sahil-K-Y/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
@@ -729,4 +734,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
