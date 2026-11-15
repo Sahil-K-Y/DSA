@@ -585,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0617-merge-two-binary-trees) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -641,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0617-merge-two-binary-trees) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0617-merge-two-binary-trees) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0889-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/0889-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
@@ -701,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/0404-sum-of-left-leaves) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Sahil-K-Y/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0617-merge-two-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0617-merge-two-binary-trees) |
+| [0662-maximum-width-of-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
