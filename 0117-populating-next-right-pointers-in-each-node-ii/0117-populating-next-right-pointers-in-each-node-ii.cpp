@@ -38,6 +38,7 @@ public:
                 curr=curr->next;
             }
 
+            if (tail) tail->next = nullptr; // terminate this level's next chain
             curr=dummy->next;
             delete dummy;
         }
