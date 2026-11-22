@@ -601,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0968-binary-tree-cameras](https://github.com/Sahil-K-Y/DSA/tree/master/0968-binary-tree-cameras) |
+| [0979-distribute-coins-in-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0979-distribute-coins-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Sahil-K-Y/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -667,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0968-binary-tree-cameras](https://github.com/Sahil-K-Y/DSA/tree/master/0968-binary-tree-cameras) |
+| [0979-distribute-coins-in-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0979-distribute-coins-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -713,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0951-flip-equivalent-binary-trees](https://github.com/Sahil-K-Y/DSA/tree/master/0951-flip-equivalent-binary-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0968-binary-tree-cameras](https://github.com/Sahil-K-Y/DSA/tree/master/0968-binary-tree-cameras) |
+| [0979-distribute-coins-in-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0979-distribute-coins-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -747,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0687-longest-univalue-path](https://github.com/Sahil-K-Y/DSA/tree/master/0687-longest-univalue-path) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Sahil-K-Y/DSA/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0968-binary-tree-cameras](https://github.com/Sahil-K-Y/DSA/tree/master/0968-binary-tree-cameras) |
+| [0979-distribute-coins-in-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## String Matching
 |  |
