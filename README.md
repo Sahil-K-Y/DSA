@@ -333,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/Sahil-K-Y/DSA/tree/master/0907-sum-of-subarray-minimums) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Sahil-K-Y/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [0968-binary-tree-cameras](https://github.com/Sahil-K-Y/DSA/tree/master/0968-binary-tree-cameras) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## Merge Sort
 |  |
 | ------- |
@@ -604,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0979-distribute-coins-in-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0979-distribute-coins-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Sahil-K-Y/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Hamiltonian Path
 |  |
@@ -672,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Sahil-K-Y/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
@@ -719,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sahil-K-Y/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Sahil-K-Y/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
 |  |
@@ -752,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0968-binary-tree-cameras](https://github.com/Sahil-K-Y/DSA/tree/master/0968-binary-tree-cameras) |
 | [0979-distribute-coins-in-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sahil-K-Y/DSA/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Sahil-K-Y/DSA/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 ## String Matching
 |  |
 | ------- |
